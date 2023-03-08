@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
+    private bool isStarted = false;
     private GameObject dialogueContainer;
     private TextMeshProUGUI speakerName;
     private DialogueBoxAnimatior dialogueBox;
@@ -77,6 +78,7 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueIterator = 0;
         dialogueContainer.SetActive(true);
+        isStarted = true;
         PlayOne(dialogueIterator);
     }
 
@@ -90,6 +92,10 @@ public class DialogueManager : MonoBehaviour
 
     private void Update()
     {
+        // Check if the dialogue is started
+        if(!isStarted)
+            return;
+        
         // If there is no animation, the dialogue line is terminated
         if (!dialogueBox.isOnAnimation)
             endIndicator.SetActive(true);
@@ -119,6 +125,7 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueIterator = 0;
         speakerName.text = "";
+        isStarted = false;
         dialogueContainer.SetActive(false);
     }
 }
