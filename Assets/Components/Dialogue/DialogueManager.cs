@@ -75,6 +75,7 @@ public class DialogueManager : MonoBehaviour
 
     public void Play()
     {
+        dialogueIterator = 0;
         dialogueContainer.SetActive(true);
         PlayOne(dialogueIterator);
     }
@@ -84,6 +85,7 @@ public class DialogueManager : MonoBehaviour
         endIndicator.SetActive(false);
         speakerName.text = dialogues[dialogueIndex].speakerName;
         dialogueBox.Display(dialogues[dialogueIndex].dialogue);
+        
     }
 
     private void Update()

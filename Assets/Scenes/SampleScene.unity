@@ -701,8 +701,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000015259, y: -30.34}
-  m_SizeDelta: {x: 1535.3115, y: 194.9}
+  m_AnchoredPosition: {x: 0.000015259, y: -26.5758}
+  m_SizeDelta: {x: 1535.3115, y: 161.1433}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1331219229
 MonoBehaviour:
@@ -935,6 +935,9 @@ MonoBehaviour:
     dialogue: 'Salut Estoult, mon meilleur ami. Ca va ? '
   - speakerName: Estoult
     dialogue: Ouais cool mon mini-reuf, et toi ?
+  - speakerName: Geo
+    dialogue: 'ENNNNNNH !! Je m''appelle Goe et je suis giga aigis de vivre. J''ai
+      perdu mon canard, je ne sais plus quoi faire ... '
 --- !u!1 &1459056950
 GameObject:
   m_ObjectHideFlags: 0
