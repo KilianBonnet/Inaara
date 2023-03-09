@@ -10,6 +10,7 @@ public class DialogueManager : MonoBehaviour
     private TextMeshProUGUI speakerName;
     private DialogueBoxAnimatior dialogueBox;
     private GameObject endIndicator;
+    private AudioSource skipAudio;
     
     [SerializeField] private DialogueContainer[] dialogues;
     private int dialogueIterator;
@@ -17,28 +18,40 @@ public class DialogueManager : MonoBehaviour
     private void Start()
     {
         // Searching "Canvas"
-        GameObject canvas = GameObject.Find("Canvas");
+        GameObject canvas = GameObject.Find("Dialogue Manager");
         if (canvas == null)
         {
-            Debug.LogError("Canvas not found! Please add a Canvas on your scene first.");
+            Debug.LogError("Dialogue Manager prefab not found! Please add a the Dialogue Manager prefab on your scene first.");
             Destroy(this); // Self-destroying script
         }
 
         // Searching "Dialogue Container"
         foreach (Transform child in canvas.transform)
         {
-            if (child.gameObject.name != "Dialogue Container") continue;
-            dialogueContainer = child.gameObject;
-            break;
+            switch (child.gameObject.name)
+            {
+                case "Dialogue Container":
+                    dialogueContainer = child.gameObject;
+                    break;
+                case "Skip Audio":
+                    skipAudio = child.gameObject.GetComponent<AudioSource>();
+                    break;
+            }
         }
 
         if (dialogueContainer == null)
         {
-            Debug.LogError("Dialogue Container not found! Please add a Dialogue Container in your Canvas first.");
+            Debug.LogError("Dialogue Container not found! Please add a Dialogue Container in your Dialogue Manager first.");
+            Destroy(this); // Self-destroying script
+        }
+        
+        if (skipAudio == null)
+        {
+            Debug.LogError("Skip Audio not found! Please add an AudioSource Dialogue Manager first.");
             Destroy(this); // Self-destroying script
         }
 
-        // Searching "Speaker Name" & "Dialogue Box"
+        // Searching for expected child components
         foreach (Transform child in dialogueContainer.transform)
         {
             switch (child.gameObject.name)
@@ -87,7 +100,6 @@ public class DialogueManager : MonoBehaviour
         endIndicator.SetActive(false);
         speakerName.text = dialogues[dialogueIndex].speakerName;
         dialogueBox.Display(dialogues[dialogueIndex].dialogue);
-        
     }
 
     private void Update()
@@ -109,6 +121,9 @@ public class DialogueManager : MonoBehaviour
             dialogueBox.FastEnd();
             return;
         }
+        
+        // Play the audio for dialogue transition
+        skipAudio.Play();
         
         // If the dialogue is finished, close the dialogue window.
         if (dialogueIterator >= dialogues.Length - 1)
