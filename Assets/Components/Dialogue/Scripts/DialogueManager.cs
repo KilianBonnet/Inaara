@@ -15,7 +15,6 @@ public class DialogueManager : MonoBehaviour, IInteractable
 
     // Audio elements
     private AudioSource skipAudio;
-    private AudioSource scriptAudio;
 
     // Parameters
     [SerializeField] private bool loopDialogue;
@@ -54,9 +53,6 @@ public class DialogueManager : MonoBehaviour, IInteractable
                 case "Skip Audio":
                     skipAudio = child.gameObject.GetComponent<AudioSource>();
                     break;
-                case "Script Audio":
-                    scriptAudio = child.gameObject.GetComponent<AudioSource>();
-                    break;
             }
         }
 
@@ -72,12 +68,6 @@ public class DialogueManager : MonoBehaviour, IInteractable
             Destroy(this); // Self-destroying script
         }
         
-        if (scriptAudio == null)
-        {
-            Debug.LogError("Script Audio not found! Please add an AudioSource in Dialogue Manager first.");
-            Destroy(this); // Self-destroying script
-        }
-
         // Searching for expected child components
         foreach (Transform child in dialogueContainer.transform)
         {
@@ -128,34 +118,30 @@ public class DialogueManager : MonoBehaviour, IInteractable
         return shouldBeDestroyed;
     }
 
+    /**
+     * Play one iteration of the dialogue
+     */
     private void PlayOne(int dialogueIndex)
     {
+        // Updating UI elements
         endIndicator.SetActive(false);
         speakerNameUI.text = dialogues[dialogueIndex].speakerName;
         dialogueBox.Display(dialogues[dialogueIndex].dialogue);
-        scriptAudio.Play();
     }
 
     private void Update()
     {
         // Check if the dialogue is started
-        if(!isStarted)
-            return;
+        if(!isStarted) return;
         
-        // If there is no animation, the dialogue line is terminated
-        if (!dialogueBox.isOnAnimation)
-        {
-            scriptAudio.Stop();
-            endIndicator.SetActive(true);
-        }
+        // If there is no animation, the dialogue line is terminated : Display the end line
+        if (!dialogueBox.isOnAnimation) endIndicator.SetActive(true);
 
-        // Check if the left mouse button is clicked
-        if (!(Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Return)))
-            return;
+        // Check if the left mouse button is clicked or the return key
+        if (!(Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Return))) return;
 
         if (dialogueBox.isOnAnimation)
         {
-            scriptAudio.Stop();
             dialogueBox.FastEnd();
             return;
         }
@@ -170,6 +156,7 @@ public class DialogueManager : MonoBehaviour, IInteractable
             return;
         }
         
+        // Play the next iteration of the dialogue
         dialogueIterator++;
         PlayOne(dialogueIterator);
     }
