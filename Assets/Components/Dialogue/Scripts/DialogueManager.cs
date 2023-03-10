@@ -1,22 +1,40 @@
-using System;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.Events;
 
-public class DialogueManager : MonoBehaviour
+public class DialogueManager : MonoBehaviour, IInteractable
 {
-    private bool isStarted = false;
+    // Global elements
+    private PlayerStateManager playerStateManager;
+
+    // UI elements
     private GameObject dialogueContainer;
-    private TextMeshProUGUI speakerName;
+    private TextMeshProUGUI speakerNameUI;
     private DialogueBoxAnimatior dialogueBox;
     private GameObject endIndicator;
+
+    // Audio elements
     private AudioSource skipAudio;
-    
+    private AudioSource scriptAudio;
+
+    // Parameters
+    [SerializeField] private bool loopDialogue;
     [SerializeField] private DialogueContainer[] dialogues;
+    
+    // Internal variables
     private int dialogueIterator;
+    private bool isStarted;
+    private bool shouldBeDestroyed;
 
     private void Start()
     {
+        // Find the Player State Manager
+        if ((playerStateManager = FindObjectOfType<PlayerStateManager>()) == null)
+        {
+            Debug.LogError("Cannot find object of type PlayerStateManager!");
+            Destroy(this); // Self-destroy
+        }
+        
         // Searching "Canvas"
         GameObject canvas = GameObject.Find("Dialogue Manager");
         if (canvas == null)
@@ -24,7 +42,7 @@ public class DialogueManager : MonoBehaviour
             Debug.LogError("Dialogue Manager prefab not found! Please add a the Dialogue Manager prefab on your scene first.");
             Destroy(this); // Self-destroying script
         }
-
+        
         // Searching "Dialogue Container"
         foreach (Transform child in canvas.transform)
         {
@@ -35,6 +53,9 @@ public class DialogueManager : MonoBehaviour
                     break;
                 case "Skip Audio":
                     skipAudio = child.gameObject.GetComponent<AudioSource>();
+                    break;
+                case "Script Audio":
+                    scriptAudio = child.gameObject.GetComponent<AudioSource>();
                     break;
             }
         }
@@ -47,7 +68,13 @@ public class DialogueManager : MonoBehaviour
         
         if (skipAudio == null)
         {
-            Debug.LogError("Skip Audio not found! Please add an AudioSource Dialogue Manager first.");
+            Debug.LogError("Skip Audio not found! Please add an AudioSource in Dialogue Manager first.");
+            Destroy(this); // Self-destroying script
+        }
+        
+        if (scriptAudio == null)
+        {
+            Debug.LogError("Script Audio not found! Please add an AudioSource in Dialogue Manager first.");
             Destroy(this); // Self-destroying script
         }
 
@@ -57,7 +84,7 @@ public class DialogueManager : MonoBehaviour
             switch (child.gameObject.name)
             {
                 case "Speaker Name":
-                    speakerName = child.gameObject.GetComponent<TextMeshProUGUI>();
+                    speakerNameUI = child.gameObject.GetComponent<TextMeshProUGUI>();
                     break;
                 case "Dialogue Box":
                     dialogueBox = child.gameObject.GetComponent<DialogueBoxAnimatior>();
@@ -68,7 +95,7 @@ public class DialogueManager : MonoBehaviour
             }
         }
         
-        if (speakerName == null)
+        if (speakerNameUI == null)
         {
             Debug.LogError("Speaker Name not found! Please add a TextMeshPro in your Dialogue Container first.");
             Destroy(this); // Self-destroying script
@@ -87,19 +114,26 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public void Play()
+    public void Interact()
     {
+        playerStateManager.UpdateState(PlayerState.IN_DIALOGUE);
         dialogueIterator = 0;
         dialogueContainer.SetActive(true);
         isStarted = true;
         PlayOne(dialogueIterator);
     }
+    
+    public bool ShouldBeDestroyed()
+    {
+        return shouldBeDestroyed;
+    }
 
     private void PlayOne(int dialogueIndex)
     {
         endIndicator.SetActive(false);
-        speakerName.text = dialogues[dialogueIndex].speakerName;
+        speakerNameUI.text = dialogues[dialogueIndex].speakerName;
         dialogueBox.Display(dialogues[dialogueIndex].dialogue);
+        scriptAudio.Play();
     }
 
     private void Update()
@@ -110,14 +144,18 @@ public class DialogueManager : MonoBehaviour
         
         // If there is no animation, the dialogue line is terminated
         if (!dialogueBox.isOnAnimation)
+        {
+            scriptAudio.Stop();
             endIndicator.SetActive(true);
-        
+        }
+
         // Check if the left mouse button is clicked
-        if (!Input.GetMouseButtonDown(0))
+        if (!(Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Return)))
             return;
 
         if (dialogueBox.isOnAnimation)
         {
+            scriptAudio.Stop();
             dialogueBox.FastEnd();
             return;
         }
@@ -136,11 +174,19 @@ public class DialogueManager : MonoBehaviour
         PlayOne(dialogueIterator);
     }
 
+    /**
+     * Method called when the player close the dialogue
+     */
     private void CloseDialogue()
     {
-        dialogueIterator = 0;
-        speakerName.text = "";
-        isStarted = false;
+        playerStateManager.UpdateState(PlayerState.PLAYING);
+        speakerNameUI.text = "";
         dialogueContainer.SetActive(false);
+
+        if (!loopDialogue)
+            shouldBeDestroyed = true;
+        
+        dialogueIterator = 0;
+        isStarted = false;
     }
 }
