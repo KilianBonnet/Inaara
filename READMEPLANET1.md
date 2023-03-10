@@ -1,0 +1,4 @@
+-Vous pouvez trouver l'ensemble des assets utilisé dans le dossier AssetPlanet1
+-Tout l'environnement est mit dans le Terrain.
+-Vous trouvez plusieurs groupes regroupant des objets par proximité.
+-A l'intérieur les objets sont regroupé par Type pour pouvoir s'y retrouvé ou supprimer certain objets facilement.
