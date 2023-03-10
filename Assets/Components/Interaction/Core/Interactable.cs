@@ -38,8 +38,7 @@ public class Interactable : MonoBehaviour
         }
 
         // Find the associated interaction
-        interactable = GetComponent<IInteractable>();
-        if (interactable == null)
+        if ((interactable = GetComponent<IInteractable>()) == null)
         {
             Debug.LogError("Game object has no IInteractable component!");
             Destroy(this); // Self-destroy
@@ -78,9 +77,15 @@ public class Interactable : MonoBehaviour
     {
         if (interactable.ShouldBeDestroyed())
         {
-            interactionUI.Remove(this);
-            Destroy((UnityEngine.Object) interactable);
-            Destroy(this);
+            Destroy((UnityEngine.Object) interactable); // Destroy the interactable that should be destroyed
+            
+            // Check if there is others interactable to display
+            if ((interactable = GetComponent<IInteractable>()) == null)
+            {
+                interactionUI.Remove(this);
+                Destroy(this);
+                return;
+            }
         }
         
         if (Input.GetKeyDown(KeyCode.E) && isInRange 

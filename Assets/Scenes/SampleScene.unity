@@ -825,6 +825,7 @@ GameObject:
   - component: {fileID: 962798753}
   - component: {fileID: 962798752}
   - component: {fileID: 962798758}
+  - component: {fileID: 962798759}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -939,9 +940,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73e89933d3614c848a627c0a459716c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionText: Interact
-  interactionRange: 2
+  interactionText: Ayoub et Goe
+  interactionRange: 3
 --- !u!114 &962798758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962798750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd698d4d5639ef4f9a0d6968c377853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loopDialogue: 0
+  dialogues:
+  - speakerName: Estoult
+    dialogue: Salut
+  - speakerName: Ayoub
+    dialogue: 'Salut Estoult, mon meilleur ami. Ca va ? '
+  - speakerName: Estoult
+    dialogue: Ouais cool mon mini-reuf, et toi ?
+  - speakerName: Goe
+    dialogue: 'ENNNNNNH !! Je m''appelle Goe et je suis giga aigi de vivre. J''ai
+      perdu mon canard, je ne sais plus quoi faire ... '
+--- !u!114 &962798759
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -955,15 +979,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loopDialogue: 1
   dialogues:
-  - speakerName: Estoult
-    dialogue: Salut
-  - speakerName: Ayoub
-    dialogue: 'Salut Estoult, mon meilleur ami. Ca va ? '
-  - speakerName: Estoult
-    dialogue: Ouais cool mon mini-reuf, et toi ?
   - speakerName: Goe
-    dialogue: 'ENNNNNNH !! Je m''appelle Goe et je suis giga aigis de vivre. J''ai
-      perdu mon canard, je ne sais plus quoi faire ... '
+    dialogue: Mon canard ...
+  - speakerName: Estoult
+    dialogue: "Je suis d\xE9sol\xE9."
 --- !u!1 &995956793
 GameObject:
   m_ObjectHideFlags: 0
@@ -1282,7 +1301,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Blablabla
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e277b3abb45c8884a8773ee78f008542, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96712913c35f1b8469408ea9da745945, type: 2}
   m_sharedMaterial: {fileID: -5793891422608956099, guid: e277b3abb45c8884a8773ee78f008542, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1346,7 +1365,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -0.8520508, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1252381870
@@ -1392,7 +1411,7 @@ MonoBehaviour:
   m_ShowCameraFrustum: 1
   m_IgnoreTimeScale: 0
   m_WorldUpOverride: {fileID: 0}
-  m_UpdateMethod: 1
+  m_UpdateMethod: 0
   m_BlendUpdateMethod: 1
   m_DefaultBlend:
     m_Style: 1
@@ -1538,7 +1557,7 @@ MonoBehaviour:
   m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu interdum
     diam. Suspendisse ac lacus ullamcorper, tristique sapien nec, tincidunt ante.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e277b3abb45c8884a8773ee78f008542, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96712913c35f1b8469408ea9da745945, type: 2}
   m_sharedMaterial: {fileID: -5793891422608956099, guid: e277b3abb45c8884a8773ee78f008542, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1602,7 +1621,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1331219230
@@ -1755,7 +1774,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: E
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e277b3abb45c8884a8773ee78f008542, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96712913c35f1b8469408ea9da745945, type: 2}
   m_sharedMaterial: {fileID: -5793891422608956099, guid: e277b3abb45c8884a8773ee78f008542, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1819,7 +1838,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1405708566
@@ -1890,7 +1909,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Name
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e277b3abb45c8884a8773ee78f008542, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96712913c35f1b8469408ea9da745945, type: 2}
   m_sharedMaterial: {fileID: -5793891422608956099, guid: e277b3abb45c8884a8773ee78f008542, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1954,7 +1973,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0.6042328, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1465568476
