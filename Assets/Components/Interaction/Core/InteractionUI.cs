@@ -45,13 +45,11 @@ public class InteractionUI : MonoBehaviour
 
     private void Update()
     {
-        if (isDisplaying && playerStateManager.PlayerState != PlayerState.PLAYING) StopDisplaying();
-        else if (!isDisplaying && playerStateManager.PlayerState == PlayerState.PLAYING) TryDisplaying();
-        else if (isDisplaying && interactions.Count == 0) StopDisplaying();
-        
-        if (Input.GetKeyDown(KeyCode.E) && playerStateManager.PlayerState == PlayerState.PLAYING) 
-            interactions[0].OnInteract();
+        if (isDisplaying && (playerStateManager.PlayerState != PlayerState.PLAYING || interactions.Count == 0)) StopDisplaying();
+        else if (isDisplaying && Input.GetKeyDown(KeyCode.E) && playerStateManager.PlayerState == PlayerState.PLAYING && interactions.Count > 0) interactions[0].OnInteract();
+        else if (!isDisplaying && playerStateManager.PlayerState == PlayerState.PLAYING && interactions.Count > 0) TryDisplaying();
     }
+
 
     private void StopDisplaying()
     {
