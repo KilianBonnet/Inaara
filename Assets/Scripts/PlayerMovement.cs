@@ -6,13 +6,22 @@ using UnityEngine.Tilemaps;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed=5f;
+    [SerializeField] private float moveSpeed = 7f;
+    [SerializeField] private Rigidbody rb;
+    
     private Vector3 movement;
+    private PlayerStateManager playerStateManager;
+    private bool hasPlayerStateManager = true;
 
-    public Rigidbody rb;
     // Start is called before the first frame update
     void Start()
     {
+        // Find the Player State Manager
+        if ((playerStateManager = FindObjectOfType<PlayerStateManager>()) == null)
+        {
+            Debug.LogWarning("Cannot find object of type PlayerStateManager!");
+            hasPlayerStateManager = false;
+        }
     }
 
     // Update is called once per frame
@@ -24,6 +33,10 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        // Used to stop the player during cinematic, dialogs, menu, ...
+        if(hasPlayerStateManager && playerStateManager.PlayerState != PlayerState.PLAYING)
+            return;
+        
         rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
     }
 }
