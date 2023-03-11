@@ -33,11 +33,14 @@ public class InteractionUI : MonoBehaviour
     public void Add(Interactable interaction)
     {
         interactions.Insert(0, interaction);
+        TryDisplaying();
     }
 
     public void Remove(Interactable interactable)
     {
         interactions.Remove(interactable);
+        if (interactions.Count == 0) StopDisplaying();
+        else TryDisplaying();
     }
 
     private void Update()
@@ -45,6 +48,9 @@ public class InteractionUI : MonoBehaviour
         if (isDisplaying && playerStateManager.PlayerState != PlayerState.PLAYING) StopDisplaying();
         else if (!isDisplaying && playerStateManager.PlayerState == PlayerState.PLAYING) TryDisplaying();
         else if (isDisplaying && interactions.Count == 0) StopDisplaying();
+        
+        if (Input.GetKeyDown(KeyCode.E) && playerStateManager.PlayerState == PlayerState.PLAYING) 
+            interactions[0].OnInteract();
     }
 
     private void StopDisplaying()

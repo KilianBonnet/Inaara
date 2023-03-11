@@ -84,12 +84,12 @@ public class Interactable : MonoBehaviour
             {
                 interactionUI.Remove(this);
                 Destroy(this);
-                return;
             }
         }
-        
-        if (Input.GetKeyDown(KeyCode.E) && isInRange 
-                                        && playerStateManager.PlayerState == PlayerState.PLAYING) 
-            interactable.Interact();
+    }
+
+    public void OnInteract()
+    {
+        interactable.Interact();
     }
 }
