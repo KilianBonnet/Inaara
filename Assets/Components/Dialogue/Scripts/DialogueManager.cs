@@ -67,7 +67,7 @@ public class DialogueManager : MonoBehaviour, IInteractable
             Debug.LogError("Skip Audio not found! Please add an AudioSource in Dialogue Manager first.");
             Destroy(this); // Self-destroying script
         }
-        
+
         // Searching for expected child components
         foreach (Transform child in dialogueContainer.transform)
         {
@@ -126,7 +126,7 @@ public class DialogueManager : MonoBehaviour, IInteractable
         // Updating UI elements
         endIndicator.SetActive(false);
         speakerNameUI.text = dialogues[dialogueIndex].speakerName;
-        dialogueBox.Display(dialogues[dialogueIndex].dialogue);
+        dialogueBox.Display(dialogues[dialogueIndex].dialogue, dialogues[dialogueIndex].audioPitch);
     }
 
     private void Update()

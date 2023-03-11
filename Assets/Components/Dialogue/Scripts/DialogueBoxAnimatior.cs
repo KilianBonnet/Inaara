@@ -12,7 +12,9 @@ public class DialogueBoxAnimatior : MonoBehaviour
     private TextMeshProUGUI dialogueBox;
     private string textToDisplay;
     
-    
+    private AudioSource typingAudio;
+    private float pitch;
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -25,15 +27,25 @@ public class DialogueBoxAnimatior : MonoBehaviour
         }
         dialogueBox.text = "";
         characterFrequency = 1 / characterPerSecond ;
+
+        foreach (Transform child in transform)
+            if (child.gameObject.name == "Typing Audio")
+                typingAudio = child.gameObject.GetComponent<AudioSource>();
+        
+        if (typingAudio == null)
+        {
+            Debug.LogError("Typing Audio not found! Please add an AudioSource in Dialogue Manager first.");
+            Destroy(this); // Self-destroying script
+        }
     }
     
-    public void Display(string dialogueContent)
+    public void Display(string dialogueContent, float pitch)
     {
         textToDisplay = dialogueContent;
         isOnAnimation = true;
         timeBuffer = 0;
-
         if (dialogueBox != null) dialogueBox.text = "";
+        this.pitch = pitch;
     }
     
     // Update is called once per frame
@@ -58,6 +70,9 @@ public class DialogueBoxAnimatior : MonoBehaviour
         dialogueBox.text += textToDisplay[0];
         timeBuffer = 0;
         textToDisplay = textToDisplay.Substring(1);
+        
+        typingAudio.pitch = pitch;
+        typingAudio.Play();
     }
 
     public void FastEnd()
