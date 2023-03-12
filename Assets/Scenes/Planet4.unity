@@ -642,7 +642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afd698d4d5639ef4f9a0d6968c377853, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loopDialogue: 1
+  loopDialogue: 0
   dialogues:
   - speakerName: Lampadaire
     audioPitch: 1
@@ -661,6 +661,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionText: Lampadaire
   interactionRange: 4
+--- !u!114 &234759771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234759763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd698d4d5639ef4f9a0d6968c377853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loopDialogue: 1
+  dialogues:
+  - speakerName: Lampadaire
+    audioPitch: 1
+    dialogue: C'est toujours un lampadaire.
 --- !u!1 &256606966
 GameObject:
   m_ObjectHideFlags: 0
@@ -1790,11 +1807,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afd698d4d5639ef4f9a0d6968c377853, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loopDialogue: 1
+  loopDialogue: 0
   dialogues:
   - speakerName: Lampadaire
     audioPitch: 1
     dialogue: C'est un lampadaire.
+--- !u!114 &1944138563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944138550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd698d4d5639ef4f9a0d6968c377853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loopDialogue: 1
+  dialogues:
+  - speakerName: Lampadaire
+    audioPitch: 1
+    dialogue: C'est toujours un lampadaire.
 --- !u!1 &2072324897 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 173768, guid: a4e1f8557bc76c44baa1e45ad8ecbdb9, type: 3}
@@ -1816,8 +1850,8 @@ MonoBehaviour:
   dialogues:
   - speakerName: Vieux puits
     audioPitch: 1
-    dialogue: "Ce vieux puits semble laiss\xE9 \xE0 l'abandon. L'eau est recouverte
-      de mousse."
+    dialogue: "Ce vieux puits semble \xEAtre laiss\xE9 \xE0 l'abandon. L'eau est
+      recouverte de mousse."
 --- !u!114 &2072324902
 MonoBehaviour:
   m_ObjectHideFlags: 0
