@@ -7,14 +7,14 @@ using Random = UnityEngine.Random;
 public class PlanetGenerator : MonoBehaviour
 {
     [SerializeField] private GameObject[] planets;
-    [SerializeField] private float YSpawnRange = 50f;
+    [SerializeField] private float YSpawnRange = 200f;
     [SerializeField] private float ZSpawnRange = 50f;
     
     private float timer;
 
     private void Start()
     {
-        timer = Random.Range(0, .5f);
+        timer = 0;
     }
     
     private void Update()
@@ -32,6 +32,6 @@ public class PlanetGenerator : MonoBehaviour
         float z = generatorPosition.z - ZSpawnRange + Random.Range(0, ZSpawnRange);
         Instantiate(planets[planetIndex], new Vector3(generatorPosition.x, y, z), new Quaternion());
         
-        timer = Random.Range(2, 5);
+        timer = Random.Range(10, 15);
     }
 }

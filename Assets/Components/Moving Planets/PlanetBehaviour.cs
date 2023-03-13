@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -7,17 +6,18 @@ public class PlanetBehaviour : MonoBehaviour
     private float speed;
     private float travelDistance;
     
-    void Start()
+    private void Start()
     {
-        speed = Random.Range(.1f, .2f);
-        float size = Random.Range(1, 3);
+        travelDistance = 0;
+        float size = Random.Range(3, 8);
+        speed = Random.Range((3 * 70)/size, (4 * 70)/size);
         transform.localScale = new Vector3(size, size, size);
     }
 
     private void LateUpdate()
     {
-        travelDistance += Time.fixedTime * speed;
-        transform.position += Time.fixedTime * speed * Vector3.left;
+        travelDistance += Time.deltaTime * speed;
+        transform.position += Time.deltaTime * speed * Vector3.left;
         if(travelDistance > 1000) Destroy(gameObject);
     }
 }
