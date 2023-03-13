@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 movement;
     private PlayerStateManager playerStateManager;
     private bool hasPlayerStateManager = true;
+    public bool inversed = false;
 
     // Start is called before the first frame update
     void Start()
@@ -27,8 +28,16 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.z = Input.GetAxisRaw("Vertical");
+        if (inversed)
+        {
+            movement.x = -Input.GetAxisRaw("Vertical");
+            movement.z = Input.GetAxisRaw("Horizontal");
+        }
+        else
+        {
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.z = Input.GetAxisRaw("Vertical");
+        }
     }
 
     void FixedUpdate()
