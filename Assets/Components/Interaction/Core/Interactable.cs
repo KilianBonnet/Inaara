@@ -11,8 +11,6 @@ public class Interactable : MonoBehaviour
     
     private PlayerStateManager playerStateManager;
 
-    private bool isInRange;
-    
     /**
      * Create a trigger zone around the object to detect collision with player
      */
@@ -57,20 +55,12 @@ public class Interactable : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
-        {
-            isInRange = true;
-            interactionUI.Add(this);
-        }
+        if (other.CompareTag("Player")) interactionUI.Add(this);
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))
-        {
-            isInRange = false;
-            interactionUI.Remove(this);
-        }
+        if (other.CompareTag("Player")) interactionUI.Remove(this);
     }
     
     private void Update()
