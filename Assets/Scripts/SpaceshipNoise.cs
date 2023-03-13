@@ -36,7 +36,7 @@ public class SpaceshipNoise : MonoBehaviour
             initialPosition.z
         );
 
-        positionSpeed = Random.Range(.1f, .2f);
+        positionSpeed = Random.Range(.5f, .8f);
     }
 
     private void MoveToObjective()
