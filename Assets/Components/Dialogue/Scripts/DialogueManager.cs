@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class DialogueManager : MonoBehaviour, IInteractable
+public class DialogueManager : Interactable
 {
     // Global elements
     private PlayerStateManager playerStateManager;
@@ -23,10 +23,11 @@ public class DialogueManager : MonoBehaviour, IInteractable
     // Internal variables
     private int dialogueIterator;
     private bool isStarted;
-    private bool shouldBeDestroyed;
 
     private void Start()
     {
+        ShouldBeDestroyed = !loopDialogue;
+        
         // Find the Player State Manager
         if ((playerStateManager = FindObjectOfType<PlayerStateManager>()) == null)
         {
@@ -104,18 +105,14 @@ public class DialogueManager : MonoBehaviour, IInteractable
         }
     }
 
-    public void Interact()
+    public override void Interact()
     {
         playerStateManager.UpdateState(PlayerState.IN_DIALOGUE);
         dialogueIterator = 0;
         dialogueContainer.SetActive(true);
         isStarted = true;
+        
         PlayOne(dialogueIterator);
-    }
-    
-    public bool ShouldBeDestroyed()
-    {
-        return shouldBeDestroyed;
     }
 
     /**
@@ -127,6 +124,9 @@ public class DialogueManager : MonoBehaviour, IInteractable
         endIndicator.SetActive(false);
         speakerNameUI.text = dialogues[dialogueIndex].speakerName;
         dialogueBox.Display(dialogues[dialogueIndex].dialogue, dialogues[dialogueIndex].audioPitch);
+        
+        // Checking for script to start
+        if(dialogues[dialogueIndex].script != null) dialogues[dialogueIndex].script.Interact();
     }
 
     private void Update()
@@ -134,21 +134,24 @@ public class DialogueManager : MonoBehaviour, IInteractable
         // Check if the dialogue is started
         if(!isStarted) return;
         
+        // Check if an animation is running (no FastEnd possible)
+        if(!IsScriptTerminated()) return;
+
         // If there is no animation, the dialogue line is terminated : Display the end line
         if (!dialogueBox.isOnAnimation) endIndicator.SetActive(true);
 
         // Check if the left mouse button is clicked or the return key
         if (!(Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Return))) return;
 
-        if (dialogueBox.isOnAnimation)
+        if (dialogueBox.isOnAnimation && IsScriptTerminated())
         {
             dialogueBox.FastEnd();
             return;
         }
         
-        // Play the audio for dialogue transition
-        skipAudio.Play();
-        
+        skipAudio.Play(); // Play the audio for dialogue transition
+        TerminateScript(); // Terminate the current script
+            
         // If the dialogue is finished, close the dialogue window.
         if (dialogueIterator >= dialogues.Length - 1)
         {
@@ -169,11 +172,19 @@ public class DialogueManager : MonoBehaviour, IInteractable
         playerStateManager.UpdateState(PlayerState.PLAYING);
         speakerNameUI.text = "";
         dialogueContainer.SetActive(false);
-
-        if (!loopDialogue)
-            shouldBeDestroyed = true;
-        
+        IsTerminated = true;
         dialogueIterator = 0;
         isStarted = false;
+    }
+
+    private bool IsScriptTerminated()
+    {
+        return dialogues[dialogueIterator].script == null || dialogues[dialogueIterator].script.IsTerminated;
+    }
+    
+    private void TerminateScript()
+    {
+        if(dialogues[dialogueIterator].script == null) return; // Nothing to terminate
+        if(dialogues[dialogueIterator].script.ShouldBeDestroyed) Destroy(dialogues[dialogueIterator].script);
     }
 }

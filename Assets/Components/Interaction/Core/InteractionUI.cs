@@ -11,7 +11,7 @@ public class InteractionUI : MonoBehaviour
     
     private bool isDisplaying;
 
-    private List<Interactable> interactions = new();
+    private List<Interactor> interactions = new();
 
     private void Start()
     {
@@ -30,15 +30,15 @@ public class InteractionUI : MonoBehaviour
                         interactionTextUI = childOfPanel.gameObject.GetComponent<TextMeshProUGUI>();
     }
 
-    public void Add(Interactable interaction)
+    public void Add(Interactor interactor)
     {
-        interactions.Insert(0, interaction);
+        interactions.Insert(0, interactor);
         TryDisplaying();
     }
 
-    public void Remove(Interactable interactable)
+    public void Remove(Interactor interactor)
     {
-        interactions.Remove(interactable);
+        interactions.Remove(interactor);
         if (interactions.Count == 0) StopDisplaying();
         else TryDisplaying();
     }
