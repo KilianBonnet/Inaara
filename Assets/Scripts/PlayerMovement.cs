@@ -47,5 +47,9 @@ public class PlayerMovement : MonoBehaviour
             return;
         
         rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
+        if (!movement.Equals(Vector3.zero))
+        {
+            transform.rotation = Quaternion.LookRotation(movement);
+        }
     }
 }

@@ -1,12 +1,52 @@
 fileFormatVersion: 2
-guid: 64352947dfe5a534eb2f9101f9bbff24
+guid: c611bbb5b84097c4f9c6a789218becb7
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
   - first:
       74: -203655887218126122
     second: mixamo.com
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: 7fae61eaa5b33714584ba3aa04a5197f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: crimson
+    second: {fileID: 2100000, guid: 50aa3a61979056043a66a32c45c1b01b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dark brown
+    second: {fileID: 2100000, guid: fc67fb5d53cf190449ef8a5b190d6378, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grey
+    second: {fileID: 2100000, guid: 067b747716f76b548863a88dc531fea0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light brown
+    second: {fileID: 2100000, guid: e86cdd95359b695469798a4dcf695333, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orange
+    second: {fileID: 2100000, guid: 88b4aee7f0318404ba0db372d876c694, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skin
+    second: {fileID: 2100000, guid: 67ebc75d46d67d34f84a2de44dbddedf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: 8e5abed366799fa4b81b0581b59d6d99, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
