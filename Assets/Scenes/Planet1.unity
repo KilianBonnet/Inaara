@@ -12453,6 +12453,10 @@ PrefabInstance:
       value: The Old man
       objectReference: {fileID: 0}
     - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
+      propertyPath: ShouldBeDestroyed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: dialogues.Array.size
       value: 2
       objectReference: {fileID: 0}
