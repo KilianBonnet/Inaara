@@ -17,7 +17,6 @@ public class DialogueManager : Interactable
     private AudioSource skipAudio;
 
     // Parameters
-    [SerializeField] private bool loopDialogue;
     [SerializeField] private DialogueContainer[] dialogues;
     
     // Internal variables
@@ -26,8 +25,6 @@ public class DialogueManager : Interactable
 
     private void Start()
     {
-        ShouldBeDestroyed = !loopDialogue;
-        
         // Find the Player State Manager
         if ((playerStateManager = FindObjectOfType<PlayerStateManager>()) == null)
         {
