@@ -1,18 +1,54 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Altar : MonoBehaviour
+public class Altar : Interactable
 {
-    // Start is called before the first frame update
-    void Start()
+    public bool isActivated;
+    private AltarQuest quest;
+
+    private Renderer gemRenderer;
+    private Light altarLight;
+
+    private void Start()
     {
+        if ((quest = FindObjectOfType<AltarQuest>()) == null)
+        {
+            Debug.LogError("Cannot find AltarQuest !");
+            Destroy(this);
+        }
         
+        
+
+        foreach (Transform child in transform)
+        {
+            switch (child.gameObject.name)
+            {
+                case "Gem":
+                    gemRenderer = child.gameObject.GetComponent<Renderer>();
+                    break;
+                case "Point Light":
+                    altarLight = child.gameObject.GetComponent<Light>();
+                    break;
+            }
+        }
+        
+        IsTerminated = true;
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void Interact()
     {
-        
+        ChangeAltarRender();
+        isActivated = true;
+        quest.CheckAltar();
+    }
+
+    private void ChangeAltarRender()
+    {
+        gemRenderer.material.SetColor("_EmissionColor", new Color(0, 241, 233));
+        Color c = altarLight.color;
+        c.r = 0;
+        c.g = .9f;
+        c.b = 1;
+        altarLight.color = c;
+        altarLight.intensity = 1.5f;
     }
 }

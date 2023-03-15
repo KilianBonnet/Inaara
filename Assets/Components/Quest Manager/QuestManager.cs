@@ -1,18 +1,24 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
+
+public struct QuestUi
+{
+    public TextMeshProUGUI name;
+    public TextMeshProUGUI descriprion;
+}
+
 
 public class QuestManager : MonoBehaviour
 {
     [SerializeField] private GameObject questUiPrefab;
-    private List<Quest> quests = new();
+    private Dictionary<Quest, QuestUi> quests = new();
 
     public void Add(Quest quest)
     {
-        quests.Add(quest);
-        Display(quest);
+        GenerateUI(quest);
     }
 
     public void Remove(Quest quest)
@@ -20,21 +26,33 @@ public class QuestManager : MonoBehaviour
         quests.Remove(quest);
     }
 
-    private void Display(Quest quest)
+    public void Refresh(Quest quest)
+    {
+        QuestUi ui = quests[quest];
+        ui.name.text = quest.questName;
+        ui.descriprion.text = quest.questDescription;
+    }
+
+    private void GenerateUI(Quest quest)
     {
         GameObject ui = Instantiate(questUiPrefab, transform);
+        QuestUi questUi = new QuestUi();
         
         foreach (Transform child in ui.transform)
         {
             switch (child.gameObject.name)
             {
                 case "Quest Title":
-                    child.gameObject.GetComponent<TextMeshProUGUI>().text = quest.questName;
+                    questUi.name = child.gameObject.GetComponent<TextMeshProUGUI>();
+                    questUi.name.text = quest.questName;
                     break;
                 case "Quest Description":
-                    child.gameObject.GetComponent<TextMeshProUGUI>().text = quest.questDescription;
+                    questUi.descriprion = child.gameObject.GetComponent<TextMeshProUGUI>();
+                    questUi.descriprion.text = quest.questDescription;
                     break;
             }
         }
+        
+        quests.Add(quest, questUi);
     }
 }
