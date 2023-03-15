@@ -6,6 +6,7 @@ public class BackgroundMusicManager : MonoBehaviour
 {
 
     [SerializeField] private AudioClip[] backgroundMusics;
+    [SerializeField] private AudioClip[] ambiantSounds;
     AudioSource audioSource;
 
     private int countBGM;
@@ -18,6 +19,14 @@ public class BackgroundMusicManager : MonoBehaviour
         countBGM = backgroundMusics.Length;
 
         currentMusic = 0;
+
+        for (int i = 0; i < ambiantSounds.Length; i++)
+        {
+            AudioSource ambiantSource = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
+            ambiantSource.loop = true;
+            ambiantSource.clip = ambiantSounds[i];
+            ambiantSource.Play();
+        }
     }
 
     // Update is called once per frame
@@ -26,7 +35,7 @@ public class BackgroundMusicManager : MonoBehaviour
         if (!audioSource.isPlaying && countBGM > 0)
         {
             audioSource.clip = backgroundMusics[currentMusic];
-            audioSource.volume = 0.5F;
+            audioSource.volume = 0.6F;
             audioSource.Play();
             currentMusic = (currentMusic + 1) % countBGM;
         }
