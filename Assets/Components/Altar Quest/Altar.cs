@@ -7,6 +7,7 @@ public class Altar : Interactable
 
     private Renderer gemRenderer;
     private Light altarLight;
+    private AudioSource audioSource;
 
     private void Start()
     {
@@ -16,8 +17,6 @@ public class Altar : Interactable
             Destroy(this);
         }
         
-        
-
         foreach (Transform child in transform)
         {
             switch (child.gameObject.name)
@@ -30,7 +29,8 @@ public class Altar : Interactable
                     break;
             }
         }
-        
+
+        audioSource = GetComponent<AudioSource>();
         IsTerminated = true;
     }
 
@@ -39,6 +39,7 @@ public class Altar : Interactable
         ChangeAltarRender();
         isActivated = true;
         quest.CheckAltar();
+        audioSource.Play();
     }
 
     private void ChangeAltarRender()
