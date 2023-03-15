@@ -25,12 +25,12 @@ public class FogBarrier : MonoBehaviour
     {
         float distance = Vector3.Distance(playerPosition.position, transform.position);
         if (distance < maxRange) RenderSettings.fogDensity = maxFogDensity - (maxFogDensity * distance / maxRange) + baseFogDensity;
-        else RenderSettings.fogDensity = baseFogDensity;
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (!other.gameObject.CompareTag("Player")) return;
+        RenderSettings.fogDensity = baseFogDensity;
         other.gameObject.transform.position = teleportPoint.position;
         dialogueManager.Interact();
     }
