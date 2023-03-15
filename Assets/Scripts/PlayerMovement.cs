@@ -12,7 +12,10 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 movement;
     private PlayerStateManager playerStateManager;
     private bool hasPlayerStateManager = true;
-    public bool inversed = false;
+    public bool inversed;
+    
+    private Animator animator;
+    private int isRunningHash;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +26,9 @@ public class PlayerMovement : MonoBehaviour
             Debug.LogWarning("Cannot find object of type PlayerStateManager!");
             hasPlayerStateManager = false;
         }
+        
+        animator = GetComponent<Animator>();
+        isRunningHash = Animator.StringToHash("isRunning");
     }
 
     // Update is called once per frame
@@ -43,13 +49,19 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         // Used to stop the player during cinematic, dialogs, menu, ...
-        if(hasPlayerStateManager && playerStateManager.PlayerState != PlayerState.PLAYING)
+        if (hasPlayerStateManager && playerStateManager.PlayerState != PlayerState.PLAYING)
+        {
+            animator.SetBool(isRunningHash, false);
             return;
+        }
         
         rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
         if (!movement.Equals(Vector3.zero))
         {
             transform.rotation = Quaternion.LookRotation(movement);
+            animator.SetBool(isRunningHash, true);
         }
+        else 
+            animator.SetBool(isRunningHash, false);
     }
 }
