@@ -15,10 +15,17 @@ public class QuestManager : MonoBehaviour
 {
     [SerializeField] private GameObject questUiPrefab;
     private Dictionary<Quest, QuestUi> quests = new();
+    private AudioSource questSound;
+
+    private void Start()
+    {
+        questSound = GetComponent<AudioSource>();
+    }
 
     public void Add(Quest quest)
     {
         GenerateUI(quest);
+        questSound.Play();
     }
 
     public void Remove(Quest quest)
