@@ -16,8 +16,6 @@ public class AltarQuest : Quest
         }
         
         altars = FindObjectsOfType<Altar>();
-
-        BeginQuest();
     }
 
     public override void BeginQuest()
