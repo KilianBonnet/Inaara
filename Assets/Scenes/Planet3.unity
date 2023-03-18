@@ -2022,7 +2022,7 @@ PrefabInstance:
     - target: {fileID: 7925728883532253481, guid: 967076be8d94f0647982242fac0166e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a13e4ebaa5a967d44b6836ec8e9e2f89, type: 2}
+      objectReference: {fileID: 2100000, guid: a7862d5615928c34e868320de65c2777, type: 2}
     - target: {fileID: 7949861273153337632, guid: 967076be8d94f0647982242fac0166e0, type: 3}
       propertyPath: m_RootOrder
       value: 90
@@ -14506,7 +14506,7 @@ PrefabInstance:
     - target: {fileID: 4531024898769120277, guid: b7d5a31e2b3908746b39720151582136, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e36e7f3cf33b7064487e652e84661d14, type: 2}
+      objectReference: {fileID: 2100000, guid: e4149755fc1d98a498388cedff353ea8, type: 2}
     - target: {fileID: 4840052140215516641, guid: b7d5a31e2b3908746b39720151582136, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -16443,11 +16443,11 @@ PrefabInstance:
     - target: {fileID: 1754634506337614551, guid: 860058b6476a0f247a228c5528bf02c7, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: f9e8a256b2e009743bcefbdabbb05382, type: 2}
+      objectReference: {fileID: 2100000, guid: 3b20fc9e84b968641b7312bdcdd1ffd8, type: 2}
     - target: {fileID: 1754634506337614551, guid: 860058b6476a0f247a228c5528bf02c7, type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
-      objectReference: {fileID: 2100000, guid: e773be4e8e6c49f41bb67bfe941451c0, type: 2}
+      objectReference: {fileID: 2100000, guid: 0de74cacf6310c64ca1b6862ba4b219c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 860058b6476a0f247a228c5528bf02c7, type: 3}
 --- !u!4 &1983664500 stripped
@@ -20635,7 +20635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1122706359430475630, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
       propertyPath: m_Name
-      value: ZoomInCamera
+      value: TopOfDune
       objectReference: {fileID: 0}
     - target: {fileID: 1122706359430475631, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
       propertyPath: m_RootOrder
