@@ -28,6 +28,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0.00000003090862, z: 0.70710677, w: 0.00000003090862}
   m_LocalPosition: {x: -3.7589674, y: 1.5547394, z: -24.869106}
   m_LocalScale: {x: -1, y: -1, z: -0.39242598}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3504257289938422464}
   m_RootOrder: 2
@@ -110,6 +111,7 @@ Transform:
   m_LocalRotation: {x: 0.0000000754979, y: 1, z: 3.2388859e-15, w: -0.00000004371139}
   m_LocalPosition: {x: -4.03602, y: 1.0594296, z: -24.873026}
   m_LocalScale: {x: -0.070142806, y: -0.070142806, z: -0.070142806}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3504257289938422464}
   m_RootOrder: 0
@@ -173,6 +175,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3504257289938422464}
+  - component: {fileID: 7805430881903553521}
   m_Layer: 0
   m_Name: Desert_Village_Dryer
   m_TagString: Untagged
@@ -190,6 +193,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.81, y: 0, z: -1.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8502184796154857345}
   - {fileID: 295200153333507336}
@@ -197,6 +201,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7805430881903553521
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4317351002369560698}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6313171, y: 1.7945719, z: 0.35061646}
+  m_Center: {x: -4.049057, y: 0.86532164, z: -24.855392}
 --- !u!1 &6577719413453733329
 GameObject:
   m_ObjectHideFlags: 0
@@ -225,6 +242,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0.00000003090862, z: 0.70710677, w: 0.00000003090862}
   m_LocalPosition: {x: -4.3250937, y: 1.453729, z: -24.869104}
   m_LocalScale: {x: -1, y: -1, z: -0.30629554}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3504257289938422464}
   m_RootOrder: 1

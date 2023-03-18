@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1042505951998397213}
   - component: {fileID: 4168189441734034616}
   - component: {fileID: 2178780694531518578}
+  - component: {fileID: 4227901488301819978}
   m_Layer: 0
   m_Name: Desert_Village_Bucket
   m_TagString: Untagged
@@ -28,6 +29,7 @@ Transform:
   m_LocalRotation: {x: -0, y: 0, z: 1, w: 0.00000004371139}
   m_LocalPosition: {x: 1.4899998, y: 0.34, z: -11.41}
   m_LocalScale: {x: -0.21099435, y: -0.21099435, z: -0.21099435}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -84,3 +86,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4227901488301819978
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377291983207010727}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -944563635335726766, guid: b58053af909ca22408b1f5b548446bd9, type: 3}
