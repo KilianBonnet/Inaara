@@ -29,8 +29,26 @@ public class AltarQuest : Quest
     {
         int nbActivatedAltar = 0;
         foreach (Altar altar in altars) if (altar.isActivated) nbActivatedAltar++;
+
+
+        if (nbActivatedAltar >= altars.Length)
+        {
+            EndQuest();
+            return;
+        }
+        
         
         questDescription = desctiptionRoot + "(" + nbActivatedAltar + "/" + altars.Length + ")";
         questManager.Refresh(this);
+    }
+
+    private void EndQuest()
+    {
+        questManager.Remove(this);
+        
+        questName = "Voyage dans le brouillard";
+        questDescription = "Faites votre rapport à la présence à l'entrée du bois.";
+        
+        questManager.Add(this);
     }
 }

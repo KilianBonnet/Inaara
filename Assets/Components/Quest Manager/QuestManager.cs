@@ -6,6 +6,7 @@ using UnityEngine;
 
 public struct QuestUi
 {
+    public GameObject root;
     public TextMeshProUGUI name;
     public TextMeshProUGUI descriprion;
 }
@@ -30,6 +31,7 @@ public class QuestManager : MonoBehaviour
 
     public void Remove(Quest quest)
     {
+        Destroy(quests[quest].root);
         quests.Remove(quest);
     }
 
@@ -42,10 +44,10 @@ public class QuestManager : MonoBehaviour
 
     private void GenerateUI(Quest quest)
     {
-        GameObject ui = Instantiate(questUiPrefab, transform);
         QuestUi questUi = new QuestUi();
+        questUi.root = Instantiate(questUiPrefab, transform);
         
-        foreach (Transform child in ui.transform)
+        foreach (Transform child in questUi.root.transform)
         {
             switch (child.gameObject.name)
             {
