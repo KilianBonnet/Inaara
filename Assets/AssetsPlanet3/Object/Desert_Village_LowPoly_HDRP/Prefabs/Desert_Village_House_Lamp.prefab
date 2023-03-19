@@ -26,6 +26,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.76, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6869801454823817681}
   - {fileID: 2847529935406138119}
@@ -43,6 +44,7 @@ GameObject:
   - component: {fileID: 2847529935406138119}
   - component: {fileID: 3253164674023464727}
   - component: {fileID: 1787677679050897172}
+  - component: {fileID: 3008289153327455960}
   m_Layer: 0
   m_Name: House_Lamp_Lamp
   m_TagString: Untagged
@@ -60,6 +62,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.1806197, y: 1.9832177, z: -20.59364}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1727894036555513007}
   m_RootOrder: 1
@@ -115,6 +118,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3008289153327455960
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4707439861617905742}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1404310310101099609, guid: 90de6738a7d5d6445a7e8189e56d1083, type: 3}
 --- !u!1 &7018672088805775679
 GameObject:
   m_ObjectHideFlags: 0
@@ -126,6 +143,7 @@ GameObject:
   - component: {fileID: 6869801454823817681}
   - component: {fileID: 2285097517450228551}
   - component: {fileID: 423720976461920737}
+  - component: {fileID: 2932017757138074606}
   m_Layer: 0
   m_Name: House_Lamp_Base
   m_TagString: Untagged
@@ -143,6 +161,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.956331, y: 2.245317, z: -20.590988}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1727894036555513007}
   m_RootOrder: 0
@@ -197,3 +216,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2932017757138074606
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7018672088805775679}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2575867846032577437, guid: 90de6738a7d5d6445a7e8189e56d1083, type: 3}

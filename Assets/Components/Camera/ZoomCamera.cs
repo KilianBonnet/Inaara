@@ -8,6 +8,7 @@ public class ZoomCamera : Interactable
     [SerializeField] CinemachineVirtualCamera virtualCamera;
     [SerializeField] float cameraDistance;
     [SerializeField] float cameraAngle;
+    [SerializeField] bool destroyOnExit;
     [SerializeField] bool turnAroundTarget;
     public GameObject target;
     CinemachineComponentBase componentBase;
@@ -65,6 +66,8 @@ public class ZoomCamera : Interactable
                 virtualCamera.transform.eulerAngles.z);
             virtualCamera.m_Follow = GameObject.FindGameObjectWithTag("Player").transform;
         }
+
+        if (destroyOnExit) Destroy(gameObject);
     }
 
     public override void Interact()
