@@ -903,7 +903,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: dialogues.Array.size
-      value: 12
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: dialogues.Array.data[0].dialogue
@@ -955,7 +955,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: dialogues.Array.data[11].dialogue
-      value: bla
+      value: "Vous avez cherch\xE9 une solution pour dissiper le brouillard ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
+      propertyPath: dialogues.Array.data[12].dialogue
+      value: "On raconte qu'autrefois, \xE9couter les derniers voeux des autels permettait
+        de faire reposer les \xE2mes en paix. Cependant \xE9tant moi-m\xEAme plus
+        de ce monde, il est impossible pour moi m'y adonner."
+      objectReference: {fileID: 0}
+    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
+      propertyPath: dialogues.Array.data[13].dialogue
+      value: 'Est-ce que je peux me rendre utile ? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
+      propertyPath: dialogues.Array.data[14].dialogue
+      value: "Vous devriez commencer vos recherches pr\xE8s des autels. Si vous vous
+        sentez pr\xEAte, revenez me parler."
+      objectReference: {fileID: 0}
+    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
+      propertyPath: dialogues.Array.data[15].dialogue
+      value: 'Est-ce que je peux me rendre utile ? '
       objectReference: {fileID: 0}
     - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: dialogues.Array.data[0].audioPitch
@@ -1010,6 +1029,22 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
+      propertyPath: dialogues.Array.data[12].audioPitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
+      propertyPath: dialogues.Array.data[13].audioPitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
+      propertyPath: dialogues.Array.data[14].audioPitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
+      propertyPath: dialogues.Array.data[15].audioPitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: dialogues.Array.data[1].speakerName
       value: Inaara
       objectReference: {fileID: 0}
@@ -1053,13 +1088,29 @@ PrefabInstance:
       propertyPath: dialogues.Array.data[11].speakerName
       value: Inaara
       objectReference: {fileID: 0}
+    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
+      propertyPath: dialogues.Array.data[12].speakerName
+      value: '?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
+      propertyPath: dialogues.Array.data[13].speakerName
+      value: Inaara
+      objectReference: {fileID: 0}
+    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
+      propertyPath: dialogues.Array.data[14].speakerName
+      value: '?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
+      propertyPath: dialogues.Array.data[15].speakerName
+      value: '?'
+      objectReference: {fileID: 0}
     - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: ShouldBeDestroyed
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: dialogues.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: dialogues.Array.data[0].script
@@ -1072,10 +1123,14 @@ PrefabInstance:
     - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: dialogues.Array.data[2].script
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
+      propertyPath: dialogues.Array.data[3].script
+      value: 
       objectReference: {fileID: 1192176614}
     - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: dialogues.Array.data[0].dialogue
-      value: "\xCAtes-vous pr\xEAt \xE0 guider ces derniers d\xE9sirs vers l'au-del\xE0
+      value: "\xCAtes-vous pr\xEAte \xE0 guider ces derniers d\xE9sirs vers l'au-del\xE0
         ?"
       objectReference: {fileID: 0}
     - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
@@ -1087,8 +1142,12 @@ PrefabInstance:
       value: Que chance soit votre durant ce voyage dans le brouillard.
       objectReference: {fileID: 0}
     - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
+      propertyPath: dialogues.Array.data[3].dialogue
+      value: "Le brouillard en face de vous s'est dissip\xE9."
+      objectReference: {fileID: 0}
+    - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: dialogues.Array.data[0].audioPitch
-      value: 1
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: dialogues.Array.data[1].audioPitch
@@ -1097,6 +1156,10 @@ PrefabInstance:
     - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: dialogues.Array.data[2].audioPitch
       value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
+      propertyPath: dialogues.Array.data[3].audioPitch
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: dialogues.Array.data[0].speakerName
@@ -1109,6 +1172,10 @@ PrefabInstance:
     - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: dialogues.Array.data[2].speakerName
       value: '?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
+      propertyPath: dialogues.Array.data[3].speakerName
+      value: Brouillard
       objectReference: {fileID: 0}
     - target: {fileID: 993745909775457146, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: m_Name
@@ -2167,7 +2234,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ed1eecc965cd02849b257e9fc1ffc7ba, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.1
+  m_Volume: 0.05
   m_Pitch: 0.4
   Loop: 1
   Mute: 0
@@ -3126,6 +3193,7 @@ MonoBehaviour:
   moveSpeed: 7
   rb: {fileID: 1017852453}
   inversed: 0
+  maxSlopeAngle: 30
 --- !u!54 &1017852453
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3931,6 +3999,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questName: 
   questDescription: 
+  npc: {fileID: 2119454892}
 --- !u!4 &1192176613
 Transform:
   m_ObjectHideFlags: 0
@@ -6181,10 +6250,33 @@ MonoBehaviour:
   ShouldBeDestroyed: 1
   IsTerminated: 0
   dialogues:
-  - speakerName: Estout
+  - speakerName: Voix 1
+    audioPitch: 0.5
+    script: {fileID: 0}
+    dialogue: "La situation est critique et nous n'avons que tr\xE8s peu de temps."
+  - speakerName: Voix 2
+    audioPitch: 1.3
+    script: {fileID: 0}
+    dialogue: Monsieur le maire, que proposez vous ?
+  - speakerName: Maire
+    audioPitch: 0.5
+    script: {fileID: 0}
+    dialogue: "Depuis des si\xE8cles, nous l'avons attendu ... \xC0 chaque g\xE9n\xE9ration,
+      la brume devient de plus en plus \xE9paisse. Nous serons la derni\xE8re."
+  - speakerName: Voix 3
+    audioPitch: 0.75
+    script: {fileID: 0}
+    dialogue: "\"Le brouillard est la materialisation des d\xE9sirs inachev\xE9s\",
+      n'est-ce pas."
+  - speakerName: Maire
+    audioPitch: 0.5
+    script: {fileID: 0}
+    dialogue: "T\xE2chons de prosp\xE9rer la l\xE9gende le plus longtemps possible
+      ..."
+  - speakerName: Autel
     audioPitch: 1
     script: {fileID: 1148504766}
-    dialogue: Faut que je trouve un dialogue
+    dialogue: Vous activez l'autel ...
 --- !u!114 &1970536203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6606,6 +6698,25 @@ MonoBehaviour:
     audioPitch: 0.6
     script: {fileID: 0}
     dialogue: Le brouillard ...
+--- !u!114 &2119454902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119454892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd698d4d5639ef4f9a0d6968c377853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShouldBeDestroyed: 0
+  IsTerminated: 0
+  dialogues:
+  - speakerName: '?'
+    audioPitch: 0.6
+    script: {fileID: 0}
+    dialogue: Yo
 --- !u!1 &2125085474
 GameObject:
   m_ObjectHideFlags: 0
