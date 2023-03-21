@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class AltarQuest : Quest
 {
+    [SerializeField] private GameObject npc;
+    
     private Altar[] altars;
     private QuestManager questManager;
 
@@ -48,6 +50,10 @@ public class AltarQuest : Quest
         
         questName = "Voyage dans le brouillard";
         questDescription = "Faites votre rapport à la présence à l'entrée du bois.";
+
+        DialogueManager loopDialogue = npc.GetComponent<DialogueManager>();
+        loopDialogue.ShouldBeDestroyed = true;
+        loopDialogue.IsTerminated = true;
         
         questManager.Add(this);
     }

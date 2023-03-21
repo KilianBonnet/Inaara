@@ -5,7 +5,7 @@ public class DialogueBoxAnimatior : MonoBehaviour
 {
     public bool isOnAnimation;
     
-    [SerializeField] private float characterPerSecond = 20;
+    private float characterPerSecond = 25;
     private float characterFrequency;
         
     private float timeBuffer;

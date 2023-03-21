@@ -2234,7 +2234,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ed1eecc965cd02849b257e9fc1ffc7ba, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.1
+  m_Volume: 0.05
   m_Pitch: 0.4
   Loop: 1
   Mute: 0
@@ -3649,37 +3649,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1130383113
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1130383114}
-  m_Layer: 0
-  m_Name: Talk to NPC Quest
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1130383114
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1130383113}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 320.1065, y: 686.6746, z: -26.681099}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1136184493
 GameObject:
   m_ObjectHideFlags: 0
@@ -4030,6 +3999,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questName: 
   questDescription: 
+  npc: {fileID: 2119454892}
 --- !u!4 &1192176613
 Transform:
   m_ObjectHideFlags: 0
@@ -6280,10 +6250,33 @@ MonoBehaviour:
   ShouldBeDestroyed: 1
   IsTerminated: 0
   dialogues:
-  - speakerName: Estout
+  - speakerName: Voix 1
+    audioPitch: 0.5
+    script: {fileID: 0}
+    dialogue: "La situation est critique et nous n'avons que tr\xE8s peu de temps."
+  - speakerName: Voix 2
+    audioPitch: 1.3
+    script: {fileID: 0}
+    dialogue: Monsieur le maire, que proposez vous ?
+  - speakerName: Maire
+    audioPitch: 0.5
+    script: {fileID: 0}
+    dialogue: "Depuis des si\xE8cles, nous l'avons attendu ... \xC0 chaque g\xE9n\xE9ration,
+      la brume devient de plus en plus \xE9paisse. Nous serons la derni\xE8re."
+  - speakerName: Voix 3
+    audioPitch: 0.75
+    script: {fileID: 0}
+    dialogue: "\"Le brouillard est la materialisation des d\xE9sirs inachev\xE9s\",
+      n'est-ce pas."
+  - speakerName: Maire
+    audioPitch: 0.5
+    script: {fileID: 0}
+    dialogue: "T\xE2chons de prosp\xE9rer la l\xE9gende le plus longtemps possible
+      ..."
+  - speakerName: Autel
     audioPitch: 1
     script: {fileID: 1148504766}
-    dialogue: Faut que je trouve un dialogue
+    dialogue: Vous activez l'autel ...
 --- !u!114 &1970536203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6705,6 +6698,25 @@ MonoBehaviour:
     audioPitch: 0.6
     script: {fileID: 0}
     dialogue: Le brouillard ...
+--- !u!114 &2119454902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119454892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd698d4d5639ef4f9a0d6968c377853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShouldBeDestroyed: 0
+  IsTerminated: 0
+  dialogues:
+  - speakerName: '?'
+    audioPitch: 0.6
+    script: {fileID: 0}
+    dialogue: Yo
 --- !u!1 &2125085474
 GameObject:
   m_ObjectHideFlags: 0
