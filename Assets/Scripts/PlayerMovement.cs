@@ -43,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
         }
         
         // Find the Animator
-        if ((animator = FindObjectOfType<Animator>()) == null)
+        if ((animator = GetComponent<Animator>()) == null)
         {
             Debug.LogWarning("Cannot find object of type Animator!");
             hasAnimator = false;
