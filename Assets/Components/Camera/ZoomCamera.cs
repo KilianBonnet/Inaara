@@ -14,6 +14,7 @@ public class ZoomCamera : Interactable
     CinemachineComponentBase componentBase;
 
     private bool doRotation;
+    public int angleY=0;
 
     private void Start()
     {
@@ -62,7 +63,7 @@ public class ZoomCamera : Interactable
             doRotation = false;
             virtualCamera.transform.eulerAngles = new Vector3(
                 45,
-                0,
+                angleY,
                 virtualCamera.transform.eulerAngles.z);
             virtualCamera.m_Follow = GameObject.FindGameObjectWithTag("Player").transform;
         }
