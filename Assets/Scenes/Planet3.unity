@@ -1388,7 +1388,7 @@ Terrain:
   m_TerrainData: {fileID: 15600000, guid: c266eecbfbbe4f841883912c3b55839f, type: 2}
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
-  m_TreeCrossFadeLength: 5
+  m_TreeCrossFadeLength: 30
   m_TreeMaximumFullLODCount: 50
   m_DetailObjectDistance: 80
   m_DetailObjectDensity: 1
@@ -6460,7 +6460,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1896078826}
-  m_RootOrder: 12
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &676794114
 PrefabInstance:
@@ -16034,10 +16034,10 @@ Transform:
   - {fileID: 554935832}
   - {fileID: 1386206648}
   - {fileID: 136128842}
+  - {fileID: 671929810}
   - {fileID: 108828290}
   - {fileID: 1400687436}
   - {fileID: 88574178}
-  - {fileID: 671929810}
   m_Father: {fileID: 113118776}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19078,7 +19078,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0f9dcf71bfe494ab9a777a957e6615f3, type: 2}
+  - {fileID: 2100000, guid: 7a2d84c5fa819415cad63857c2a30b64, type: 2}
   - {fileID: 5629084884208175553, guid: 34568be95ab1c0a4394c111c7aaa0b92, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
