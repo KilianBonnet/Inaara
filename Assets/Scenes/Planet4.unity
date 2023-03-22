@@ -3363,7 +3363,7 @@ MonoBehaviour:
   moveSpeed: 7
   rb: {fileID: 1017852453}
   inversed: 0
-  maxSlopeAngle: 30
+  maxSlopeAngle: 20
 --- !u!54 &1017852453
 Rigidbody:
   m_ObjectHideFlags: 0
