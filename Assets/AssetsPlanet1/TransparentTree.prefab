@@ -112,9 +112,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 857dc6118bc2444479fd1afced949d05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeDistance: 5
+  fadeDistance: 20
   maxAlpha: 1
-  targetRigidbody: {fileID: 0}
   threshold: 1
-  material1: {fileID: 2100000, guid: 0f9dcf71bfe494ab9a777a957e6615f3, type: 2}
-  material2: {fileID: 2100000, guid: 45da922deb1ac434bb1781a3c4f3b3f3, type: 2}

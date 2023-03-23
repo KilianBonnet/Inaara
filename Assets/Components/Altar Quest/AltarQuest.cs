@@ -5,10 +5,10 @@ public class AltarQuest : Quest
     [SerializeField] private GameObject npc;
     
     private Altar[] altars;
+    
+    private readonly string desctiptionRoot = "Inspecter les autels de la planète ";
     private QuestManager questManager;
 
-    private readonly string desctiptionRoot = "Inspecter les autels de la planète ";
-        
     private void Start()
     {
         if ((questManager = FindObjectOfType<QuestManager>()) == null)

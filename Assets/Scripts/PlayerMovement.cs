@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private Rigidbody rb;
     [SerializeField] public bool inversed;
-    
+
     [Tooltip("Maximum angle of slope the player can climb")]
     [SerializeField] private float maxSlopeAngle = 5f;
     
@@ -43,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
         }
         
         // Find the Animator
-        if ((animator = FindObjectOfType<Animator>()) == null)
+        if ((animator = GetComponent<Animator>()) == null)
         {
             Debug.LogWarning("Cannot find object of type Animator!");
             hasAnimator = false;
@@ -92,7 +92,7 @@ public class PlayerMovement : MonoBehaviour
             // Check if the slope is too sharp
             if (slopeAngle > maxSlopeAngle)
             {
-                transform.localPosition += Vector3.back * .1f;
+                transform.localPosition += inversed ? Vector3.right : Vector3.back * .15f;
                 return;
             }
         }
