@@ -8480,7 +8480,7 @@ MonoBehaviour:
   - speakerName: Inaara
     audioPitch: 1
     script: {fileID: 0}
-    dialogue: Comptez sur moi
+    dialogue: Comptez sur moi.
 --- !u!114 &988481578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8580,7 +8580,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionText: Parler
-  interactionRange: 3
+  interactionRange: 2
 --- !u!1 &1014077124
 GameObject:
   m_ObjectHideFlags: 0
