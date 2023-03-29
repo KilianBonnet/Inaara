@@ -2,13 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MachinQuest : Quest
+public class VeilleHomeQuest : Quest
 {
+    private QuestManager questManager;
+    
     // Start is called before the first frame update
     void Start()
     {
+        questManager = FindObjectOfType<QuestManager>();
+            
+            
         questName = "a";
-        questDescription = "b";
+        questDescription = "0/1";
     }
 
     // Update is called once per frame
@@ -20,5 +25,9 @@ public class MachinQuest : Quest
     public override void BeginQuest()
     {
         Debug.Log("quest started !");
+        questManager.Add(this);
+
+        questDescription = "1/1";
+        questManager.Refresh(this);
     }
 }

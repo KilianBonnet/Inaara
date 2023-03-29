@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : Interactable
+public class VeilleHomeQuestInteractible : Interactable
 {
-    //il s'appelle machinquest interactble
+    public VeilleHomeQuest VeilleHomeQuest;
     // Start is called before the first frame update
     public override void Interact()
     {
-        FindObjectOfType<MachinQuest>().BeginQuest();
+        FindObjectOfType<VeilleHomeQuest>().BeginQuest();
         ShouldBeDestroyed = true;
         IsTerminated = true;
     }
