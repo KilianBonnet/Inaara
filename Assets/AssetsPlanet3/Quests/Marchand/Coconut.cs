@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WelcomeNPCInteractable : Interactable
+public class Coconut : Interactable
 {
 
     private MarchandQuest marchandQuest;
@@ -21,8 +21,8 @@ public class WelcomeNPCInteractable : Interactable
 
     public override void Interact()
     {
-        marchandQuest.ChangeObjective("Parler au marchand de moteurs spatiaux");
-        marchandQuest.ActiveMerchandNPC();
+        GetComponent<MeshRenderer>().enabled = false;
+        marchandQuest.AddOneCoconut();
         IsTerminated = true;
     }
 }

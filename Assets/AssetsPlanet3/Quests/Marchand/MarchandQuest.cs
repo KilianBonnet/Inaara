@@ -5,6 +5,13 @@ using UnityEngine;
 public class MarchandQuest : Quest
 {
 
+    private GameObject merchandNpc;
+    private GameObject oasisNpc;
+    private GameObject pyramidNpc;
+    private GameObject obeliskNpc;
+    
+    private int coconutsFound = 0;
+
     void Awake()
     {
         StartCoroutine(StartQuest());
@@ -19,18 +26,58 @@ public class MarchandQuest : Quest
     public override void BeginQuest()
     {
         questManager.Add(this);
+        
+        merchandNpc = GameObject.Find("MerchandNPC");
+        oasisNpc = GameObject.Find("OasisNPC");
+        pyramidNpc = GameObject.Find("PyramidNPC");
+        obeliskNpc = GameObject.Find("ObeliskNPC");
     }
 
     public void ChangeObjective(string description)
     {
         questDescription = description;
         questManager.Refresh(this);
-        //questManager.enabled = false;
+    }
+
+    public void ActiveMerchandNPC()
+    {
+        merchandNpc.GetComponent<Interactor>().enabled = true;
+        ActiveZoomCamera("ZoomGenerator");
+        ActiveZoomCamera("TopOfDune");
+    }
+    
+    public void ActiveOasisNPC()
+    {
+        oasisNpc.GetComponent<Interactor>().enabled = true;
+        ActiveZoomCamera("FirstTimeOasis");
+    }
+
+    public void AddOneCoconut()
+    {
+        coconutsFound++;
+        
+        if (coconutsFound == 5)
+        {
+            ChangeObjective("Reparler à l'Apo près de l'Oasis");
+            
+            Destroy(oasisNpc.GetComponent<DialogueManager>());
+            //oasisNpc.GetComponent<DialogueManager>().enabled = true;
+        }
+        else
+        {
+            ChangeObjective("Ramasser les noix de coco autour de l'Oasis " + coconutsFound + "/5");
+        }
     }
 
     private IEnumerator StartQuest()
     {
         yield return new WaitForSeconds(1);
         BeginQuest();
+    }
+
+    private void ActiveZoomCamera(string zoom)
+    {
+        GameObject.Find(zoom).GetComponent<BoxCollider>().enabled = true;
+        GameObject.Find(zoom).GetComponent<ZoomCamera>().enabled = true;
     }
 }

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WelcomeNPCInteractable : Interactable
+public class MerchandNPCInteractable : Interactable
 {
 
     private MarchandQuest marchandQuest;
@@ -21,8 +21,8 @@ public class WelcomeNPCInteractable : Interactable
 
     public override void Interact()
     {
-        marchandQuest.ChangeObjective("Parler au marchand de moteurs spatiaux");
-        marchandQuest.ActiveMerchandNPC();
+        marchandQuest.ChangeObjective("Parler à l'Apo près de l'Oasis");
+        marchandQuest.ActiveOasisNPC();
         IsTerminated = true;
     }
 }
