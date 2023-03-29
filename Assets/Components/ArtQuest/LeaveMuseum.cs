@@ -14,7 +14,7 @@ public class LeaveMuseum : Interactable
     public override void Interact()
     {
         if(canLeave)
-            SceneManager.LoadScene("Planet1");
+            SceneManager.LoadScene("Planet1_2");
         IsTerminated = true;
     }
 }
