@@ -12,9 +12,10 @@ public class PlayerMovement : MonoBehaviour
 
     [Tooltip("Maximum angle of slope the player can climb")]
     [SerializeField] private float maxSlopeAngle = 5f;
-    
     private Terrain terrain;
     private bool hasTerrain = true;
+    private Vector3 lastValidPosition;
+    private Quaternion lastValidRotation;
     
     private Animator animator;
     private bool hasAnimator = true;
@@ -40,6 +41,9 @@ public class PlayerMovement : MonoBehaviour
         {
             Debug.LogWarning("Cannot find object of type Terrain!");
             hasTerrain = false;
+            Transform t = transform;
+            lastValidPosition = t.position;
+            lastValidRotation = t.rotation;
         }
         
         // Find the Animator
@@ -48,8 +52,7 @@ public class PlayerMovement : MonoBehaviour
             Debug.LogWarning("Cannot find object of type Animator!");
             hasAnimator = false;
         }
-        
-        
+
         isRunningHash = Animator.StringToHash("isRunning");
     }
 
@@ -92,9 +95,13 @@ public class PlayerMovement : MonoBehaviour
             // Check if the slope is too sharp
             if (slopeAngle > maxSlopeAngle)
             {
-                transform.localPosition += inversed ? Vector3.right : Vector3.back * .15f;
+                transform.position = lastValidPosition;
+                transform.rotation = lastValidRotation;
                 return;
             }
+            
+            lastValidPosition = transform.position;
+            lastValidRotation = transform.rotation;
         }
         
         rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
