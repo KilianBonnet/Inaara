@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MarchandQuestInteractable : Interactable
+public class WelcomeNPCInteractable : Interactable
 {
 
     private MarchandQuest marchandQuest;
@@ -21,7 +21,7 @@ public class MarchandQuestInteractable : Interactable
 
     public override void Interact()
     {
-        marchandQuest.ChangeObjective("nouveau truc");
+        marchandQuest.ChangeObjective("Parler au marchand");
         IsTerminated = true;
     }
 }
