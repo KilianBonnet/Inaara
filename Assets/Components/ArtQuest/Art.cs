@@ -1,6 +1,3 @@
-
-
-using System;
 using System.Collections;
 using UnityEngine;
 
@@ -23,7 +20,7 @@ public class Art : Interactable
 
     public IEnumerator DelayedEnd()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(1);
         
         hasBeenWatched = true;
         IsTerminated = true;

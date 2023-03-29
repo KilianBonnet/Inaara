@@ -4,10 +4,12 @@ using UnityEngine;
 public class ArtQuest : Quest
 {
     private Art[] arts;
+    private LeaveMuseum leaveMuseum;
 
     private void Awake()
     {
         arts = FindObjectsOfType<Art>();
+        leaveMuseum = FindObjectOfType<LeaveMuseum>();
     }
 
     public override void BeginQuest()
@@ -34,7 +36,8 @@ public class ArtQuest : Quest
     private void TerminateQuest()
     {
         questManager.Remove(this);
-
+        leaveMuseum.canLeave = true;
         foreach(Transform child in GameObject.Find("EnterSpaceship").transform) child.gameObject.SetActive(true);
     }
+    
 }
