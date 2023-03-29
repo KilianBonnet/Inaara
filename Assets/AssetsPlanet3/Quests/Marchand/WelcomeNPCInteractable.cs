@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MarchandQuestInteractable : Interactable
+public class WelcomeNPCInteractable : Interactable
 {
 
     private MarchandQuest marchandQuest;

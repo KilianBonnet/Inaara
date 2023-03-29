@@ -1929,108 +1929,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 66156307665568996, guid: deb5f079b370e9440a838ce9135e7c82, type: 3}
   m_PrefabInstance: {fileID: 136471957}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &141303764
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1421193564}
-    m_Modifications:
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 144.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.89
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 315.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457089, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: interactionText
-      value: Apo
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[0].dialogue
-      value: "Salut, tu pourrais m'aider \xE0 r\xE9cup\xE9rer toutes les noix de
-        coco autour de l'oasis ? Reviens me voir une fois que c'est fait, je te donnerais
-        quelques Galacoin."
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[0].audioPitch
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[0].speakerName
-      value: Apo
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[0].dialogue
-      value: Merci beaucoup, voici 40 Galacoin pour te remercier ! Va voir l'Apo
-        qui est proche de la vielle pyramide au nord-ouest du village, il pourra
-        t'aider pour avoir encore plus de Galacoin !
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[0].audioPitch
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[0].speakerName
-      value: Apo
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457146, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_Name
-      value: OasisNPC
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
---- !u!4 &141303765 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-  m_PrefabInstance: {fileID: 141303764}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &143424340
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7455,154 +7353,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 404184, guid: 587331bb58ede6149bd7d31473a36202, type: 3}
   m_PrefabInstance: {fileID: 682611127}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &696846636
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1421193564}
-    m_Modifications:
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -121.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.98
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 319.81473
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457089, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: interactionText
-      value: Apo
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[0].dialogue
-      value: "Salut tu aimes les pyramides ? Car moi oui j'adore \xE7a !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[1].dialogue
-      value: "Tu ne chercherais pas \xE0 gagner des Galacoin par hasard ? Car si
-        oui tu peux rejoindre mon nouveau groupe que je viens de cr\xE9er expr\xE8s
-        pour les fans de pyramides !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[2].dialogue
-      value: "Tout ce que tu as \xE0 me dire c'est \"J'ADORE LES PYRAMIDES\" et voil\xE0
-        tu pourras r\xE9cup\xE9rer les 40 Galacoin offert \xE0 tous les nouveaux
-        membres de la sect... EUH du groupe !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[3].dialogue
-      value: Euh... J'ADORE LES PYRAMIDES ?
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[4].dialogue
-      value: "Vous rejoignez le groupe nomm\xE9 \"Illuminati\" et recevez 40 Galacoin."
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[5].dialogue
-      value: "Il te faut encore des Galacoin ? Tu peux aller sur la route au sud
-        qui te conduira \xE0 l'ob\xE9lisque, un Apo pourra peut-\xEAtre t'aider."
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[0].audioPitch
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[1].audioPitch
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[2].audioPitch
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[3].audioPitch
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[4].audioPitch
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[5].audioPitch
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[0].speakerName
-      value: Apo
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[1].speakerName
-      value: Apo
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[2].speakerName
-      value: Apo
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[3].speakerName
-      value: Inaara
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[4].speakerName
-      value: Groupe suspect
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[5].speakerName
-      value: Apo
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457146, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_Name
-      value: PyramidNPC
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-  m_SourcePrefab: {fileID: 100100000, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
---- !u!4 &696846637 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-  m_PrefabInstance: {fileID: 696846636}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &707175570
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7962,178 +7712,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6365925135875836904, guid: b4ad24c718721634daf45f66959e4307, type: 3}
---- !u!1001 &749779945
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1421193564}
-    m_Modifications:
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -83.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.87
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 176.16293
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457089, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: interactionText
-      value: Apo
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.size
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[0].dialogue
-      value: "Bonjour \xE0 toi, bienvenue \xE0 l'Ob\xE9lisque Sacr\xE9 du Centre
-        Lunaire des \xC9changes. C'est la premi\xE8re fois que tu viens on dirait..."
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[1].dialogue
-      value: "Dans ce cas-l\xE0 je vais v\xE9rifier si tu es digne d'obtenir la b\xE9n\xE9diction
-        de l'Ob\xE9lisque Sacr\xE9 pour la suite de ton voyage."
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[2].dialogue
-      value: "Voici une \xE9nigme tr\xE8s simple. Avec un S, je suis couvert de sable,
-        avec deux S, je suis plut\xF4t couvert de sucre. Qui suis-je ?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[3].dialogue
-      value: ...
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[4].dialogue
-      value: Tu ne sais pas ? Tu peux donner ta langue au Sphinx si tu veux.
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[5].dialogue
-      value: "Le d\xE9sert et le dessert ?\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[6].dialogue
-      value: "Bien jou\xE9, c'est la bonne r\xE9ponse ! Tu m\xE9rites la b\xE9n\xE9diction
-        de l'Ob\xE9lisque Sacr\xE9 !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[7].dialogue
-      value: "Voici 40 Galacoin en r\xE9compense. Que l'Ob\xE9lisque Sacr\xE9 t'accompagne
-        tout au long de ton voyage."
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[0].audioPitch
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[1].audioPitch
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[2].audioPitch
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[3].audioPitch
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[4].audioPitch
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[5].audioPitch
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[6].audioPitch
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[7].audioPitch
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[0].speakerName
-      value: Apo
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[1].speakerName
-      value: Apo
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[2].speakerName
-      value: Apo
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[3].speakerName
-      value: Inaara
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[4].speakerName
-      value: Apo
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[5].speakerName
-      value: Inaara
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[6].speakerName
-      value: Apo
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[7].speakerName
-      value: Apo
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457146, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_Name
-      value: ObeliskNPC
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-  m_SourcePrefab: {fileID: 100100000, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
---- !u!4 &749779946 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-  m_PrefabInstance: {fileID: 749779945}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &761640179 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1122706359430475630, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
@@ -8577,6 +8155,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3157915722995381223, guid: 4cd767daf670682449986ef6564943e1, type: 3}
   m_PrefabInstance: {fileID: 843843266}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &846903829 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+  m_PrefabInstance: {fileID: 1884811601}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &849418284
 GameObject:
@@ -9349,246 +8932,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &948509550
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1421193564}
-    m_Modifications:
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 63.129974
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.2400002
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 219.58295
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457089, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: interactionText
-      value: Marchand
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457089, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: interactionRange
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.size
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[3].script
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[4].script
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[5].script
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[6].script
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[7].script
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[8].script
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[9].script
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[0].dialogue
-      value: "Bien le bonjour mademoiselle, qu'est-ce qui vous am\xE8ne aujourd'hui
-        ?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[1].dialogue
-      value: "Bonjour, j'aimerais vous acheter ce pilier de lumi\xE8re. J'en ai besoin
-        pour remplacer celui de mon vaisseau qui a \xE9t\xE9 sabot\xE9."
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[2].dialogue
-      value: "D'accord je vois et bien vous avez de la chance alors c'est le dernier
-        que j'ai en stock. \xC7a fera 120 Galacoin s'il vous pla\xEEt."
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[3].dialogue
-      value: 120 Gala... coin... ? Qu'est-ce que c'est ?
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[4].dialogue
-      value: "Mademoiselle enfin, vous \xEAtes au Centre Lunaire des \xC9changes
-        et vous ne connaissez pas le Galacoin ?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[5].dialogue
-      value: "Je ne sais pas d'o\xF9 vous venez mais le Galacoin est la monnaie standard
-        de l'univers tout entier."
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[6].dialogue
-      value: Ce n'est pas grave si vous n'en avez pas, vous pouvez essayer d'en gagner
-        en aidant les Apos qui en ont besoin.
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[7].dialogue
-      value: "Va voir \xE0 l'oasis au nord-est du village, tu trouveras un Apo qui
-        pourra t'aider."
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[8].dialogue
-      value: "Par rapport \xE0 ici, l'oasis se trouve au nord est, la vielle pyramide
-        au nord ouest et enfin l'ob\xE9lisque a l'ouest. Bon courage !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[9].dialogue
-      value: Super merci beaucoup !
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[0].audioPitch
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[1].audioPitch
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[2].audioPitch
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[3].audioPitch
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[4].audioPitch
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[5].audioPitch
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[6].audioPitch
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[7].audioPitch
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[0].speakerName
-      value: Marchand
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[1].speakerName
-      value: Inaara
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[2].speakerName
-      value: Marchand
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[3].speakerName
-      value: Inaara
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[4].speakerName
-      value: Marchand
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[5].speakerName
-      value: Marchand
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[6].speakerName
-      value: Marchand
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[7].speakerName
-      value: Marchand
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[8].speakerName
-      value: Marchand
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[9].speakerName
-      value: Inaara
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[0].dialogue
-      value: "Merveilleux, tu as r\xE9ussi \xE0 r\xE9cup\xE9rer assez de Galacoin
-        pour t'offrir ce super pilier de lumi\xE8re ! Ravi d'avoir fait affaire avec
-        vous et bonne continuation."
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[0].audioPitch
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[0].speakerName
-      value: Marchand
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457146, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_Name
-      value: MarchandNPC
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
---- !u!4 &948509551 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-  m_PrefabInstance: {fileID: 948509550}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &949567856
 GameObject:
   m_ObjectHideFlags: 0
@@ -10122,149 +9465,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8241013910951152780, guid: 07b9db8a4c5b12449b9ee8e9fbccd558, type: 3}
   m_PrefabInstance: {fileID: 984993228}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1011850169
-PrefabInstance:
+--- !u!114 &1014810107
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1421193564}
-    m_Modifications:
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457089, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: interactionText
-      value: Apo
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[0].dialogue
-      value: "Salut ! Bienvenue au Centre Lunaire des \xC9changes ! C'est le seul
-        endroit de l'univers o\xF9 tu peux trouver tout ce que tu cherches !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[1].dialogue
-      value: "Est-ce que je peux m\xEAme trouver un nouveau pilier de lumi\xE8re
-        pour mon vaisseau ?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[2].dialogue
-      value: "Bien s\xFBr que oui ! Il y a un marchand qui est sp\xE9cialis\xE9 dans
-        les moteurs spatiaux !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[3].dialogue
-      value: "Continue ton chemin et tu arriveras au march\xE9, il se trouve au milieu
-        \xE0 c\xF4t\xE9 du puits donc tu ne peux pas le rater !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[4].dialogue
-      value: Merci beaucoup !
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[5].dialogue
-      value: Merci beaucoup !
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[0].audioPitch
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[1].audioPitch
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[2].audioPitch
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[3].audioPitch
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[4].audioPitch
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[0].speakerName
-      value: Apo
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[1].speakerName
-      value: Inaara
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[2].speakerName
-      value: Apo
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[3].speakerName
-      value: Apo
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[4].speakerName
-      value: Inaara
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: dialogues.Array.data[5].speakerName
-      value: Inaara
-      objectReference: {fileID: 0}
-    - target: {fileID: 993745909775457146, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-      propertyPath: m_Name
-      value: WelcomeNPC
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 993745909775457091, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-  m_SourcePrefab: {fileID: 100100000, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
---- !u!4 &1011850170 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 993745909775457088, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
-  m_PrefabInstance: {fileID: 1011850169}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910383395011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e613c50e8122e9e45a6bba8c4b484bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShouldBeDestroyed: 1
+  IsTerminated: 0
 --- !u!1001 &1016048117
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13651,11 +12865,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1011850170}
-  - {fileID: 948509551}
-  - {fileID: 749779946}
-  - {fileID: 696846637}
-  - {fileID: 141303765}
+  - {fileID: 993745910383395065}
+  - {fileID: 993745910454337582}
+  - {fileID: 993745910118310057}
+  - {fileID: 993745910169129580}
+  - {fileID: 993745909643068564}
   m_Father: {fileID: 185172033}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15964,108 +15178,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1727894036555513007, guid: 0f2e7b5cff628ea42ac22c632b2d19e5, type: 3}
   m_PrefabInstance: {fileID: 1634891850}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1640666712
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1939414828}
-    m_Modifications:
-    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 602.2128
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 647.2809
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 353
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -462.06555
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069232058492419161, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-      propertyPath: m_Name
-      value: Quest Manager
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
---- !u!224 &1640666713 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
-  m_PrefabInstance: {fileID: 1640666712}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1641883525
 PrefabInstance:
@@ -18432,6 +17544,103 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6104174596477514252, guid: 7d9f1db505de9284f931d63b6329dbc9, type: 3}
   m_PrefabInstance: {fileID: 1879939730}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1884811601
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1939414828}
+    m_Modifications:
+    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 602.2128
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 647.2809
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 353
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -462.06555
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069232058492419158, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069232058492419161, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
+      propertyPath: m_Name
+      value: Quest Manager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a2a8df15e7e1fb44485ab2b23a8b2799, type: 3}
 --- !u!1 &1896078825
 GameObject:
   m_ObjectHideFlags: 0
@@ -19219,7 +18428,7 @@ RectTransform:
   - {fileID: 25354441}
   - {fileID: 1202172048}
   - {fileID: 497095484}
-  - {fileID: 1640666713}
+  - {fileID: 846903829}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -21661,6 +20870,936 @@ CapsuleCollider:
   m_Height: 4.7221594
   m_Direction: 1
   m_Center: {x: -0.012704, y: 2.3475256, z: 0.018268786}
+--- !u!54 &993745909643068560
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745909643068590}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!136 &993745909643068561
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745909643068590}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5000001
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!23 &993745909643068562
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745909643068590}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 86068b75b2a25d54f992910c9fca1cd7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &993745909643068563
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745909643068590}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &993745909643068564
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745909643068590}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 144.13, y: -1.89, z: 315.45}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1421193564}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &993745909643068565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745909643068590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e89933d3614c848a627c0a459716c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: Apo
+  interactionRange: 3
+--- !u!114 &993745909643068566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745909643068590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd698d4d5639ef4f9a0d6968c377853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShouldBeDestroyed: 0
+  IsTerminated: 0
+  dialogues:
+  - speakerName: Apo
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "Salut, tu pourrais m'aider \xE0 r\xE9cup\xE9rer toutes les noix de
+      coco autour de l'oasis ? Reviens me voir une fois que c'est fait, je te donnerais
+      quelques Galacoin."
+--- !u!114 &993745909643068567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745909643068590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd698d4d5639ef4f9a0d6968c377853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShouldBeDestroyed: 0
+  IsTerminated: 0
+  dialogues:
+  - speakerName: Apo
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: Merci beaucoup, voici 40 Galacoin pour te remercier ! Va voir l'Apo
+      qui est proche de la vielle pyramide au nord-ouest du village, il pourra t'aider
+      pour avoir encore plus de Galacoin !
+--- !u!1 &993745909643068590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 993745909643068564}
+  - component: {fileID: 993745909643068563}
+  - component: {fileID: 993745909643068565}
+  - component: {fileID: 993745909643068562}
+  - component: {fileID: 993745909643068561}
+  - component: {fileID: 993745909643068560}
+  - component: {fileID: 993745909643068566}
+  - component: {fileID: 993745909643068567}
+  m_Layer: 0
+  m_Name: OasisNPC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &993745910118310035
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 993745910118310057}
+  - component: {fileID: 993745910118310062}
+  - component: {fileID: 993745910118310056}
+  - component: {fileID: 993745910118310063}
+  - component: {fileID: 993745910118310060}
+  - component: {fileID: 993745910118310061}
+  - component: {fileID: 993745910118310059}
+  m_Layer: 0
+  m_Name: ObeliskNPC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &993745910118310056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910118310035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e89933d3614c848a627c0a459716c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: Apo
+  interactionRange: 3
+--- !u!4 &993745910118310057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910118310035}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -83.9, y: 1.87, z: 176.16293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1421193564}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &993745910118310059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910118310035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd698d4d5639ef4f9a0d6968c377853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShouldBeDestroyed: 0
+  IsTerminated: 0
+  dialogues:
+  - speakerName: Apo
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "Bonjour \xE0 toi, bienvenue \xE0 l'Ob\xE9lisque Sacr\xE9 du Centre
+      Lunaire des \xC9changes. C'est la premi\xE8re fois que tu viens on dirait..."
+  - speakerName: Apo
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "Dans ce cas-l\xE0 je vais v\xE9rifier si tu es digne d'obtenir la
+      b\xE9n\xE9diction de l'Ob\xE9lisque Sacr\xE9 pour la suite de ton voyage."
+  - speakerName: Apo
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "Voici une \xE9nigme tr\xE8s simple. Avec un S, je suis couvert de
+      sable, avec deux S, je suis plut\xF4t couvert de sucre. Qui suis-je ?"
+  - speakerName: Inaara
+    audioPitch: 1
+    script: {fileID: 0}
+    dialogue: ...
+  - speakerName: Apo
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: Tu ne sais pas ? Tu peux donner ta langue au Sphinx si tu veux.
+  - speakerName: Inaara
+    audioPitch: 1
+    script: {fileID: 0}
+    dialogue: "Le d\xE9sert et le dessert ?\r"
+  - speakerName: Apo
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "Bien jou\xE9, c'est la bonne r\xE9ponse ! Tu m\xE9rites la b\xE9n\xE9diction
+      de l'Ob\xE9lisque Sacr\xE9 !"
+  - speakerName: Apo
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "Voici 40 Galacoin en r\xE9compense. Que l'Ob\xE9lisque Sacr\xE9 t'accompagne
+      tout au long de ton voyage."
+--- !u!136 &993745910118310060
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910118310035}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5000001
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!54 &993745910118310061
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910118310035}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!33 &993745910118310062
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910118310035}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &993745910118310063
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910118310035}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 86068b75b2a25d54f992910c9fca1cd7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &993745910169129558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 993745910169129580}
+  - component: {fileID: 993745910169129579}
+  - component: {fileID: 993745910169129581}
+  - component: {fileID: 993745910169129578}
+  - component: {fileID: 993745910169129577}
+  - component: {fileID: 993745910169129576}
+  - component: {fileID: 993745910169129582}
+  m_Layer: 0
+  m_Name: PyramidNPC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &993745910169129576
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910169129558}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!136 &993745910169129577
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910169129558}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5000001
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!23 &993745910169129578
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910169129558}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 86068b75b2a25d54f992910c9fca1cd7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &993745910169129579
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910169129558}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &993745910169129580
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910169129558}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -121.8, y: 3.98, z: 319.81473}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1421193564}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &993745910169129581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910169129558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e89933d3614c848a627c0a459716c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: Apo
+  interactionRange: 3
+--- !u!114 &993745910169129582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910169129558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd698d4d5639ef4f9a0d6968c377853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShouldBeDestroyed: 0
+  IsTerminated: 0
+  dialogues:
+  - speakerName: Apo
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "Salut tu aimes les pyramides ? Car moi oui j'adore \xE7a !"
+  - speakerName: Apo
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "Tu ne chercherais pas \xE0 gagner des Galacoin par hasard ? Car si
+      oui tu peux rejoindre mon nouveau groupe que je viens de cr\xE9er expr\xE8s
+      pour les fans de pyramides !"
+  - speakerName: Apo
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "Tout ce que tu as \xE0 me dire c'est \"J'ADORE LES PYRAMIDES\" et
+      voil\xE0 tu pourras r\xE9cup\xE9rer les 40 Galacoin offert \xE0 tous les nouveaux
+      membres de la sect... EUH du groupe !"
+  - speakerName: Inaara
+    audioPitch: 1
+    script: {fileID: 0}
+    dialogue: Euh... J'ADORE LES PYRAMIDES ?
+  - speakerName: Groupe suspect
+    audioPitch: 0
+    script: {fileID: 0}
+    dialogue: "Vous rejoignez le groupe nomm\xE9 \"Illuminati\" et recevez 40 Galacoin."
+  - speakerName: Apo
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "Il te faut encore des Galacoin ? Tu peux aller sur la route au sud
+      qui te conduira \xE0 l'ob\xE9lisque, un Apo pourra peut-\xEAtre t'aider."
+--- !u!1 &993745910383395011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 993745910383395065}
+  - component: {fileID: 993745910383395070}
+  - component: {fileID: 993745910383395064}
+  - component: {fileID: 993745910383395071}
+  - component: {fileID: 993745910383395068}
+  - component: {fileID: 993745910383395069}
+  - component: {fileID: 993745910383395067}
+  - component: {fileID: 993745910383395066}
+  - component: {fileID: 1014810107}
+  m_Layer: 0
+  m_Name: WelcomeNPC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &993745910383395064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910383395011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e89933d3614c848a627c0a459716c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: Apo
+  interactionRange: 3
+--- !u!4 &993745910383395065
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910383395011}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.33, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1421193564}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &993745910383395066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910383395011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd698d4d5639ef4f9a0d6968c377853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShouldBeDestroyed: 0
+  IsTerminated: 0
+  dialogues:
+  - speakerName: Apo
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "Va au march\xE9 un petit peu plus loin pour trouver ton bonheur !"
+--- !u!114 &993745910383395067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910383395011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd698d4d5639ef4f9a0d6968c377853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShouldBeDestroyed: 1
+  IsTerminated: 0
+  dialogues:
+  - speakerName: Apo
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "Salut ! Bienvenue au Centre Lunaire des \xC9changes ! C'est le seul
+      endroit de l'univers o\xF9 tu peux trouver tout ce que tu cherches !"
+  - speakerName: Inaara
+    audioPitch: 1
+    script: {fileID: 0}
+    dialogue: "Est-ce que je peux m\xEAme trouver un nouveau pilier de lumi\xE8re
+      pour mon vaisseau ?"
+  - speakerName: Apo
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "Bien s\xFBr que oui ! Il y a un marchand qui est sp\xE9cialis\xE9
+      dans les moteurs spatiaux !"
+  - speakerName: Apo
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "Continue ton chemin et tu arriveras au march\xE9, il se trouve au
+      milieu \xE0 c\xF4t\xE9 du puits donc tu ne peux pas le rater !"
+  - speakerName: Inaara
+    audioPitch: 1
+    script: {fileID: 1014810107}
+    dialogue: Merci beaucoup !
+--- !u!136 &993745910383395068
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910383395011}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5000001
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!54 &993745910383395069
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910383395011}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!33 &993745910383395070
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910383395011}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &993745910383395071
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910383395011}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 86068b75b2a25d54f992910c9fca1cd7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &993745910454337556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 993745910454337582}
+  - component: {fileID: 993745910454337577}
+  - component: {fileID: 993745910454337583}
+  - component: {fileID: 993745910454337576}
+  - component: {fileID: 993745910454337579}
+  - component: {fileID: 993745910454337578}
+  - component: {fileID: 993745910454337580}
+  - component: {fileID: 993745910454337581}
+  m_Layer: 0
+  m_Name: MarchandNPC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &993745910454337576
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910454337556}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 86068b75b2a25d54f992910c9fca1cd7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &993745910454337577
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910454337556}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &993745910454337578
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910454337556}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!136 &993745910454337579
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910454337556}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5000001
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &993745910454337580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910454337556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd698d4d5639ef4f9a0d6968c377853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShouldBeDestroyed: 0
+  IsTerminated: 0
+  dialogues:
+  - speakerName: Marchand
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "Bien le bonjour mademoiselle, qu'est-ce qui vous am\xE8ne aujourd'hui
+      ?"
+  - speakerName: Inaara
+    audioPitch: 1
+    script: {fileID: 0}
+    dialogue: "Bonjour, j'aimerais vous acheter ce pilier de lumi\xE8re. J'en ai
+      besoin pour remplacer celui de mon vaisseau qui a \xE9t\xE9 sabot\xE9."
+  - speakerName: Marchand
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "D'accord je vois et bien vous avez de la chance alors c'est le dernier
+      que j'ai en stock. \xC7a fera 120 Galacoin s'il vous pla\xEEt."
+  - speakerName: Inaara
+    audioPitch: 1
+    script: {fileID: 0}
+    dialogue: 120 Gala... coin... ? Qu'est-ce que c'est ?
+  - speakerName: Marchand
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "Mademoiselle enfin, vous \xEAtes au Centre Lunaire des \xC9changes
+      et vous ne connaissez pas le Galacoin ?"
+  - speakerName: Marchand
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "Je ne sais pas d'o\xF9 vous venez mais le Galacoin est la monnaie
+      standard de l'univers tout entier."
+  - speakerName: Marchand
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: Ce n'est pas grave si vous n'en avez pas, vous pouvez essayer d'en
+      gagner en aidant les Apos qui en ont besoin.
+  - speakerName: Marchand
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "Va voir \xE0 l'oasis au nord-est du village, tu trouveras un Apo qui
+      pourra t'aider."
+--- !u!114 &993745910454337581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910454337556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd698d4d5639ef4f9a0d6968c377853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShouldBeDestroyed: 0
+  IsTerminated: 0
+  dialogues:
+  - speakerName: Marchand
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "Merveilleux, tu as r\xE9ussi \xE0 r\xE9cup\xE9rer assez de Galacoin
+      pour t'offrir ce super pilier de lumi\xE8re ! Ravi d'avoir fait affaire avec
+      vous et bonne continuation."
+--- !u!4 &993745910454337582
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910454337556}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 63.129974, y: 1.2400002, z: 219.58295}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1421193564}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &993745910454337583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910454337556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e89933d3614c848a627c0a459716c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: Marchand
+  interactionRange: 5
 --- !u!1 &1081135384681647766
 GameObject:
   m_ObjectHideFlags: 0

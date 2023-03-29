@@ -25,6 +25,7 @@ public class MarchandQuest : Quest
     {
         questDescription = description;
         questManager.Refresh(this);
+        //questManager.enabled = false;
     }
 
     private IEnumerator StartQuest()
