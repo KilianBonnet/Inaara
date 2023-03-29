@@ -21,7 +21,7 @@ public class MarchandQuestInteractable : Interactable
 
     public override void Interact()
     {
-        marchandQuest.ChangeObjective("nouveau truc");
+        marchandQuest.ChangeObjective("Parler au marchand");
         IsTerminated = true;
     }
 }

@@ -2694,7 +2694,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 223759410}
-  - component: {fileID: 223759409}
   - component: {fileID: 223759411}
   m_Layer: 0
   m_Name: MarchandQuest
@@ -2703,20 +2702,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &223759409
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 223759408}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 648f91a642e430e40b403a8bd1e7be2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  questName: Acheter un booster
-  questDescription: Parler au marchand
 --- !u!4 &223759410
 Transform:
   m_ObjectHideFlags: 0
@@ -2741,11 +2726,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 223759408}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e613c50e8122e9e45a6bba8c4b484bd8, type: 3}
+  m_Script: {fileID: 11500000, guid: 648f91a642e430e40b403a8bd1e7be2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShouldBeDestroyed: 1
-  IsTerminated: 0
+  questName: "Acheter un pilier de lumi\xE8re"
+  questDescription: "Parler \xE0 l'Apo"
 --- !u!1001 &228339940
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9454,7 +9439,7 @@ PrefabInstance:
     - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: dialogues.Array.data[9].script
       value: 
-      objectReference: {fileID: 223759411}
+      objectReference: {fileID: 0}
     - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: dialogues.Array.data[0].dialogue
       value: "Bien le bonjour mademoiselle, qu'est-ce qui vous am\xE8ne aujourd'hui
