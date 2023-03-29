@@ -5,18 +5,9 @@ using UnityEngine;
 public class MarchandQuest : Quest
 {
 
-    private QuestManager questManager;
-
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        if ((questManager = FindObjectOfType<QuestManager>()) == null)
-        {
-            Debug.LogError("Cannot find QuestManager !");
-            Destroy(this);
-        }
-
-        BeginQuest();
+        StartCoroutine(StartQuest());
     }
 
     // Update is called once per frame
@@ -34,5 +25,12 @@ public class MarchandQuest : Quest
     {
         questDescription = description;
         questManager.Refresh(this);
+        //questManager.enabled = false;
+    }
+
+    private IEnumerator StartQuest()
+    {
+        yield return new WaitForSeconds(1);
+        BeginQuest();
     }
 }
