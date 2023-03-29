@@ -3,25 +3,12 @@ using UnityEngine;
 public class AltarQuest : Quest
 {
     [SerializeField] private GameObject npc;
-    
     private Altar[] altars;
-    
     private readonly string desctiptionRoot = "Inspecter les autels de la planète ";
-    private QuestManager questManager;
-
-    private void Start()
-    {
-        if ((questManager = FindObjectOfType<QuestManager>()) == null)
-        {
-            Debug.LogError("Cannot find QuestManager !");
-            Destroy(this);
-        }
-        
-        altars = FindObjectsOfType<Altar>();
-    }
-
+    
     public override void BeginQuest()
     {
+        altars = FindObjectsOfType<Altar>();
         questName = "Voyage dans le brouillard";
         questDescription = "Inspecter les autels de la planète (0/" + altars.Length + ")";
         questManager.Add(this);

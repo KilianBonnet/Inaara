@@ -18,5 +18,6 @@ public class AltarQuestInteractable : Interactable
     {
         foreach (GameObject g in toDisable) g.SetActive(false);
         altarQuest.BeginQuest();
+        RenderSettings.fogDensity = .04f;
     }
 }
