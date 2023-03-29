@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class VeilleHomeQuestInteractible : Interactable
 {
-    public VeilleHomeQuest VeilleHomeQuest;
+    public Quest veilleHomeQuest;
     // Start is called before the first frame update
     public override void Interact()
     {
-        FindObjectOfType<VeilleHomeQuest>().BeginQuest();
+        veilleHomeQuest.BeginQuest();
         ShouldBeDestroyed = true;
         IsTerminated = true;
     }
