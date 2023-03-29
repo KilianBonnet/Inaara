@@ -248,15 +248,15 @@ MonoBehaviour:
   ShouldBeDestroyed: 1
   IsTerminated: 0
   dialogues:
-  - speakerName: Voix 1
+  - speakerName: Fille
     audioPitch: 1.1
     script: {fileID: 0}
     dialogue: Papa, quelle heure il est ?
-  - speakerName: "Voix 2 (P\xE8re)"
+  - speakerName: "P\xE8re"
     audioPitch: 0.6
     script: {fileID: 0}
     dialogue: Je ne sais pas, ma fille.
-  - speakerName: Voix 1 (Enfant)
+  - speakerName: Fille
     audioPitch: 1.1
     script: {fileID: 0}
     dialogue: Pourquoi le soleil est parti ?
@@ -264,7 +264,7 @@ MonoBehaviour:
     audioPitch: 0.6
     script: {fileID: 0}
     dialogue: Je ne sais pas.
-  - speakerName: Voix 1 (Enfant)
+  - speakerName: "P\xE8re"
     audioPitch: 1.1
     script: {fileID: 0}
     dialogue: J'ai froid.
@@ -693,6 +693,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 243939282}
+  - {fileID: 138677597}
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1512,7 +1513,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &243939282
 Transform:
   m_ObjectHideFlags: 0
@@ -7148,7 +7149,7 @@ Transform:
   - {fileID: 1417379236}
   - {fileID: 1922439347}
   m_Father: {fileID: 1192176613}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -16.53, y: -0.345, z: -5.526}
 --- !u!114 &532349189
 MonoBehaviour:
@@ -7598,6 +7599,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  toDisable:
+  - {fileID: 0}
   pathRoot: {fileID: 92228329}
   speed: 4
   rotationSpeed: 10
@@ -8731,13 +8734,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afd698d4d5639ef4f9a0d6968c377853, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShouldBeDestroyed: 0
+  ShouldBeDestroyed: 1
   IsTerminated: 0
   dialogues:
   - speakerName: '?'
     audioPitch: 0.6
+    script: {fileID: 0}
+    dialogue: Goe.
+  - speakerName: Goe
+    audioPitch: 0.6
+    script: {fileID: 0}
+    dialogue: C'est mon nom.
+  - speakerName: Goe
+    audioPitch: 0.6
+    script: {fileID: 0}
+    dialogue: "Merci d'avoir liber\xE9 ces \xE2mes."
+  - speakerName: Inaara
+    audioPitch: 1
+    script: {fileID: 0}
+    dialogue: Je vous en prie.
+  - speakerName: Inaara
+    audioPitch: 1
+    script: {fileID: 0}
+    dialogue: "Votre peuple est arriv\xE9 5000 ans trop t\xF4t ? Qui attendait-il
+      ?"
+  - speakerName: Goe
+    audioPitch: 0.6
+    script: {fileID: 0}
+    dialogue: "Je ne suis pas messager de la l\xE9gende. Je ne pourrai gu\xE8re vous
+      aider plus."
+  - speakerName: Goe
+    audioPitch: 0.6
+    script: {fileID: 0}
+    dialogue: "En revanche, vous avez lib\xE9r\xE9 suffisamment d'\xE2me pour dissiper
+      le brouillard au fond de la for\xEAt. La r\xE9ponse se trouve l\xE0-bas."
+  - speakerName: Brouillard
+    audioPitch: 1
     script: {fileID: 124642637}
-    dialogue: Yo
+    dialogue: Le brouillard faisant suite aux autels se dissipe.
 --- !u!114 &988481576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9099,7 +9133,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1017852450}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 90.41, y: 102.14, z: 186}
+  m_LocalPosition: {x: 86.79, y: 100.7, z: 66.195}
   m_LocalScale: {x: 0.4215865, y: 0.4215865, z: 0.4215865}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9369,7 +9403,7 @@ MonoBehaviour:
   - speakerName: Chef
     audioPitch: 0.8
     script: {fileID: 0}
-    dialogue: "Centrale ? Analyse la fr\xE9quence du cycle!"
+    dialogue: "Centrale ? Analyse la fr\xE9quence du cycle !"
   - speakerName: Centrale
     audioPitch: 1
     script: {fileID: 0}
@@ -9395,7 +9429,7 @@ MonoBehaviour:
   - speakerName: Chef
     audioPitch: 0.8
     script: {fileID: 0}
-    dialogue: "Une l\xE9gende ... Il nous faut perp\xE9trer notre mission par le
+    dialogue: "Une l\xE9gende... \nIl nous faut perp\xE9trer notre mission par le
       biais d'une l\xE9gende !"
   - speakerName: Voix 2
     audioPitch: 1.3
@@ -9719,7 +9753,7 @@ Transform:
   - {fileID: 1731662055}
   - {fileID: 1197395225}
   m_Father: {fileID: 1192176613}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -13.585, y: -9.513, z: 28.767}
 --- !u!114 &1148504766
 MonoBehaviour:
@@ -9965,7 +9999,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1934723087}
-  - {fileID: 138677597}
   - {fileID: 543450652756235287}
   - {fileID: 1148504765}
   - {fileID: 532349188}
@@ -11950,7 +11983,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686019464}
   m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 90.41, y: 109.21107, z: 178.92892}
+  m_LocalPosition: {x: 86.79, y: 107.77107, z: 59.123936}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12523,7 +12556,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1923527805}
   m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 90.41, y: 109.21107, z: 178.92892}
+  m_LocalPosition: {x: 86.79, y: 107.77107, z: 59.123936}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12895,7 +12928,7 @@ Transform:
   - {fileID: 1136184494}
   - {fileID: 1278180845}
   m_Father: {fileID: 1192176613}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -15.898, y: -4.597, z: 9.62}
 --- !u!114 &2001633108
 MonoBehaviour:
@@ -13718,11 +13751,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1192176613}
+    m_TransformParent: {fileID: 124642635}
     m_Modifications:
     - target: {fileID: 155450355210937424, guid: 909640f7a8026ed4183dde488a96132c, type: 3}
       propertyPath: m_Name
-      value: Fog Barrier
+      value: Fog Barrier (1)
       objectReference: {fileID: 0}
     - target: {fileID: 155450355210937425, guid: 909640f7a8026ed4183dde488a96132c, type: 3}
       propertyPath: m_RootOrder
@@ -13730,15 +13763,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 155450355210937425, guid: 909640f7a8026ed4183dde488a96132c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -181.75
+      value: 57.336113
       objectReference: {fileID: 0}
     - target: {fileID: 155450355210937425, guid: 909640f7a8026ed4183dde488a96132c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -583.89
+      value: 32.939636
       objectReference: {fileID: 0}
     - target: {fileID: 155450355210937425, guid: 909640f7a8026ed4183dde488a96132c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 153.99457
+      value: -122.1536
       objectReference: {fileID: 0}
     - target: {fileID: 155450355210937425, guid: 909640f7a8026ed4183dde488a96132c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -13845,7 +13878,7 @@ Transform:
   - {fileID: 8632055958190662938}
   - {fileID: 441616201}
   m_Father: {fileID: 1192176613}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 16.239, y: -0.079, z: -6.505}
 --- !u!4 &751338945890288949
 Transform:
@@ -14643,6 +14676,7 @@ GameObject:
   - component: {fileID: 988481578}
   - component: {fileID: 988481576}
   - component: {fileID: 988481575}
+  - component: {fileID: 4581718617332611880}
   m_Layer: 0
   m_Name: '? NPC'
   m_TagString: Untagged
@@ -14666,6 +14700,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: -143.752, z: 0}
+--- !u!114 &4581718617332611880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4581718617332611878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd698d4d5639ef4f9a0d6968c377853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShouldBeDestroyed: 0
+  IsTerminated: 0
+  dialogues:
+  - speakerName: Goe
+    audioPitch: 0.6
+    script: {fileID: 0}
+    dialogue: "Vous devriez jetter un oeil au fond de la for\xEAt, apr\xE8s les autels."
 --- !u!1001 &4801445713938530887
 PrefabInstance:
   m_ObjectHideFlags: 0

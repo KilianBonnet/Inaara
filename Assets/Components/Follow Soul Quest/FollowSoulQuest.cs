@@ -11,7 +11,7 @@ public class FollowSoulQuest : Quest
     {
         // Set up the text to display
         questName = "Le récit de l’au-delà";
-        questDescription = "Cherchez l'ame au fond  ";
+        questDescription = "Allez à la recherche de l'âme au fond de la forêt.";
         
         // Managing quest objects
         foreach (GameObject g in toDisable) g.SetActive(false);

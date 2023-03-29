@@ -4,6 +4,7 @@ using Vector3 = UnityEngine.Vector3;
 
 public class FollowBehaviour : Interactable
 {
+    [SerializeField] private GameObject[] toDisable;
     [SerializeField] private Transform pathRoot;
     [SerializeField] private float speed = 2f;
     [SerializeField] private float rotationSpeed = 5f;
@@ -61,6 +62,7 @@ public class FollowBehaviour : Interactable
 
     public override void Interact()
     {
+        foreach (GameObject g in toDisable) g.SetActive(false);
         isEnable = true;
         IsTerminated = true;
     }
