@@ -1,4 +1,5 @@
 using System;
+using UnityEngine;
 
 public class ArtQuest : Quest
 {
@@ -33,9 +34,7 @@ public class ArtQuest : Quest
     private void TerminateQuest()
     {
         questManager.Remove(this);
-        
-        questName = "Une porte de sortie";
-        questDescription = "Sortez du musée.";
-        questManager.Add(this);
+
+        foreach(Transform child in GameObject.Find("EnterSpaceship").transform) child.gameObject.SetActive(true);
     }
 }
