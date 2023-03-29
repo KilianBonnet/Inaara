@@ -10,10 +10,6 @@ public class VeilleHomeQuest : Quest
     void Start()
     {
         questManager = FindObjectOfType<QuestManager>();
-            
-            
-        questName = "a";
-        questDescription = "0/1";
     }
 
     // Update is called once per frame
@@ -27,7 +23,7 @@ public class VeilleHomeQuest : Quest
         Debug.Log("quest started !");
         questManager.Add(this);
 
-        questDescription = "1/1";
-        questManager.Refresh(this);
+        //questDescription = "1/1";
+        //questManager.Refresh(this);
     }
 }
