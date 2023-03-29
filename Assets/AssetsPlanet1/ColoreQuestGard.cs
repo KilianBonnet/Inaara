@@ -1,10 +1,12 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class VeilleHomeQuest : Quest
+public class ColoreQuestGard : Quest
 {
     private QuestManager questManager;
+    public Quest QuestFinished;
     
     // Start is called before the first frame update
     void Start()
@@ -21,8 +23,8 @@ public class VeilleHomeQuest : Quest
     public override void BeginQuest()
     {
         Debug.Log("quest started !");
+        questManager.Remove(QuestFinished);
         questManager.Add(this);
-
         //questDescription = "1/1";
         //questManager.Refresh(this);
     }
