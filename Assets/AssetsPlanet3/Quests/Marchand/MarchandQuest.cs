@@ -38,6 +38,12 @@ public class MarchandQuest : Quest
         questDescription = description;
         questManager.Refresh(this);
     }
+    
+    public void ChangeName(string name)
+    {
+        questName = name;
+        questManager.Refresh(this);
+    }
 
     public void ActiveMerchandNPC()
     {
@@ -51,6 +57,23 @@ public class MarchandQuest : Quest
         oasisNpc.GetComponent<Interactor>().enabled = true;
         ActiveZoomCamera("FirstTimeOasis");
     }
+    
+    public void ActivePyramidNPC()
+    {
+        pyramidNpc.GetComponent<Interactor>().enabled = true;
+        ActiveZoomCamera("FirstTimePyramid");
+    }
+    
+    public void ActiveObeliskNPC()
+    {
+        obeliskNpc.GetComponent<Interactor>().enabled = true;
+        ActiveZoomCamera("FirstTimeObelisk");
+    }
+
+    public void SendBackToMerchandNPC()
+    {
+        merchandNpc.GetComponent<DialogueManager>().enabled = true;
+    }
 
     public void AddOneCoconut()
     {
@@ -60,8 +83,8 @@ public class MarchandQuest : Quest
         {
             ChangeObjective("Reparler à l'Apo près de l'Oasis");
             
-            Destroy(oasisNpc.GetComponent<DialogueManager>());
-            //oasisNpc.GetComponent<DialogueManager>().enabled = true;
+            //Destroy(oasisNpc.GetComponent<DialogueManager>());
+            oasisNpc.GetComponent<DialogueManager>().enabled = true;
         }
         else
         {
