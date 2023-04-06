@@ -53,7 +53,7 @@ public class Interactor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") /*code alternatif antoine && GetComponent<Interactable>().enabled == true*/)
+        if (other.CompareTag("Player") && GetComponent<Interactable>().enabled == true)
         {
             interactionUI.Add(this);
         }

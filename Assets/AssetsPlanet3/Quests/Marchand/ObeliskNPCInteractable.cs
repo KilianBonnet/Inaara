@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MerchandNPCInteractable : Interactable
+public class ObeliskNPCInteractable : Interactable
 {
-
     private MarchandQuest marchandQuest;
 
     // Start is called before the first frame update
@@ -21,9 +20,9 @@ public class MerchandNPCInteractable : Interactable
 
     public override void Interact()
     {
-        marchandQuest.ChangeObjective("Parler à l'Apo près de l'Oasis");
-        marchandQuest.ChangeName("Acheter un super générateur (0/120)");
-        marchandQuest.ActiveOasisNPC();
+        marchandQuest.ChangeObjective("Retourner voir le marchand au centre du village");
+        marchandQuest.ChangeName("Acheter un super générateur (120/120)");
+        marchandQuest.SendBackToMerchandNPC();
         IsTerminated = true;
     }
 }
