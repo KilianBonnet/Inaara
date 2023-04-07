@@ -9,6 +9,7 @@ public class MarchandQuest : Quest
     private GameObject oasisNpc;
     private GameObject pyramidNpc;
     private GameObject obeliskNpc;
+    private GameObject spaceship;
     
     private int coconutsFound = 0;
 
@@ -31,6 +32,7 @@ public class MarchandQuest : Quest
         oasisNpc = GameObject.Find("OasisNPC");
         pyramidNpc = GameObject.Find("PyramidNPC");
         obeliskNpc = GameObject.Find("ObeliskNPC");
+        spaceship = GameObject.Find("Spaceship");
     }
 
     public void ChangeObjective(string description)
@@ -83,7 +85,6 @@ public class MarchandQuest : Quest
         {
             ChangeObjective("Reparler à l'Apo près de l'Oasis");
             
-            //Destroy(oasisNpc.GetComponent<DialogueManager>());
             oasisNpc.GetComponent<DialogueManager>().enabled = true;
         }
         else
@@ -102,5 +103,10 @@ public class MarchandQuest : Quest
     {
         GameObject.Find(zoom).GetComponent<BoxCollider>().enabled = true;
         GameObject.Find(zoom).GetComponent<ZoomCamera>().enabled = true;
+    }
+
+    public void ActiveRepair()
+    {
+        obeliskNpc.GetComponent<Interactor>().enabled = true;
     }
 }

@@ -21742,9 +21742,23 @@ MonoBehaviour:
   dialogues:
   - speakerName: Apo
     audioPitch: 3
+    script: {fileID: 0}
+    dialogue: Salut, tu fais aussi partie de service entretien de l'Oasis ?
+  - speakerName: Inaara
+    audioPitch: 1
+    script: {fileID: 0}
+    dialogue: "Ahem\u2014 non d\xE9sol\xE9. On m'a dit que je pourrais gagner quelques
+      Galacoin en venant ici."
+  - speakerName: Apo
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "Ah d'accord et bien si tu r\xE9cup\xE8res toutes les noix de coco
+      qui sont autour de l'Oasis pour moi alors je te donnerais une partie de mon
+      salaire, \xE7a te dit ?"
+  - speakerName: Apo
+    audioPitch: 3
     script: {fileID: 993745909643068591}
-    dialogue: "Salut, tu pourrais m'aider \xE0 r\xE9cup\xE9rer toutes les noix de
-      coco autour de l'oasis ?"
+    dialogue: "C'est une tr\xE8s lourde t\xE2che je te pr\xE9viens hein."
 --- !u!114 &993745909643068567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21762,10 +21776,18 @@ MonoBehaviour:
   dialogues:
   - speakerName: Apo
     audioPitch: 3
+    script: {fileID: 0}
+    dialogue: 'Merci beaucoup, voici 40 Galacoin pour te remercier ! '
+  - speakerName: Apo
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: Va voir l'Apo qui est proche de la Vielle Pyramide au nord-ouest du
+      village si tu veux encore des Galacoin.
+  - speakerName: Apo
+    audioPitch: 3
     script: {fileID: 993745909643068593}
-    dialogue: Merci beaucoup, voici 40 Galacoin pour te remercier ! Va voir l'Apo
-      qui est proche de la Vielle Pyramide au nord-ouest du village, il pourra t'aider
-      pour avoir encore plus de Galacoin !
+    dialogue: "Il pourra t'aider mais parcontre il est un peu bizarre fait attention
+      \xE0 toi..."
 --- !u!1 &993745909643068590
 GameObject:
   m_ObjectHideFlags: 0
@@ -22082,6 +22104,8 @@ GameObject:
   - component: {fileID: 993745910169129582}
   - component: {fileID: 993745910169129584}
   - component: {fileID: 993745910169129583}
+  - component: {fileID: 993745910169129586}
+  - component: {fileID: 993745910169129585}
   m_Layer: 0
   m_Name: PyramidNPC
   m_TagString: Untagged
@@ -22235,13 +22259,21 @@ MonoBehaviour:
     dialogue: Euh... J'ADORE LES PYRAMIDES ?
   - speakerName: Groupe suspect
     audioPitch: 0
-    script: {fileID: 0}
+    script: {fileID: 993745910169129586}
     dialogue: "Vous rejoignez le groupe nomm\xE9 \"Illuminati\" et recevez 40 Galacoin."
   - speakerName: Apo
     audioPitch: 3
+    script: {fileID: 0}
+    dialogue: 'Hein ? Il te faut encore des Galacoin ? '
+  - speakerName: Apo
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "Tu peux aller sur la route au sud qui te conduira \xE0 l'Ob\xE9lisque
+      Sacr\xE9, un Apo un peu fanatique pourra peut-\xEAtre t'aider."
+  - speakerName: Apo
+    audioPitch: 3
     script: {fileID: 993745910169129584}
-    dialogue: "Il te faut encore des Galacoin ? Tu peux aller sur la route au sud
-      qui te conduira \xE0 l'ob\xE9lisque, un Apo pourra peut-\xEAtre t'aider."
+    dialogue: Mais attention il est vraiment bizarre hein.
 --- !u!114 &993745910169129583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22259,7 +22291,7 @@ MonoBehaviour:
   dialogues:
   - speakerName: Apo
     audioPitch: 3
-    script: {fileID: 0}
+    script: {fileID: 993745910169129586}
     dialogue: Surtout essaye d'inviter le plus de personne possible dans mon EUH
       notre groupe de fan !
 --- !u!114 &993745910169129584
@@ -22275,6 +22307,116 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
+  IsTerminated: 0
+--- !u!82 &993745910169129585
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910169129558}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9d02dcde7541d664cbc1e31eb68dd418, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &993745910169129586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993745910169129558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aec4729d71f6c544085e44ad3ec79c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShouldBeDestroyed: 0
   IsTerminated: 0
 --- !u!1 &993745910383395011
 GameObject:
@@ -22347,7 +22489,7 @@ MonoBehaviour:
   - speakerName: Apo
     audioPitch: 3
     script: {fileID: 0}
-    dialogue: "Va au march\xE9 un petit peu plus loin pour trouver ton bonheur !"
+    dialogue: "J'esp\xE8re que tu vas trouver ton bonheur."
 --- !u!114 &993745910383395067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22647,10 +22789,23 @@ MonoBehaviour:
     script: {fileID: 0}
     dialogue: "Merveilleux, vous avez r\xE9ussi \xE0 r\xE9cup\xE9rer assez de Galacoin
       pour acheter ce super g\xE9n\xE9rateur !"
+  - speakerName: Inarra
+    audioPitch: 1
+    script: {fileID: 0}
+    dialogue: "Oui ! J'ai fait des rencontres ... \xE9tranges."
+  - speakerName: Marchand
+    audioPitch: 3
+    script: {fileID: 0}
+    dialogue: "Haha \xE7a ne m'\xE9tonne pas !"
   - speakerName: Marchand
     audioPitch: 3
     script: {fileID: 993745910454337587}
-    dialogue: Ravi d'avoir fait affaire avec vous et bonne continuation.
+    dialogue: Ravi d'avoir fait affaire avec vous en tout cas. Bonne continuation
+      !
+  - speakerName: Inarra
+    audioPitch: 1
+    script: {fileID: 0}
+    dialogue: "Merci pour tout et peut-\xEAtre \xE0 une prochaine fois !"
 --- !u!4 &993745910454337582
 Transform:
   m_ObjectHideFlags: 0
