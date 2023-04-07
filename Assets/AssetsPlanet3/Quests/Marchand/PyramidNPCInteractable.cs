@@ -21,7 +21,7 @@ public class PyramidNPCInteractable : Interactable
     public override void Interact()
     {
         marchandQuest.ChangeObjective("Trouver l'Apo proche de l'Obélisque au sud");
-        marchandQuest.ChangeName("Acheter un super générateur (80/120)");
+        marchandQuest.ChangeName("Acheter un super générateur");
         marchandQuest.ActiveObeliskNPC();
         IsTerminated = true;
     }

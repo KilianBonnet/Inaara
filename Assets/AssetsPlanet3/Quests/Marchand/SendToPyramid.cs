@@ -22,7 +22,7 @@ public class SendToPyramid : Interactable
     public override void Interact()
     {
         marchandQuest.ChangeObjective("Aller voir la Vielle Pyramide à l'ouest");
-        marchandQuest.ChangeName("Acheter un super générateur (40/120)");
+        marchandQuest.ChangeName("Acheter un super générateur");
         marchandQuest.ActivePyramidNPC();
         IsTerminated = true;
     }

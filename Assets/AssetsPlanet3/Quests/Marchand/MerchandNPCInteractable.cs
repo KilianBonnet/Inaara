@@ -22,7 +22,7 @@ public class MerchandNPCInteractable : Interactable
     public override void Interact()
     {
         marchandQuest.ChangeObjective("Parler à l'Apo près de l'Oasis");
-        marchandQuest.ChangeName("Acheter un super générateur (0/120)");
+        marchandQuest.ChangeName("Acheter un super générateur");
         marchandQuest.ActiveOasisNPC();
         IsTerminated = true;
     }

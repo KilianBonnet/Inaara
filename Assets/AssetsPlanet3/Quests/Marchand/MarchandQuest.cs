@@ -107,6 +107,6 @@ public class MarchandQuest : Quest
 
     public void ActiveRepair()
     {
-        obeliskNpc.GetComponent<Interactor>().enabled = true;
+        spaceship.GetComponent<Interactor>().enabled = true;
     }
 }
