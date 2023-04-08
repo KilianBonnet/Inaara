@@ -6,14 +6,16 @@ public class SpaceshipNoise : MonoBehaviour
 {
     [SerializeField] private float xPositionRange = 1;
     [SerializeField] private float yPositionRange = 2f;
+
+    [SerializeField] private float minPositionSpeed = .5f;
+    [SerializeField] private float maxPositionSpeed = .8f;
     
     private Vector3 initialPosition;
 
     private float positionSpeed;
+    
     private Vector3 positionObjective;
 
-    private float rotationSpeed;
-    private Quaternion rotationObjective;
 
     private void Start()
     {
@@ -36,7 +38,7 @@ public class SpaceshipNoise : MonoBehaviour
             initialPosition.z
         );
 
-        positionSpeed = Random.Range(.5f, .8f);
+        positionSpeed = Random.Range(minPositionSpeed, maxPositionSpeed);
     }
 
     private void MoveToObjective()
