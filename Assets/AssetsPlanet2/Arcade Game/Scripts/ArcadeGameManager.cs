@@ -192,7 +192,7 @@ public class ArcadeGameManager : MonoBehaviour
             GameObject.Find("Arcade BGM").GetComponent<AudioSource>().Pause();
             FindObjectOfType<RaceQuest>().FinishRace();
             inaara.SetActive(true);
-            GetComponent<AudioListener>().enabled = false;
+            Destroy(GetComponent<AudioListener>());
         }
     }
 
