@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class FollowPlayerComponent : MonoBehaviour
+public class FollowPlayerComponent : Interactable
 {
     public Transform target;
     NavMeshAgent nav;
     private Animator mAnimator;
+    private bool follow = false;
 
     void Start()
     {
@@ -18,6 +19,7 @@ public class FollowPlayerComponent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!follow) return;
         if (!PositionsProches(transform.position,target.position))
         
             mAnimator.SetTrigger("run");
@@ -30,5 +32,11 @@ public class FollowPlayerComponent : MonoBehaviour
     bool PositionsProches(Vector3 pos1, Vector3 pos2) {
         float distance = Vector3.Distance(pos1, pos2);
         return distance <= 2;
+    }
+
+    public override void Interact()
+    {
+        IsTerminated = true;
+        follow = true;
     }
 }
