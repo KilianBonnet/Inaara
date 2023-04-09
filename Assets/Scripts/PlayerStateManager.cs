@@ -3,7 +3,7 @@ using UnityEngine;
 public enum PlayerState
 {
     PLAYING,
-    IN_DIALOGUE,
+    IN_DIALOGUE
 }
 
 public class PlayerStateManager : MonoBehaviour
