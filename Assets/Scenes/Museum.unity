@@ -17260,6 +17260,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: apo
       objectReference: {fileID: 0}
+    - target: {fileID: 6395553997886267205, guid: 97be2a77c611e9f4c930edc76a8522f3, type: 3}
+      propertyPath: m_Speed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6395553997886267210, guid: 97be2a77c611e9f4c930edc76a8522f3, type: 3}
       propertyPath: target
       value: 
