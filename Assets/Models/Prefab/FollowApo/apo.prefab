@@ -1125,9 +1125,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6866629355286005304}
   - component: {fileID: 6395553997886267208}
-  - component: {fileID: 6395553997886267211}
   - component: {fileID: 6395553997886267205}
   - component: {fileID: 6395553997886267210}
+  - component: {fileID: 1244048736875176340}
   m_Layer: 0
   m_Name: apo
   m_TagString: Untagged
@@ -1171,26 +1171,6 @@ CapsuleCollider:
   m_Height: 6.231503
   m_Direction: 1
   m_Center: {x: 0, y: 2.115751, z: -0.7332236}
---- !u!95 &6395553997886267211
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6053114598639787138}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 239ea2ce3c9ad2b4883cc9458bd5de0a, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!195 &6395553997886267205
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1226,6 +1206,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+--- !u!95 &1244048736875176340
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6053114598639787138}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 21a4a326a9a3df542b6d55f660b21a8e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6156486138548622327
 GameObject:
   m_ObjectHideFlags: 0
