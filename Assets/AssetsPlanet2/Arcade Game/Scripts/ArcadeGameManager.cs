@@ -29,5 +29,9 @@ public class ArcadeGameManager : MonoBehaviour
         isGameStarted = true;
         GameObject.Find("Arcade BGM").GetComponent<AudioSource>().Play();
         GameObject.Find("Camera Render").GetComponent<Camera>().enabled = true;
+
+        GameObject dialogueContainer;       // Turning off potential unclosed dialog
+        if((dialogueContainer = GameObject.Find("Dialogue Container")) != null ) dialogueContainer.SetActive(false);
+        Destroy(GameObject.Find("ArcadeMachineV1").GetComponent<DialogueManager>());
     }
 }
