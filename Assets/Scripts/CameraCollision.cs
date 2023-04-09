@@ -10,12 +10,12 @@ public class CameraCollision : MonoBehaviour
     }
 
     private void OnCollisionEnter(Collision other) {
-        if(other.gameObject.CompareTag("MainCamera"))
+        if(other.gameObject.name == ("Main Camera"))
             meshRenderer.enabled = false;
     }
 
     private void OnCollisionExit(Collision other) {
-        if(other.gameObject.CompareTag("MainCamera"))
+        if(other.gameObject.name == ("Main Camera"))
             meshRenderer.enabled = true;
     }
 }
