@@ -37,5 +37,13 @@ public class RaceQuest : Quest
         arcadeCamera.enabled = false;
 
         foreach(var gameObject in toDisable) gameObject.SetActive(true);
+        GameObject.Find("Race Game End Dialogue").GetComponent<Interactor>().enabled = true;
+    }
+
+    public void ReturnToSpacecraft() {
+        questName = "Un repos bien mérité";
+        questDescription = "Retournez au vaisseau";
+        questManager.Remove(this);
+        questManager.Add(this);
     }
 }
