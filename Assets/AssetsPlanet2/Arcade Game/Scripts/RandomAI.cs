@@ -58,4 +58,18 @@ public class RandomAI : MonoBehaviour
 
         return angleDelta > 0 ? .9f : -.9f;
     }
+
+    private void OnCollisionEnter(Collision other) {
+        if(other.gameObject.name == "Left Border") {
+            angleObjective = Random.Range(5f, 15f);
+            lastObjectiveTime = 0;
+            return;
+        }
+        if(other.gameObject.name == "Left Border") {
+            angleObjective = - Random.Range(5f, 15f);
+            lastObjectiveTime = 0;
+            return;
+        }
+
+    }
 }
