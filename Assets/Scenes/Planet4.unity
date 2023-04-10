@@ -17040,10 +17040,24 @@ MonoBehaviour:
   ShouldBeDestroyed: 1
   IsTerminated: 0
   dialogues:
-  - speakerName: Estout
+  - speakerName: Voix 1
+    audioPitch: 0.8
+    script: {fileID: 0}
+    dialogue: "Ca ne sert \xE0 rien d'attendre, allons nous en !"
+  - speakerName: Voix 2
+    audioPitch: 0.6
+    script: {fileID: 0}
+    dialogue: "Ah oui ? Et comment ?! Si nous pouvions le faire, \xE7a ne ferait
+      pas un mill\xE9naire que nous fr\xE9quenterions cet endroit !"
+  - speakerName: Voix 3
+    audioPitch: 0.7
+    script: {fileID: 532349189}
+    dialogue: 'Il dit vrai. Regarde autour de toi, aucune extraction de ressources
+      n''est possible : il n''y a aucune ressource.'
+  - speakerName: Autel
     audioPitch: 1
     script: {fileID: 532349189}
-    dialogue: Faut que je trouve un dialogue
+    dialogue: Vous activez l'autel.
 --- !u!114 &1571475856
 MonoBehaviour:
   m_ObjectHideFlags: 0
