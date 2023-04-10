@@ -27,7 +27,7 @@ public class Takeoff_vanilla : Interactable
             if (image.color.a < 1f)
             {
                 var tempColor = image.color;
-                tempColor.a += 0.001f;
+                tempColor.a += 0.005f;
                 image.color = tempColor;
             }
             else
@@ -44,7 +44,7 @@ public class Takeoff_vanilla : Interactable
 
     public override void Interact()
     {
-        IsTerminated = true;
+        //IsTerminated = true;
         fade = true;
         _audioSource.Play();
     }

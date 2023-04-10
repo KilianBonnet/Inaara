@@ -83,7 +83,7 @@ public class MarchandQuest : Quest
         
         if (coconutsFound == 5)
         {
-            ChangeObjective("Reparler à l'Apo près de l'Oasis");
+            ChangeObjective("Reparler à l'Apo de l'Oasis");
             
             oasisNpc.GetComponent<DialogueManager>().enabled = true;
         }
