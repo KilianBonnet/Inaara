@@ -13,7 +13,7 @@ public class FollowBehaviour : Interactable
     private Vector3 target;
     private int nextWaypoint;
     private bool isMoving;
-    
+    private bool isInaaraStopped;
     private bool isEnable;
 
     // Start is called before the first frame update
@@ -29,11 +29,13 @@ public class FollowBehaviour : Interactable
         if(!isEnable) return;
         if(!other.CompareTag("Player")) return; // If the object collides with other things that the player
         if(isMoving) return; // If the object is already moving
+        if(nextWaypoint == waypoints.Count - 1) StopInaara();
         MoveToNextWaypoint();
     }
 
     private void MoveToNextWaypoint()
     {
+        if(nextWaypoint >= waypoints.Count) return;
         isMoving = true;
         target = waypoints[nextWaypoint];
     }
@@ -41,6 +43,8 @@ public class FollowBehaviour : Interactable
     private void FixedUpdate()
     {
         if(!isEnable) return;
+        if(!isMoving && nextWaypoint >= waypoints.Count) EndTrajectory();
+
         if(!isMoving) return;
         if (Vector3.Distance(target, transform.position) <= .1f)
         {
@@ -65,5 +69,22 @@ public class FollowBehaviour : Interactable
         foreach (GameObject g in toDisable) g.SetActive(false);
         isEnable = true;
         IsTerminated = true;
+
+        FindObjectOfType<FollowSoulQuest>().UpdateQuest(
+            "Le récit de l’au-delà",
+            "Suivez Iora."
+        );
+    }
+
+    private void EndTrajectory() {
+        isEnable = false;
+        FindObjectOfType<Statue>().Play(transform);
+        Destroy(this);
+    }
+
+    private void StopInaara() {
+        if(isInaaraStopped) return;
+        isInaaraStopped = true;
+        FindObjectOfType<PlayerStateManager>().UpdateState(PlayerState.IN_CINEMATIC);
     }
 }

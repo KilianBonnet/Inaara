@@ -21,4 +21,11 @@ public class FollowSoulQuest : Quest
         questManager.Remove(FindObjectOfType<AltarQuest>()); // Removing old quest
         questManager.Add(this);
     }
+
+    public void UpdateQuest(string questName, string questDescription) {
+        this.questName = questName;
+        this.questDescription = questDescription;
+        questManager.Remove(this);
+        questManager.Add(this);
+    }
 }
