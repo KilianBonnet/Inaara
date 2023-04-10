@@ -8,7 +8,7 @@ public class FollowPlayerComponent : Interactable
     public Transform target;
     NavMeshAgent nav;
     private Animator mAnimator;
-    private bool follow = false;
+    public bool follow = false;
 
     void Start()
     {
