@@ -492,11 +492,11 @@ MonoBehaviour:
     audioPitch: 1.1
     script: {fileID: 0}
     dialogue: Pourquoi le soleil est parti ?
-  - speakerName: "Voix 2 (P\xE8re)"
+  - speakerName: "P\xE8re"
     audioPitch: 0.6
     script: {fileID: 0}
     dialogue: Je ne sais pas.
-  - speakerName: "P\xE8re"
+  - speakerName: Fille
     audioPitch: 1.1
     script: {fileID: 0}
     dialogue: J'ai froid.
@@ -23073,7 +23073,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Satue
+  - speakerName: Statue
     audioPitch: 1
     script: {fileID: 0}
     dialogue: Le brouillard se dissipe ...
