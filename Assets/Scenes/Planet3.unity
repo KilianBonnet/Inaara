@@ -488,7 +488,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: Apojack
     audioPitch: 3
     script: {fileID: 0}
     dialogue: Ta vus un peu le navire !
@@ -1596,11 +1596,11 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: 'Apothicaire '
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "J'ai un petit probl\xE8me avec ma voiture."
-  - speakerName: Apo
+  - speakerName: 'Apothicaire '
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "T'aurais pas quatres roues de rechange, un nouveau moteur et une nouvelle
@@ -5918,11 +5918,11 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: "Apotropa\xEFque"
     audioPitch: 3
     script: {fileID: 0}
     dialogue: Il faut faire attention parfois des objets tombe du ciel !
-  - speakerName: Apo
+  - speakerName: "Apotropa\xEFque"
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "C'est \xE0 cause des vaisseaux cargo qui pilotent sans faire attention."
@@ -7576,11 +7576,11 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: Apoplexie
     audioPitch: 3
     script: {fileID: 0}
     dialogue: Les palmiers.
-  - speakerName: Apo
+  - speakerName: Apoplexie
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "J'en parlerai lors de ma prochaine conf\xE9rence."
@@ -8710,7 +8710,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: Apostrophe
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "A l'aide je suis bloqu\xE9 !"
@@ -14585,7 +14585,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: Apogamie
     audioPitch: 3
     script: {fileID: 0}
     dialogue: Toi aussi tu es la pour acheter le nouveau tome 321 de One Piece ?
@@ -17546,7 +17546,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: Apogo
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Attention \xE0 mon chateau de sable hein !"
@@ -22532,7 +22532,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: Apostasie
     audioPitch: 3
     script: {fileID: 0}
     dialogue: Je vends mon dernier couteau de cuisine pour investir encore plus dans
@@ -24842,7 +24842,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: Apologie
     audioPitch: 3
     script: {fileID: 0}
     dialogue: La vue est magnifique depuis mon balcon !
@@ -25670,7 +25670,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: Apollinaire
     audioPitch: 3
     script: {fileID: 688499149}
     dialogue: Surtout essaye d'inviter le plus de personne possible dans mon EUH
@@ -25690,17 +25690,17 @@ MonoBehaviour:
   ShouldBeDestroyed: 1
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: Apollinaire
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Salut tu aimes les pyramides ? Car moi oui j'adore \xE7a !"
-  - speakerName: Apo
+  - speakerName: Apollinaire
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Tu ne chercherais pas \xE0 gagner des Galacoin par hasard ? Car si
       oui tu peux rejoindre mon nouveau groupe que je viens de cr\xE9er expr\xE8s
       pour les fans de pyramides !"
-  - speakerName: Apo
+  - speakerName: Apollinaire
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Tout ce que tu as \xE0 me dire c'est \"J'ADORE LES PYRAMIDES\" et
@@ -25714,7 +25714,7 @@ MonoBehaviour:
     audioPitch: 0
     script: {fileID: 688499149}
     dialogue: "Vous rejoignez le groupe nomm\xE9 \"Illuminati\" et recevez 40 Galacoin."
-  - speakerName: Apo
+  - speakerName: Apollinaire
     audioPitch: 3
     script: {fileID: 0}
     dialogue: 'Hein ? Il te faut encore des Galacoin ? '
@@ -25723,7 +25723,7 @@ MonoBehaviour:
     script: {fileID: 0}
     dialogue: "Tu peux aller sur la route au sud qui te conduira \xE0 l'Ob\xE9lisque
       Sacr\xE9, un Apo un peu fanatique pourra peut-\xEAtre t'aider."
-  - speakerName: Apo
+  - speakerName: Apollinaire
     audioPitch: 3
     script: {fileID: 688499150}
     dialogue: Mais attention il est vraiment bizarre hein.
@@ -27516,7 +27516,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: Apostat
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Je vends des \xE9pices qui t'enveront dans l'espace sans vaisseau.
@@ -30258,7 +30258,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: Apocryphe
     audioPitch: 3
     script: {fileID: 0}
     dialogue: Merci encore de m'avoir aider !
@@ -30277,16 +30277,16 @@ MonoBehaviour:
   ShouldBeDestroyed: 1
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: Apocryphe
     audioPitch: 3
     script: {fileID: 0}
     dialogue: 'Merci beaucoup, voici 40 Galacoin pour te remercier ! '
-  - speakerName: Apo
+  - speakerName: Apocryphe
     audioPitch: 3
     script: {fileID: 0}
     dialogue: Va voir l'Apo qui est proche de la Vielle Pyramide au nord-ouest du
       village si tu veux encore des Galacoin.
-  - speakerName: Apo
+  - speakerName: Apocryphe
     audioPitch: 3
     script: {fileID: 800749661}
     dialogue: "Il pourra t'aider mais parcontre il est un peu bizarre fait attention
@@ -30306,7 +30306,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 1
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: Apocryphe
     audioPitch: 3
     script: {fileID: 0}
     dialogue: Salut, tu fais aussi partie du service entretien de l'Oasis ?
@@ -30315,13 +30315,13 @@ MonoBehaviour:
     script: {fileID: 0}
     dialogue: "Ahem\u2014 non d\xE9sol\xE9. On m'a dit que je pourrais gagner quelques
       Galacoin en venant ici."
-  - speakerName: Apo
+  - speakerName: Apocryphe
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Ah d'accord et bien si tu r\xE9cup\xE8res toutes les noix de coco
       qui sont autour de l'Oasis pour moi, alors je te donnerais une partie de mon
       salaire, \xE7a te dit ?"
-  - speakerName: Apo
+  - speakerName: Apocryphe
     audioPitch: 3
     script: {fileID: 800749662}
     dialogue: "C'est un m\xE9tier tr\xE8s difficile je te pr\xE9viens hein."
@@ -31171,7 +31171,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: Apodictique
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Il est juste pas tr\xE8s dou\xE9..."
@@ -33308,7 +33308,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: "Ap\xF4tre"
     audioPitch: 3
     script: {fileID: 0}
     dialogue: Salut, tu voudrais rejoindre un groupe de fan de pyramide ?
@@ -38863,15 +38863,15 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: "Apodid\xE9"
     audioPitch: 3
     script: {fileID: 0}
     dialogue: Fait attention avec les peaux de banane au sol.
-  - speakerName: Apo
+  - speakerName: "Apodid\xE9"
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Je vient de glisser et \xE7a fait vraiment mal."
-  - speakerName: Apo
+  - speakerName: "Apodid\xE9"
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Rien n'est plus dangereux que les bananes dans cet univers toute fa\xE7on."
@@ -41735,11 +41735,11 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: Apostolat
     audioPitch: 3
     script: {fileID: 0}
     dialogue: Belle structure hein ?
-  - speakerName: Apo
+  - speakerName: Apostolat
     audioPitch: 3
     script: {fileID: 0}
     dialogue: C'est pas moi qui l'ai faite.
@@ -44319,7 +44319,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: "Apog\xE9e"
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Continue ton chemin, je dois rester ici pour veiller sur l'Ob\xE9lisque
@@ -44339,17 +44339,17 @@ MonoBehaviour:
   ShouldBeDestroyed: 1
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: "Apog\xE9e"
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Bonjour \xE0 toi, bienvenue \xE0 l'Ob\xE9lisque Sacr\xE9 du Centre
       Lunaire des \xC9changes. C'est la premi\xE8re fois que tu viens on dirait..."
-  - speakerName: Apo
+  - speakerName: "Apog\xE9e"
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Dans ce cas-l\xE0 je vais v\xE9rifier si tu es digne d'obtenir la
       b\xE9n\xE9diction de l'Ob\xE9lisque Sacr\xE9 pour la suite de ton voyage."
-  - speakerName: Apo
+  - speakerName: "Apog\xE9e"
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Voici une \xE9nigme tr\xE8s simple. Avec un S, je suis couvert de
@@ -44358,7 +44358,7 @@ MonoBehaviour:
     audioPitch: 1
     script: {fileID: 0}
     dialogue: ...
-  - speakerName: Apo
+  - speakerName: "Apog\xE9e"
     audioPitch: 3
     script: {fileID: 0}
     dialogue: Tu ne sais pas ? Tu peux donner ta langue au Sphinx si tu veux.
@@ -44371,12 +44371,12 @@ MonoBehaviour:
     script: {fileID: 0}
     dialogue: "Bien jou\xE9, c'est la bonne r\xE9ponse ! Tu m\xE9rites bien la b\xE9n\xE9diction
       de l'Ob\xE9lisque Sacr\xE9 !"
-  - speakerName: Apo
+  - speakerName: "Apog\xE9e"
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Voici 40 Galacoin en r\xE9compense. Que l'Ob\xE9lisque Sacr\xE9 t'accompagne
       tout au long de ton voyage."
-  - speakerName: Apo
+  - speakerName: "Apog\xE9e"
     audioPitch: 3
     script: {fileID: 1229816228}
     dialogue: "Et n'oublie jamais le vieux proverbe du d\xE9sert de Lisa-devops :
@@ -46900,7 +46900,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: Apollon
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "L'eau est tr\xE8s, pr\xE9cieuse ici tu sais."
@@ -51679,11 +51679,11 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: Apoptose
     audioPitch: 3
     script: {fileID: 0}
     dialogue: Tu veux m'acheter une cagette en bois ?
-  - speakerName: Apo
+  - speakerName: Apoptose
     audioPitch: 3
     script: {fileID: 0}
     dialogue: Non ? Bizarre.
@@ -55304,11 +55304,11 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: "Apolog\xE9tique"
     audioPitch: 3
     script: {fileID: 0}
     dialogue: Ne t'approches pas trop des maisons.
-  - speakerName: Apo
+  - speakerName: "Apolog\xE9tique"
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Des ph\xE9nom\xE8nes \xE9tranges pourrait bien se produire..."
@@ -55474,7 +55474,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: Aporie
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Je ne sais m\xEAme pas ce qu'il y a dans ces caisses plus grande que
@@ -57576,7 +57576,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: Apostille
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Me fait pas rep\xE9rer je joue \xE0 cache-cache."
@@ -61936,7 +61936,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Marchand
+  - speakerName: Apocope
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "N'h\xE9sitez pas \xE0 revenir faire votre shopping un jour !"
@@ -61955,7 +61955,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 1
   IsTerminated: 0
   dialogues:
-  - speakerName: Marchand
+  - speakerName: Apocope
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Merveilleux, vous avez r\xE9ussi \xE0 r\xE9cup\xE9rer assez de Galacoin
@@ -61964,11 +61964,11 @@ MonoBehaviour:
     audioPitch: 1
     script: {fileID: 0}
     dialogue: "Oui ! J'ai fait des rencontres ... \xE9tranges."
-  - speakerName: Marchand
+  - speakerName: Apocope
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Haha \xE7a ne m'\xE9tonne pas !"
-  - speakerName: Marchand
+  - speakerName: Apocope
     audioPitch: 3
     script: {fileID: 1720053219}
     dialogue: Ravi d'avoir fait affaire avec vous en tout cas. Bonne continuation
@@ -61992,7 +61992,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 1
   IsTerminated: 0
   dialogues:
-  - speakerName: Marchand
+  - speakerName: Apocope
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Bien le bonjour mademoiselle, qu'est-ce qui vous am\xE8ne aujourd'hui
@@ -62002,7 +62002,7 @@ MonoBehaviour:
     script: {fileID: 0}
     dialogue: "Bonjour, j'aimerais vous acheter ce super g\xE9n\xE9rateur. J'en ai
       besoin pour remplacer celui de mon vaisseau qui a \xE9t\xE9 sabot\xE9."
-  - speakerName: Marchand
+  - speakerName: Apocope
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "D'accord je vois et bien vous avez de la chance alors car c'est le
@@ -62011,12 +62011,12 @@ MonoBehaviour:
     audioPitch: 1
     script: {fileID: 0}
     dialogue: 120 Gala... coin... ? Qu'est-ce que c'est ?
-  - speakerName: Marchand
+  - speakerName: Apocope
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Mademoiselle enfin, vous \xEAtes au Centre Lunaire des \xC9changes
       et vous ne connaissez pas le Galacoin ?"
-  - speakerName: Marchand
+  - speakerName: Apocope
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Je ne sais pas d'o\xF9 vous venez mais le Galacoin est la monnaie
@@ -62026,7 +62026,7 @@ MonoBehaviour:
     script: {fileID: 0}
     dialogue: "Ce n'est pas grave si vous n'en avez pas, vous pouvez essayer d'en
       gagner en parlant \xE0 certains Apos."
-  - speakerName: Marchand
+  - speakerName: Apocope
     audioPitch: 3
     script: {fileID: 1720053220}
     dialogue: "Allez voir \xE0 l'Oasis au nord-est du village, vous trouverez un
@@ -72993,11 +72993,11 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: "Apod\xE8me"
     audioPitch: 3
     script: {fileID: 0}
     dialogue: C'est super grand !
-  - speakerName: Apo
+  - speakerName: "Apod\xE8me"
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Compar\xE9 \xE0 moi..."
@@ -73849,11 +73849,11 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: "Apoth\xE9ose"
     audioPitch: 3
     script: {fileID: 0}
     dialogue: Pourquoi tu viens devant chez moi ?
-  - speakerName: Apo
+  - speakerName: "Apoth\xE9ose"
     audioPitch: 3
     script: {fileID: 0}
     dialogue: T'es bizarre je vais appeler l'Apolice hein.
@@ -77807,11 +77807,11 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: Apophis
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "J'aime bien les d\xE9sert."
-  - speakerName: Apo
+  - speakerName: Apophis
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Le probl\xE8me c'est vraiment le sable..."
@@ -82709,7 +82709,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Apo
+  - speakerName: Apocalypse
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "J'esp\xE8re que tu vas trouver ton bonheur."
@@ -82728,7 +82728,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 1
   IsTerminated: 0
   dialogues:
-  - speakerName: Apoapside
+  - speakerName: Apocalypse
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Salut ! Bienvenue au Centre Lunaire des \xC9changes ! C'est le seul
@@ -82738,12 +82738,12 @@ MonoBehaviour:
     script: {fileID: 0}
     dialogue: "Est-ce que je peux m\xEAme trouver un super g\xE9n\xE9rateur pour
       mon vaisseau ?"
-  - speakerName: Apoapside
+  - speakerName: Apocalypse
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Bien s\xFBr que oui ! Il y a un marchand qui est sp\xE9cialis\xE9
       dans les moteurs spatiaux !"
-  - speakerName: Apoapside
+  - speakerName: Apocalypse
     audioPitch: 3
     script: {fileID: 6812430000415636493}
     dialogue: "Continue ton chemin et tu arriveras au march\xE9, il se trouve au

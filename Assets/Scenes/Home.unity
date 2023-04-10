@@ -137,6 +137,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xPositionRange: 5
   yPositionRange: 8
+  minPositionSpeed: 0.5
+  maxPositionSpeed: 0.8
 --- !u!1 &78925301
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,7 +928,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TAP TO BEGIN
+  m_text: CLIQUER POUR COMMENCER
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 96712913c35f1b8469408ea9da745945, type: 2}
   m_sharedMaterial: {fileID: -2370382489591893849, guid: 96712913c35f1b8469408ea9da745945, type: 2}
