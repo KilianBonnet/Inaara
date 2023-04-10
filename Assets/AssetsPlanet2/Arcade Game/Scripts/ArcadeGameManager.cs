@@ -104,6 +104,7 @@ public class ArcadeGameManager : MonoBehaviour
     private void TutorialOnHit(GameObject car) {
         if(arcadeGameStateManager.arcadeGameState != ArcadeGameState.IN_TUTORIAL) return;
         car.GetComponent<AudioSource>().Play();
+        car.GetComponent<ParticleSystem>().Play();
         ShowHint("Ce n'est pas grave, esquiver n'est pas facile. Essaye encore !");
         CancelInvoke();
         Invoke("GenerateTutorialTrash", 2f);
@@ -113,6 +114,7 @@ public class ArcadeGameManager : MonoBehaviour
     {
         if(arcadeGameStateManager.arcadeGameState != ArcadeGameState.IN_GAME) return;
         car.GetComponent<AudioSource>().Play();
+        car.GetComponent<ParticleSystem>().Play();
         car.transform.Translate(Vector3.left * 2);
     }
     
