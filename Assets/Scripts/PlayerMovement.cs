@@ -9,6 +9,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private Rigidbody rb;
     [SerializeField] public bool inversed;
+    [SerializeField] public bool reverse;
+
+    
 
     [Tooltip("Maximum angle of slope the player can climb")]
     [SerializeField] private float maxSlopeAngle = 5f;
@@ -63,6 +66,11 @@ public class PlayerMovement : MonoBehaviour
         {
             movement.x = -Input.GetAxisRaw("Vertical");
             movement.z = Input.GetAxisRaw("Horizontal");
+        }
+        else if(reverse)
+        {
+            movement.x = Input.GetAxisRaw("Vertical");
+            movement.z = -Input.GetAxisRaw("Horizontal");
         }
         else
         {

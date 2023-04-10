@@ -63,5 +63,7 @@ MonoBehaviour:
   virtualCamera: {fileID: 0}
   cameraDistance: 5
   cameraAngle: 30
-  turnAroundTarget: 1
+  destroyOnExit: 0
+  turnAroundTarget: 0
   target: {fileID: 0}
+  angleY: 0

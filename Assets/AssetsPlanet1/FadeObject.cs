@@ -16,7 +16,7 @@ public class FadeObject : MonoBehaviour
         // Get the materials of the object
         targetRigidbody=GameObject.FindGameObjectsWithTag("Player")[0].GetComponent<Rigidbody>();
         material1 = GetComponent<Renderer>().material;
-        material2 = GetComponent<Renderer>().materials[1]; 
+        material2 = GetComponent<Renderer>().materials[1];
     }
 
     private void Update()
