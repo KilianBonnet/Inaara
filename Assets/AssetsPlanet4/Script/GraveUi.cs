@@ -18,7 +18,7 @@ public class GraveUi : Interactable
         }
         else {
             bookUI.SetActive(true);
-            Invoke("StartDialogDelayed", 2f);
+            Invoke("StartDialogDelayed", 4f);
         }
     }
 

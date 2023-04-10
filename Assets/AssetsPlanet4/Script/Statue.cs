@@ -32,7 +32,7 @@ public class Statue : Interactable
         RenderSettings.fogDensity = .02f;
         bgm.Pause();
         bgm.volume = .07f;
-        Invoke("StartBGMDelayed", 5);
+        Invoke("StartBGMDelayed", 3);
         Invoke("StartDialog", 5);
     }
 
