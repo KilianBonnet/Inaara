@@ -1325,6 +1325,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 1
   target: {fileID: 0}
+  follow: 0
 --- !u!65 &6812429999274190220
 BoxCollider:
   m_ObjectHideFlags: 0
