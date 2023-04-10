@@ -11,14 +11,16 @@ public class Takeoff : Interactable
     private AudioSource _audioSource;
     public String nextSceneName;
     private Image image;
-    private MarchandQuest marchandQuest;
     
     // Start is called before the first frame update
     void Start()
     {
         _audioSource = GetComponent<AudioSource>();
-        image = GameObject.Find("Fade").GetComponent<Image>();
-        marchandQuest = FindObjectOfType<MarchandQuest>();
+
+        if((image = GameObject.Find("Fade").GetComponent<Image>()) == null) {
+            Debug.LogError("Fade not found !");
+            return;
+        }
     }
 
     // Update is called once per frame
@@ -46,9 +48,8 @@ public class Takeoff : Interactable
 
     public override void Interact()
     {
-        marchandQuest.ChangeObjective("");
-        marchandQuest.ChangeName("");
         fade = true;
-        _audioSource.Play();
+        if(_audioSource != null)
+            _audioSource.Play();
     }
 }
