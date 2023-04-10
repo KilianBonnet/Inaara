@@ -8,7 +8,6 @@ public class LeaveQuest : Quest
     {
         StartCoroutine(StartQuest());
     }
-
     
     public override void BeginQuest()
     {
