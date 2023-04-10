@@ -1,26 +1,26 @@
 using System.Collections;
 using UnityEngine;
 
-public class Leave : Interactable
+public class Leave : MonoBehaviour
 {
     private LeaveQuest leaveQuest;
+    private bool triggeredOnce = false;
 
     private void Start()
     {
         leaveQuest = FindObjectOfType<LeaveQuest>();
     }
 
-    public override void Interact()
+    private void OnTriggerEnter(Collider other)
     {
-        StartCoroutine(DelayedEnd());
-    }
-
-
-    public IEnumerator DelayedEnd()
-    {
-        yield return new WaitForSeconds(1);
-        
-        IsTerminated = true;
-        leaveQuest.TerminateQuest();
+        if (!triggeredOnce)
+        {
+            if (!other.CompareTag("Player")) return;
+            triggeredOnce = true;
+            leaveQuest.TerminateQuest();
+        }
     }
 }
+
+
+
