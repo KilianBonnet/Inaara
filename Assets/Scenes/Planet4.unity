@@ -28924,6 +28924,26 @@ PrefabInstance:
       propertyPath: m_text
       value: "Plan\xE8te 4"
       objectReference: {fileID: 0}
+    - target: {fileID: 4801445714541853165, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
+      propertyPath: m_fontColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4801445714541853165, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 60159
+      objectReference: {fileID: 0}
+    - target: {fileID: 4801445714541853166, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 357.2217
+      objectReference: {fileID: 0}
+    - target: {fileID: 4801445714541853166, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.000015259
+      objectReference: {fileID: 0}
+    - target: {fileID: 4801445714541853166, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 47.185
+      objectReference: {fileID: 0}
     - target: {fileID: 4801445715033289762, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
