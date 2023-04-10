@@ -17,7 +17,7 @@ public class FollowPlayerComponent : Interactable
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (!follow) return;
         if (!PositionsProches(transform.position,target.position))

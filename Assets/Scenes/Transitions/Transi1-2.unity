@@ -171,38 +171,27 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   dialogues:
-  - speakerName: Vaisseau
-    audioPitch: 0
-    script: {fileID: 0}
-    dialogue: "* Exctinction du r\xE9acteur *"
   - speakerName: Inaara
     audioPitch: 1
     script: {fileID: 0}
-    dialogue: Qu'est-ce qu'il se passe ?
-  - speakerName: Apocentre
+    dialogue: "Le vaisseau me paraissait plus grand \xE0 l'aller..."
+  - speakerName: Les Apo
     audioPitch: 3
     script: {fileID: 0}
-    dialogue: "Le super g\xE9n\xE9rateur que nous avons achet\xE9 n'est pas de tr\xE8s
-      bonne qualit\xE9 on dirait..."
-  - speakerName: Apoapsis
+    dialogue: "T'inqui\xE8tes on est bien install\xE9s !"
+  - speakerName: Inaara
     audioPitch: 3
     script: {fileID: 0}
-    dialogue: "Oui, nous allons devoir nous arr\xEAter en chemin pour le laisser
-      refroidir \xE0 mon avis."
+    dialogue: Bon tant mieux pour vous alors...
   - speakerName: Inaara
-    audioPitch: 1
+    audioPitch: 3
     script: {fileID: 0}
-    dialogue: "Hmm c'est emb\xEAtant, la seule plan\xE8te \xE0 l'horizon est celle-ci
-      au loin."
-  - speakerName: Inaara
-    audioPitch: 1
-    script: {fileID: 0}
-    dialogue: "Elle n'a pas l'air tr\xE8s accueillante, on dirait m\xEAme qu'elle
-      est abandonn\xE9e..."
-  - speakerName: Inaara
-    audioPitch: 1
+    dialogue: "Oh wow ! Regardez ! L\xE0 sur cette plan\xE8te ! Wow  ca \xE0 l'air
+      giga cool. On devrait aller jeter un coup d'oeil !"
+  - speakerName: Les Apo
+    audioPitch: 3
     script: {fileID: 49647791}
-    dialogue: Mais bon il n'y a pas d'autres choix.
+    dialogue: Ouais allons y !
 --- !u!4 &49647790
 Transform:
   m_ObjectHideFlags: 0
@@ -232,7 +221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
-  nextSceneName: Planet4
+  nextSceneName: Planet2
 --- !u!114 &49647793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -447,26 +436,6 @@ PrefabInstance:
     - target: {fileID: 4801445714242413356, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
       propertyPath: m_Volume
       value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4801445714540472605, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
-      propertyPath: m_text
-      value: "(r\xE9par\xE9)"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4801445714541853165, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
-      propertyPath: m_text
-      value: Le vaisseau
-      objectReference: {fileID: 0}
-    - target: {fileID: 4801445714541853165, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
-      propertyPath: m_margin.z
-      value: -37.61673
-      objectReference: {fileID: 0}
-    - target: {fileID: 4801445714541853166, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 383.7407
-      objectReference: {fileID: 0}
-    - target: {fileID: 4801445714541853166, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -32.667107
       objectReference: {fileID: 0}
     - target: {fileID: 4801445715033289762, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
       propertyPath: m_Pivot.x

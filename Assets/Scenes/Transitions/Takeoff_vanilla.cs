@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class Takeoff : Interactable
+public class Takeoff_vanilla : Interactable
 {
     private bool fade = false;
     private AudioSource _audioSource;
@@ -16,11 +16,7 @@ public class Takeoff : Interactable
     void Start()
     {
         _audioSource = GetComponent<AudioSource>();
-
-        if((image = GameObject.Find("Fade").GetComponent<Image>()) == null) {
-            Debug.LogError("Fade not found !");
-            return;
-        }
+        image = GameObject.Find("Fade").GetComponent<Image>();
     }
 
     // Update is called once per frame
@@ -48,8 +44,8 @@ public class Takeoff : Interactable
 
     public override void Interact()
     {
+        //IsTerminated = true;
         fade = true;
-        if(_audioSource != null)
-            _audioSource.Play();
+        _audioSource.Play();
     }
 }
