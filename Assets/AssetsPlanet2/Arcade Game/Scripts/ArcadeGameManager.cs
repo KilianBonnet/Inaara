@@ -84,7 +84,7 @@ public class ArcadeGameManager : MonoBehaviour
     }
 
     public void TutorialAvoid() {
-        hintText.text = "Esquive les obstcles ! Ils te font reculer ...";
+        hintText.text = "Esquive les obstcales ! Ils te font reculer ...";
         gameAudio.Play();
         Invoke("GenerateTutorialTrash", 2f);
     }
