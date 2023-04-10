@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class TapToBeginListener : MonoBehaviour
 {
-    private TakeoffEstoult takeoff;
+    private Takeoff takeoff;
     private GameObject tapToBeginText;
 
     private void Start() {
-        takeoff = FindObjectOfType<TakeoffEstoult>();
+        takeoff = FindObjectOfType<Takeoff>();
         tapToBeginText = GameObject.Find("Tap To Begin Panel");
     }
 

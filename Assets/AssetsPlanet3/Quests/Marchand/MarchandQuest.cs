@@ -28,10 +28,10 @@ public class MarchandQuest : Quest
     {
         questManager.Add(this);
         
-        merchandNpc = GameObject.Find("MerchandNPC");
-        oasisNpc = GameObject.Find("OasisNPC");
-        pyramidNpc = GameObject.Find("PyramidNPC");
-        obeliskNpc = GameObject.Find("ObeliskNPC");
+        merchandNpc = GameObject.Find("MerchandNPCA");
+        oasisNpc = GameObject.Find("OasisNPCA");
+        pyramidNpc = GameObject.Find("PyramidNPCA");
+        obeliskNpc = GameObject.Find("ObeliskNPCA");
         spaceship = GameObject.Find("Spaceship");
     }
 
@@ -83,7 +83,7 @@ public class MarchandQuest : Quest
         
         if (coconutsFound == 5)
         {
-            ChangeObjective("Reparler à l'Apo près de l'Oasis");
+            ChangeObjective("Reparler à l'Apo de l'Oasis");
             
             oasisNpc.GetComponent<DialogueManager>().enabled = true;
         }
@@ -108,5 +108,10 @@ public class MarchandQuest : Quest
     public void ActiveRepair()
     {
         spaceship.GetComponent<Interactor>().enabled = true;
+    }
+
+    public void FinishQuest()
+    {
+        questManager.Remove(this);
     }
 }
