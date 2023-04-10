@@ -36,15 +36,12 @@ public class UnityChanFollow : MonoBehaviour
     [SerializeField] DialogueManager lastDialog;
     private Vector3 arcadeMachinePosition;
 
-    private SphereCollider sc;
-
     void Start()
     {
         followState = FollowState.FIRST_MOVE;
         animator = GetComponent<Animator>();
         waypoints = new List<Vector3>();
         arcadeMachinePosition = GameObject.Find("To Look At").transform.position;
-        sc = GetComponent<SphereCollider>();
         foreach (Transform child in pathRootOne.transform)
             waypoints.Add(child.position);
     }
@@ -64,7 +61,7 @@ public class UnityChanFollow : MonoBehaviour
         isMoving = true;
         animator.SetFloat("Speed", speed);
 
-        if(nextWaypoint == waypoints.Count - 1 && followState == FollowState.FIRST_MOVE) sc.radius = 1.2f;
+        if(nextWaypoint == waypoints.Count - 1 && followState == FollowState.FIRST_MOVE) GetComponent<SphereCollider>().radius = 1.2f;
         if(nextWaypoint < waypoints.Count) target = waypoints[nextWaypoint];
         else if (followState == FollowState.FIRST_MOVE) MidDialogue();
         else if (followState == FollowState.SECOND_MOVE) LastDialogue();
@@ -127,6 +124,6 @@ public class UnityChanFollow : MonoBehaviour
         foreach (Transform child in pathRootTwo.transform)
             waypoints.Add(child.position);
         nextWaypoint = 0;
-        sc.radius = 3;
+        GetComponent<SphereCollider>().radius = 3;
     }
 }

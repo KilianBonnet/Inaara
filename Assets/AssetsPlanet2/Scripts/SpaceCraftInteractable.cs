@@ -3,9 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SpaceCraftInteractable : Interactable
-{   public override void Interact()
+{   
+    [SerializeField] private GameObject[] toEnable;
+
+    public override void Interact()
     {
         IsTerminated = true;
         FindObjectOfType<RaceQuest>().ReturnToSpacecraft();
+        foreach (GameObject gameObject in toEnable) gameObject.SetActive(true);
     }
 }
