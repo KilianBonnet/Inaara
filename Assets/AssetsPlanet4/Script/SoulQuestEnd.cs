@@ -11,7 +11,7 @@ public class SoulQuestEnd : Interactable
             "Avons nous encore le temps ?",
             "Il serait temps de rentrer, Princesse du temps."
         );
-
+        GameObject.Find("? NPC").SetActive(false);
         GameObject.Find("Spaceship").GetComponent<Interactor>().enabled = true;
     }
 }
