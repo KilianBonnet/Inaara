@@ -32,7 +32,7 @@ public class ArcadeGameManager : MonoBehaviour
         scoreUi = GameObject.Find("Score").GetComponent<TextMeshProUGUI>();
         hintText = GameObject.Find("Hint Text").GetComponent<TextMeshProUGUI>();
         hintPanel = GameObject.Find("Arcade Hint Panel").GetComponent<Image>();
-
+        FindObjectOfType<PlayerStateManager>().UpdateState(PlayerState.PLAYING);
         // Initializing parameters
         inaara.SetActive(false);
     }
