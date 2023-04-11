@@ -9,6 +9,7 @@ public class FollowPlayerComponent : Interactable
     NavMeshAgent nav;
     private Animator mAnimator;
     public bool follow = false;
+    public bool isRunning = false;
 
     void Start()
     {
@@ -20,11 +21,19 @@ public class FollowPlayerComponent : Interactable
     void FixedUpdate()
     {
         if (!follow) return;
-        if (!PositionsProches(transform.position,target.position))
-        
-            mAnimator.SetTrigger("run");
-        else
+        if (!PositionsProches(transform.position, target.position))
+        {
+            if (!isRunning)
+            {
+                mAnimator.SetTrigger("run");
+                isRunning = true;
+            }
+        }
+        else if (isRunning)
+        {
             mAnimator.SetTrigger("stop");
+            isRunning = false;
+        }
         
         nav.SetDestination(target.position);
 
