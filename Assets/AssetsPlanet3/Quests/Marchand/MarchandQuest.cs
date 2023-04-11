@@ -38,13 +38,23 @@ public class MarchandQuest : Quest
     public void ChangeObjective(string description)
     {
         questDescription = description;
-        questManager.Refresh(this);
+        questManager.Remove(this);
+        questManager.Add(this);
     }
     
     public void ChangeName(string name)
     {
         questName = name;
-        questManager.Refresh(this);
+        questManager.Remove(this);
+        questManager.Add(this);
+    }
+
+    public void ChangeNameAndObjective(string name, string description)
+    {
+        questName = name;
+        questDescription = description;
+        questManager.Remove(this);
+        questManager.Add(this);
     }
 
     public void ActiveMerchandNPC()
@@ -112,6 +122,6 @@ public class MarchandQuest : Quest
 
     public void FinishQuest()
     {
-        questManager.Remove(this);
+        ChangeNameAndObjective("","");
     }
 }

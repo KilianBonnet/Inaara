@@ -20,8 +20,7 @@ public class BuyGeneratorAndOut : Interactable
 
     public override void Interact()
     {
-        marchandQuest.ChangeObjective("Retourner au vaisseau le réparer pour quitter la planète");
-        marchandQuest.ChangeName("Réparer votre vaisseau");
+        marchandQuest.ChangeNameAndObjective("Mécanique spatiale", "Retourner au vaisseau le réparer");
         marchandQuest.ActiveRepair();
         GameObject.Find("scifi-pillar-light").GetComponent<MeshRenderer>().enabled = false;
         
