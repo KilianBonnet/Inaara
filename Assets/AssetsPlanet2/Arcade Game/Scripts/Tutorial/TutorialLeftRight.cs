@@ -4,18 +4,23 @@ using UnityEngine;
 
 public class TutorialLeftRight : MonoBehaviour
 {
-    private int leftCounter;
-    private int rightCounter;
+    private bool leftCheck;
+    private bool rightCheck;
+    private bool tutorialCompleted;
 
     private void Update() {
+        
         float horizontalInput = Input.GetAxis("Horizontal");
-        if(horizontalInput > .2f) leftCounter++;
-        else if(horizontalInput < -.2f) rightCounter++;
-        OnTutorialCompleted();
+
+        if(horizontalInput > .6f) leftCheck = true;
+        else if(horizontalInput < -.6f) rightCheck = true;
+
+        if(!leftCheck || !rightCheck || tutorialCompleted) return;
+        tutorialCompleted = true;
+        Invoke("OnTutorialCompleted", 3);
     }
 
     private void OnTutorialCompleted() {
-        if(leftCounter < 100 && rightCounter < 100) return;
         FindObjectOfType<ArcadeGameManager>().TutorialAvoid();
         Destroy(this);
     }
