@@ -23,7 +23,7 @@ public class ChangeInteraction : Interactable
     {
         GetComponent<Interactor>().interactionText = "Décoller";
         marchandQuest.GetComponent<AudioSource>().Play();
-        marchandQuest.FinishQuest();
+        marchandQuest.ChangeNameAndObjective("Vers l'infini et au-delà", "Quitter la planète");
         IsTerminated = true;
     }
 }

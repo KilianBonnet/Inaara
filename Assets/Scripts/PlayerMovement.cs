@@ -29,6 +29,10 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 movement;
     private int isRunningHash;
 
+    public AudioSource footStep;
+    private bool hasAudioSource = true;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -55,6 +59,14 @@ public class PlayerMovement : MonoBehaviour
             Debug.LogWarning("Cannot find object of type Animator!");
             hasAnimator = false;
         }
+        
+        // Find the audioSource
+        if ((footStep = GetComponent<AudioSource>()) == null)
+        {
+            Debug.LogWarning("Cannot find object of type AudioSource!");
+            hasAudioSource = false;
+        }
+        
 
         isRunningHash = Animator.StringToHash("isRunning");
     }
@@ -85,6 +97,7 @@ public class PlayerMovement : MonoBehaviour
         if (hasPlayerStateManager && playerStateManager.PlayerState != PlayerState.PLAYING)
         {
             if(hasAnimator) animator.SetBool(isRunningHash, false);
+            if(hasAudioSource) footStep.enabled = false;
             return;
         }
 
@@ -117,7 +130,13 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.rotation = Quaternion.LookRotation(movement);
             if(hasAnimator) animator.SetBool(isRunningHash, true);
+            if(hasAudioSource) footStep.enabled = true;
+
         }
-        else if(hasAnimator) animator.SetBool(isRunningHash, false);
+        else if (hasAnimator)
+        {
+            animator.SetBool(isRunningHash, false);
+            if(hasAudioSource) footStep.enabled = false;
+        }
     }
 }

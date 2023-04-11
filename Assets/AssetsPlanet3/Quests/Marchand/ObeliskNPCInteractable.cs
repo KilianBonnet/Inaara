@@ -20,8 +20,7 @@ public class ObeliskNPCInteractable : Interactable
 
     public override void Interact()
     {
-        marchandQuest.ChangeObjective("Retourner voir le marchand au centre du village");
-        marchandQuest.ChangeName("Acheter un super générateur");
+        marchandQuest.ChangeNameAndObjective("Shopping bien mérité", "Retourner voir le marchand au centre du village");
         marchandQuest.SendBackToMerchandNPC();
         IsTerminated = true;
     }
