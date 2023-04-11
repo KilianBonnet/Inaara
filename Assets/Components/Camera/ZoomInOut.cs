@@ -1,0 +1,71 @@
+using System.Collections;
+using System.Collections.Generic;
+using Cinemachine;
+using UnityEngine;
+
+public class ZoomInOut : MonoBehaviour
+{
+    [SerializeField] CinemachineVirtualCamera virtualCamera;
+    [SerializeField] float cameraDistance;
+    [SerializeField] float cameraAngle;
+    [SerializeField] bool destroyOnExit;
+    [SerializeField] bool turnAroundTarget;
+    public GameObject target;
+    CinemachineComponentBase componentBase;
+
+    private bool doRotation;
+    public int angleY=0;
+
+    private void Start()
+    {
+        doRotation = false;
+    }
+
+    private void Update()
+    {
+       if(doRotation && turnAroundTarget && target != null)
+        {
+            virtualCamera.transform.RotateAround(target.transform.position, Vector3.up, 20 * Time.deltaTime);
+        }
+    }
+
+    public void ZoomIn()
+    {
+        if (componentBase == null)
+        {
+            componentBase = virtualCamera.GetCinemachineComponent(CinemachineCore.Stage.Body);
+        }
+
+        if (componentBase is CinemachineFramingTransposer)
+        {
+            (componentBase as CinemachineFramingTransposer).m_CameraDistance = cameraDistance;
+            doRotation = true;
+            virtualCamera.m_Follow = target.transform;
+            virtualCamera.transform.eulerAngles = new Vector3(
+                cameraAngle,
+                virtualCamera.transform.eulerAngles.y,
+                virtualCamera.transform.eulerAngles.z);
+        }
+    }
+
+    public void ZoomOut()
+    {
+        if (componentBase == null)
+        {
+            componentBase = virtualCamera.GetCinemachineComponent(CinemachineCore.Stage.Body);
+        }
+
+        if (componentBase is CinemachineFramingTransposer)
+        {
+            (componentBase as CinemachineFramingTransposer).m_CameraDistance = 10;
+            doRotation = false;
+            virtualCamera.transform.eulerAngles = new Vector3(
+                45,
+                angleY,
+                virtualCamera.transform.eulerAngles.z);
+            virtualCamera.m_Follow = GameObject.FindGameObjectWithTag("Player").transform;
+        }
+
+        if (destroyOnExit) Destroy(gameObject);
+    }
+}

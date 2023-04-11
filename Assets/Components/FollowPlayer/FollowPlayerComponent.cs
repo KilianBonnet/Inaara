@@ -6,25 +6,32 @@ using UnityEngine.AI;
 public class FollowPlayerComponent : Interactable
 {
     public Transform target;
-    NavMeshAgent nav;
-    private Animator mAnimator;
+    public NavMeshAgent nav;
+    public Animator mAnimator;
     public bool follow = false;
+    public bool isRunning = false;
 
     void Start()
     {
-        nav = GetComponent<NavMeshAgent>();
-        mAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
         if (!follow) return;
-        if (!PositionsProches(transform.position,target.position))
-        
-            mAnimator.SetTrigger("run");
-        else
+        if (!PositionsProches(transform.position, target.position))
+        {
+            if (!isRunning)
+            {
+                mAnimator.SetTrigger("run");
+                isRunning = true;
+            }
+        }
+        else if (isRunning)
+        {
             mAnimator.SetTrigger("stop");
+            isRunning = false;
+        }
         
         nav.SetDestination(target.position);
 
