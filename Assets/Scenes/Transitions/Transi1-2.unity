@@ -180,11 +180,11 @@ MonoBehaviour:
     script: {fileID: 0}
     dialogue: "T'inqui\xE8tes on est bien install\xE9s !"
   - speakerName: Inaara
-    audioPitch: 3
+    audioPitch: 1
     script: {fileID: 0}
     dialogue: Bon tant mieux pour vous alors...
   - speakerName: Inaara
-    audioPitch: 3
+    audioPitch: 1
     script: {fileID: 0}
     dialogue: "Oh wow ! Regardez ! L\xE0 sur cette plan\xE8te ! Wow  ca \xE0 l'air
       giga cool. On devrait aller jeter un coup d'oeil !"
@@ -248,6 +248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 291d7841a2a286e40b40779374a77d6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerState: 0
 --- !u!1 &78925301
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,6 +437,14 @@ PrefabInstance:
     - target: {fileID: 4801445714242413356, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
       propertyPath: m_Volume
       value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4801445714540472605, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
+      propertyPath: m_text
+      value: Un peu trop plein...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4801445714541853165, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
+      propertyPath: m_text
+      value: Le vaisseau
       objectReference: {fileID: 0}
     - target: {fileID: 4801445715033289762, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
       propertyPath: m_Pivot.x

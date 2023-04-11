@@ -11511,7 +11511,7 @@ MonoBehaviour:
   IsTerminated: 0
   dialogues:
   - speakerName: Apo
-    audioPitch: 1
+    audioPitch: 3
     script: {fileID: 1070644533}
     dialogue: Bonjour ! Dites moi... Vous allez pas sur la Terre vous ?
   - speakerName: Inaara
@@ -11519,7 +11519,7 @@ MonoBehaviour:
     script: {fileID: 0}
     dialogue: "Euh... Peut-\xEAtre..."
   - speakerName: Apo
-    audioPitch: 1
+    audioPitch: 3
     script: {fileID: 0}
     dialogue: "Wa ca tombe super bien j'ai grave des choses \xE0 faire aussi sur
       Terre, je peux venir ? "
@@ -11528,7 +11528,7 @@ MonoBehaviour:
     script: {fileID: 0}
     dialogue: Euh... ...
   - speakerName: Apo
-    audioPitch: 1
+    audioPitch: 3
     script: {fileID: 1070644528}
     dialogue: Trop bien!
 --- !u!95 &1070644530
@@ -21607,6 +21607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 291d7841a2a286e40b40779374a77d6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerState: 0
 --- !u!114 &1884097197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21967,7 +21968,7 @@ MonoBehaviour:
   IsTerminated: 0
   dialogues:
   - speakerName: Apo
-    audioPitch: 1
+    audioPitch: 3
     script: {fileID: 1903966983}
     dialogue: "Bonjour ! D\xE9sol\xE9 de te d\xE9ranger... Tu penses que quelque
       chose va sortir de cet oeuf ?"
@@ -21977,7 +21978,7 @@ MonoBehaviour:
     dialogue: "Bonjour! Honn\xEAtement je n'en sais rien. Mais vu la taille de l'oeuf
       j'ai peur de ce qui pourrait en sortir. "
   - speakerName: Apo
-    audioPitch: 1
+    audioPitch: 3
     script: {fileID: 0}
     dialogue: Oh! bah tu sais nous les Apo on nait dans des oeufs bien plus grand,
       et pourtant on est tout gentil n'est-ce pas ?
@@ -21987,7 +21988,7 @@ MonoBehaviour:
     dialogue: "Oui c'est bien vrai! Bon je dois te laisser je ne souhaite pas m'\xE9terniser
       non plus au mus\xE9e."
   - speakerName: Apo
-    audioPitch: 1
+    audioPitch: 3
     script: {fileID: 0}
     dialogue: "Ah oui et vous allez o\xF9 tout les deux apr\xE8s ? "
   - speakerName: Inaara
@@ -21996,20 +21997,20 @@ MonoBehaviour:
     dialogue: "Nous allons tout les deux sur Terre alors on a decid\xE9 de faire
       la route ensemble!"
   - speakerName: Apo
-    audioPitch: 1
+    audioPitch: 3
     script: {fileID: 0}
     dialogue: "Oh mais vous aussi ?? Je dois justement me rendre sur terre pour aporter
       des biscuits \xE0 ma grand-apo !"
   - speakerName: Apo
-    audioPitch: 1
+    audioPitch: 3
     script: {fileID: 0}
     dialogue: Est-ce que je peux venir avec vous ?
-  - speakerName: Apo
+  - speakerName: inaara
     audioPitch: 1
     script: {fileID: 0}
     dialogue: "Euh... Pourquoi pas \xE9coute..."
   - speakerName: Apo
-    audioPitch: 1
+    audioPitch: 3
     script: {fileID: 1903966978}
     dialogue: Super ! On va passer un bout de chemins ensemble !
 --- !u!95 &1903966980
@@ -28377,7 +28378,7 @@ MonoBehaviour:
   IsTerminated: 0
   dialogues:
   - speakerName: Apo
-    audioPitch: 1
+    audioPitch: 3
     script: {fileID: 6866629356837481336}
     dialogue: Bonjour ! Tu ne trouves pas cet endroit incroyable ?
   - speakerName: Inaara
@@ -28386,7 +28387,7 @@ MonoBehaviour:
     dialogue: "Si vraiment !  Tout ce que j'ai pu admirer pour l'instant m'a laiss\xE9
       sans voix !"
   - speakerName: Apo
-    audioPitch: 1
+    audioPitch: 3
     script: {fileID: 0}
     dialogue: "Tu m'\xE9tonnes ! Et sinon qu'est ce qui t'am\xE8ne dans ce mus\xE9e
       ? "
@@ -28396,7 +28397,7 @@ MonoBehaviour:
     dialogue: "Je suis en voyage vers la terre et comme le mus\xE9e \xE9tait sur
       la route jme suis dit que ce serait dommage de pas en profiter"
   - speakerName: Apo
-    audioPitch: 1
+    audioPitch: 3
     script: {fileID: 0}
     dialogue: "Oh toi aussi tu vas sur la Terre ? Je dois justement aller voir un
       ami l\xE0-bas aussi ! Ca te dirais qu'on fasse le voyage ensemble ?"
@@ -28405,7 +28406,7 @@ MonoBehaviour:
     script: {fileID: 0}
     dialogue: "Ouais c'est une bonne id\xE9e, je m'ennuierai moins sur le trajet!"
   - speakerName: Apo
-    audioPitch: 1
+    audioPitch: 3
     script: {fileID: 6395553997407760903}
     dialogue: Super ! On va passer un bout de chemins ensemble !
 --- !u!114 &6866629356837481336
