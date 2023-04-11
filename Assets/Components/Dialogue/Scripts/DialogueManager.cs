@@ -15,6 +15,10 @@ public class DialogueManager : Interactable
 
     // Audio elements
     private AudioSource skipAudio;
+    
+    // Zoom dialogue component
+    public ZoomInOut zoomInOut = null;
+
 
     // Parameters
     [SerializeField] private DialogueContainer[] dialogues;
@@ -22,6 +26,7 @@ public class DialogueManager : Interactable
     // Internal variables
     private int dialogueIterator;
     private bool isStarted;
+    private bool hasZoomInOut = true;
 
     private void Start()
     {
@@ -31,6 +36,13 @@ public class DialogueManager : Interactable
             Debug.LogError("Cannot find object of type PlayerStateManager!");
             Destroy(this); // Self-destroy
         }
+        // Find the Player State Manager
+        if (zoomInOut == null)
+        {
+            Debug.LogError("Cannot find object of type ZoomInOut!");
+            hasZoomInOut = false;
+        }
+        
         
         // Searching "Canvas"
         GameObject canvas = GameObject.Find("Dialogue Manager");
@@ -109,6 +121,10 @@ public class DialogueManager : Interactable
         dialogueContainer.SetActive(true);
         isStarted = true;
         
+        if(hasZoomInOut) zoomInOut.ZoomIn();
+        
+
+        
         PlayOne(dialogueIterator);
     }
 
@@ -172,6 +188,8 @@ public class DialogueManager : Interactable
         IsTerminated = true;
         dialogueIterator = 0;
         isStarted = false;
+
+        if(hasZoomInOut) zoomInOut.ZoomOut();
     }
 
     private bool IsScriptTerminated()
