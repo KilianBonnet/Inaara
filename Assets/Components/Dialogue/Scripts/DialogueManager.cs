@@ -39,7 +39,7 @@ public class DialogueManager : Interactable
         // Find the Player State Manager
         if (zoomInOut == null)
         {
-            Debug.LogError("Cannot find object of type ZoomInOut!");
+            Debug.Log("Cannot find object of type ZoomInOut!");
             hasZoomInOut = false;
         }
         
