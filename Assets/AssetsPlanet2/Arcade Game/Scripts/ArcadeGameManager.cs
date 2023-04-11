@@ -32,7 +32,7 @@ public class ArcadeGameManager : MonoBehaviour
         scoreUi = GameObject.Find("Score").GetComponent<TextMeshProUGUI>();
         hintText = GameObject.Find("Hint Text").GetComponent<TextMeshProUGUI>();
         hintPanel = GameObject.Find("Arcade Hint Panel").GetComponent<Image>();
-
+        FindObjectOfType<PlayerStateManager>().UpdateState(PlayerState.PLAYING);
         // Initializing parameters
         inaara.SetActive(false);
     }
@@ -84,7 +84,7 @@ public class ArcadeGameManager : MonoBehaviour
     }
 
     public void TutorialAvoid() {
-        hintText.text = "Esquive les obstcles ! Ils te font reculer ...";
+        hintText.text = "Esquive les obstcales ! Ils te font reculer ...";
         gameAudio.Play();
         Invoke("GenerateTutorialTrash", 2f);
     }

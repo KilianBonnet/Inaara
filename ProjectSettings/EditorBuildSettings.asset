@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Home.unity
+    guid: f54ee94028240d241b491446f5a9e3a0
+  - enabled: 1
     path: Assets/Scenes/Planet1.unity
     guid: 7a4986eda0a550e499ec78b95c66add7
   - enabled: 1
@@ -29,4 +32,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Planet4.unity
     guid: 2b90041c02fa0424794af2d500508091
+  - enabled: 1
+    path: Assets/Scenes/Planet4_5.unity
+    guid: 29035a5e82ac58c4ea0a12a83063b756
+  - enabled: 1
+    path: Assets/Scenes/Transitions/Transi1-2.unity
+    guid: 818e5dd83efd6fc4eac2b91c0642f195
+  - enabled: 1
+    path: Assets/Scenes/Planet5.unity
+    guid: 54689b01f5c5d4c43a729bf601e966a0
   m_configObjects: {}

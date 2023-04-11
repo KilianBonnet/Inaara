@@ -10178,6 +10178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 291d7841a2a286e40b40779374a77d6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerState: 0
 --- !u!114 &965566346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17448,7 +17449,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 1
   IsTerminated: 0
   dialogues:
-  - speakerName: aaaaaa
+  - speakerName: Vaisseau
     audioPitch: 0
     script: {fileID: 7379471145027432027}
     dialogue: "Vous d\xE9collez..."
@@ -22506,6 +22507,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04338e221f2043dd980d9c23043535ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShouldBeDestroyed: 0
+  ShouldBeDestroyed: 1
   IsTerminated: 0
   nextSceneName: Transi1-2

@@ -22,7 +22,7 @@ public class FadeOnly : MonoBehaviour
         if (image.color.a > 0f && fade)
         {
             var tempColor = image.color;
-            tempColor.a -= 0.001f;
+            tempColor.a -= 0.005f;
             image.color = tempColor;
         }
         else

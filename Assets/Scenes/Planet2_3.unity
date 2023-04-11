@@ -1160,11 +1160,6 @@ MonoBehaviour:
     dialogue: "Je veux voir \xE7a !"
   - speakerName: Apoapsis
     audioPitch: 1
-    script: {fileID: 0}
-    dialogue: "Alors c'est d\xE9cid\xE9, nous allons droit sur la plan\xE8te des
-      \xE9changes !"
-  - speakerName: Apoapsis
-    audioPitch: 1
     script: {fileID: 1722095551}
     dialogue: "Alors c'est d\xE9cid\xE9, nous allons droit sur la plan\xE8te des
       \xE9changes !"
@@ -1207,6 +1202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 291d7841a2a286e40b40779374a77d6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerState: 0
 --- !u!1 &1886430865
 GameObject:
   m_ObjectHideFlags: 0
