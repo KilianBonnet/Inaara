@@ -4306,7 +4306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundMusics:
-  - {fileID: 8300000, guid: 15d6277600076a948b1f303e38de88b8, type: 3}
+  - {fileID: 8300000, guid: 338dd7c771ca36043963fbfcc50a1eef, type: 3}
   ambiantSounds: []
 --- !u!4 &392124979
 Transform:
@@ -6808,6 +6808,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Tourriste
     audioPitch: 1
@@ -10196,6 +10197,7 @@ MonoBehaviour:
   inversed: 0
   reverse: 1
   maxSlopeAngle: 100000
+  footStep: {fileID: 0}
 --- !u!54 &965566347
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17448,6 +17450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Vaisseau
     audioPitch: 0
