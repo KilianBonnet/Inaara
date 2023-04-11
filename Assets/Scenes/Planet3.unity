@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18269897, g: 0.22840722, b: 0.30710497, a: 1}
+  m_IndirectSpecularColor: {r: 0.1826987, g: 0.2284067, b: 0.30710417, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8885,7 +8885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 648f91a642e430e40b403a8bd1e7be2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questName: "Acheter un super g\xE9n\xE9rateur"
+  questName: "Contr\xF4le technique"
   questDescription: "Parler \xE0 l'Apo pr\xE8s du vaisseau"
 --- !u!82 &223759412
 AudioSource:
@@ -21406,7 +21406,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1122706359430475629, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
       propertyPath: m_Size.x
-      value: 6.400177
+      value: 5.969342
       objectReference: {fileID: 0}
     - target: {fileID: 1122706359430475629, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
       propertyPath: m_Size.y
@@ -21422,7 +21422,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1122706359430475629, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
       propertyPath: m_Center.x
-      value: 0.52452093
+      value: 0.30910385
       objectReference: {fileID: 0}
     - target: {fileID: 1122706359430475629, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
       propertyPath: m_Center.y
@@ -39206,7 +39206,7 @@ GameObject:
   - component: {fileID: 972154189}
   - component: {fileID: 972154188}
   m_Layer: 0
-  m_Name: Antoine
+  m_Name: Random Apo (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66960,8 +66960,7 @@ MonoBehaviour:
   - speakerName: Apocope
     audioPitch: 3
     script: {fileID: 1720053219}
-    dialogue: "R\xE9cup\xE8re le super g\xE9n\xE9rateur, il est pour toi tu l'as
-      bien m\xE9rit\xE9."
+    dialogue: "R\xE9cup\xE8re le super g\xE9n\xE9rateur, il est pour toi."
   - speakerName: Apocope
     audioPitch: 3
     script: {fileID: 0}
@@ -84724,6 +84723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 291d7841a2a286e40b40779374a77d6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerState: 0
 --- !u!114 &919132147563563614
 MonoBehaviour:
   m_ObjectHideFlags: 0

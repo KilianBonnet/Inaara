@@ -21,7 +21,6 @@ public class PyramidNPCInteractable : Interactable
     public override void Interact()
     {
         marchandQuest.ChangeObjective("Aller voir l'Obélisque au sud");
-        marchandQuest.ChangeName("Acheter un super générateur");
         marchandQuest.ActiveObeliskNPC();
         IsTerminated = true;
     }
