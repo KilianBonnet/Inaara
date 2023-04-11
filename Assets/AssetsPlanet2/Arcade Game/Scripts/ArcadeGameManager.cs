@@ -15,6 +15,7 @@ public class ArcadeGameManager : MonoBehaviour
     [SerializeField] AudioClip newHintAudio;
     [SerializeField] GameObject[] trashes;
     [SerializeField] Transform trashSpawnPoint;
+    [SerializeField] GameObject arcadeWin;
     private TextMeshProUGUI scoreUi;
     private TextMeshProUGUI hintText;
     private Image hintPanel;
@@ -86,12 +87,12 @@ public class ArcadeGameManager : MonoBehaviour
     public void TutorialAvoid() {
         hintText.text = "Esquive les obstcales ! Ils te font reculer ...";
         gameAudio.Play();
-        Invoke("GenerateTutorialTrash", 2f);
+        Invoke("GenerateTutorialTrash", 3f);
     }
 
     private void GenerateTutorialTrash() {
         HideHintUi();
-        Invoke("GameStart", 3);
+        Invoke("GameStart", 4);
         Instantiate(trashes[0], trashSpawnPoint.position, trashSpawnPoint.rotation);
     }
 
@@ -107,7 +108,7 @@ public class ArcadeGameManager : MonoBehaviour
         car.GetComponent<ParticleSystem>().Play();
         ShowHint("Ce n'est pas grave, esquiver n'est pas facile. Essaye encore !");
         CancelInvoke();
-        Invoke("GenerateTutorialTrash", 2f);
+        Invoke("GenerateTutorialTrash", 3f);
     }
 
     private void GameOnHit(GameObject car)
@@ -191,10 +192,11 @@ public class ArcadeGameManager : MonoBehaviour
 
         if(car.name == "Opponent Car") {
             arcadeGameStateManager.arcadeGameState = ArcadeGameState.TERMINATED;
-            GameObject.Find("Arcade BGM").GetComponent<AudioSource>().Pause();
-            FindObjectOfType<RaceQuest>().FinishRace();
-            inaara.SetActive(true);
-            Destroy(GetComponent<AudioListener>());
+            arcadeWin.SetActive(true);
+            foreach(Trash trash in FindObjectsOfType<Trash>()) Destroy(trash.gameObject);
+            GameObject.Find("Arcade BGM").SetActive(false);
+            GameObject.Find("Speed Particle System").SetActive(false);
+            Invoke("FinishGame", 4);
         }
     }
 
@@ -209,5 +211,11 @@ public class ArcadeGameManager : MonoBehaviour
         GameObject.Find("Inaara Car").AddComponent<CarShowIn>();
         foreach (Transform child in GameObject.Find("Opponents").transform) 
             child.gameObject.AddComponent<OpponentShowIn>();
+    }
+
+    private void FinishGame() {
+        FindObjectOfType<RaceQuest>().FinishRace();
+        inaara.SetActive(true);
+        Destroy(GetComponent<AudioListener>());
     }
 }
