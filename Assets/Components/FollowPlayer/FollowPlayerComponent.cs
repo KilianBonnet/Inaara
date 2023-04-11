@@ -6,15 +6,13 @@ using UnityEngine.AI;
 public class FollowPlayerComponent : Interactable
 {
     public Transform target;
-    NavMeshAgent nav;
-    private Animator mAnimator;
+    public NavMeshAgent nav;
+    public Animator mAnimator;
     public bool follow = false;
     public bool isRunning = false;
 
     void Start()
     {
-        nav = GetComponent<NavMeshAgent>();
-        mAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
