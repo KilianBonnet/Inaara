@@ -9365,7 +9365,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1903966976}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &892385845
 SkinnedMeshRenderer:
@@ -9387,7 +9387,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dd112dc65c7cfba49bcc376528491cf9, type: 2}
+  - {fileID: 2100000, guid: d6c2a681207464d4b9398bb5d2c77a9a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11521,12 +11521,16 @@ MonoBehaviour:
   - speakerName: Apo
     audioPitch: 3
     script: {fileID: 0}
-    dialogue: "Wa ca tombe super bien j'ai grave des choses \xE0 faire aussi sur
+    dialogue: "Wa ca tombe super bien ! J'ai grave des choses \xE0 faire aussi sur
       Terre, je peux venir ? "
   - speakerName: Inaara
     audioPitch: 1
     script: {fileID: 0}
     dialogue: Euh... ...
+  - speakerName: Inaara
+    audioPitch: 1
+    script: {fileID: 0}
+    dialogue: ...
   - speakerName: Apo
     audioPitch: 3
     script: {fileID: 1070644528}
@@ -11903,7 +11907,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1903966976}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &1100280883
 SkinnedMeshRenderer:
@@ -14187,7 +14191,7 @@ MonoBehaviour:
   - speakerName: Inaara
     audioPitch: 1
     script: {fileID: 0}
-    dialogue: "Wow, il y \xE9tait presque!"
+    dialogue: "Wow, il y \xE9tait presque !"
 --- !u!114 &1270439120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14206,11 +14210,11 @@ MonoBehaviour:
   - speakerName: Le gardien
     audioPitch: 1
     script: {fileID: 1270439123}
-    dialogue: Je vais arreter ce but!
+    dialogue: Je vais arreter ce but !
   - speakerName: Inaara
     audioPitch: 1
     script: {fileID: 0}
-    dialogue: "Wow, il y \xE9tait presque!"
+    dialogue: "Wow, il y \xE9tait presque !"
 --- !u!114 &1270439121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18987,7 +18991,7 @@ MonoBehaviour:
   - speakerName: Inaara
     audioPitch: 1
     script: {fileID: 0}
-    dialogue: "Wow, le penguin \xE0 l'air de vraiment bien s'amuser!"
+    dialogue: "Wow, le penguin \xE0 l'air de vraiment bien s'amuser !"
 --- !u!114 &1714445994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19006,11 +19010,11 @@ MonoBehaviour:
   - speakerName: Le pinguin
     audioPitch: 1
     script: {fileID: 1714445992}
-    dialogue: Youuuuouuuuouuuu!
+    dialogue: Youuuuouuuuouuuu !
   - speakerName: Inaara
     audioPitch: 1
     script: {fileID: 0}
-    dialogue: "Wow, le penguin \xE0 l'air de vraiment bien s'amuser!"
+    dialogue: "Wow, le penguin \xE0 l'air de vraiment bien s'amuser !"
 --- !u!114 &1714445995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20336,7 +20340,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1903966976}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &1787022486
 SkinnedMeshRenderer:
@@ -21914,9 +21918,9 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 91206059}
-  - {fileID: 892385844}
   - {fileID: 1100280882}
   - {fileID: 1787022485}
+  - {fileID: 892385844}
   - {fileID: 2084149966}
   - {fileID: 2103518759}
   - {fileID: 1968189830}
@@ -21975,18 +21979,18 @@ MonoBehaviour:
   - speakerName: Inaara
     audioPitch: 1
     script: {fileID: 0}
-    dialogue: "Bonjour! Honn\xEAtement je n'en sais rien. Mais vu la taille de l'oeuf
+    dialogue: "Bonjour ! Honn\xEAtement je n'en sais rien. Mais vu la taille de l'oeuf
       j'ai peur de ce qui pourrait en sortir. "
   - speakerName: Apo
     audioPitch: 3
     script: {fileID: 0}
-    dialogue: Oh! bah tu sais nous les Apo on nait dans des oeufs bien plus grand,
+    dialogue: Oh ! bah tu sais nous les Apo on nait dans des oeufs bien plus grand,
       et pourtant on est tout gentil n'est-ce pas ?
   - speakerName: Inaara
     audioPitch: 1
     script: {fileID: 0}
-    dialogue: "Oui c'est bien vrai! Bon je dois te laisser je ne souhaite pas m'\xE9terniser
-      non plus au mus\xE9e."
+    dialogue: "Oui ca c'est bien vrai ! Bon je dois te laisser je ne souhaite pas
+      m'\xE9terniser non plus au mus\xE9e."
   - speakerName: Apo
     audioPitch: 3
     script: {fileID: 0}
@@ -21994,13 +21998,13 @@ MonoBehaviour:
   - speakerName: Inaara
     audioPitch: 1
     script: {fileID: 0}
-    dialogue: "Nous allons tout les deux sur Terre alors on a decid\xE9 de faire
-      la route ensemble!"
+    dialogue: "Comme nous allons tout les deux sur Terre alors nous avons decid\xE9
+      de faire la route ensemble !"
   - speakerName: Apo
     audioPitch: 3
     script: {fileID: 0}
-    dialogue: "Oh mais vous aussi ?? Je dois justement me rendre sur terre pour aporter
-      des biscuits \xE0 ma grand-apo !"
+    dialogue: "Oh mais vous aussi vous allez sur Terre?? Je dois justement m'y rendre
+      pour aporter des biscuits \xE0 ma grand-apo !"
   - speakerName: Apo
     audioPitch: 3
     script: {fileID: 0}
@@ -22008,11 +22012,11 @@ MonoBehaviour:
   - speakerName: inaara
     audioPitch: 1
     script: {fileID: 0}
-    dialogue: "Euh... Pourquoi pas \xE9coute..."
+    dialogue: "Euh... Pourquoi pas \xE9coute !"
   - speakerName: Apo
     audioPitch: 3
     script: {fileID: 1903966978}
-    dialogue: Super ! On va passer un bout de chemins ensemble !
+    dialogue: Oh super !
 --- !u!95 &1903966980
 Animator:
   serializedVersion: 4
@@ -22896,7 +22900,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dd112dc65c7cfba49bcc376528491cf9, type: 2}
+  - {fileID: 2100000, guid: d6c2a681207464d4b9398bb5d2c77a9a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23684,7 +23688,7 @@ MonoBehaviour:
   - speakerName: Inaara
     audioPitch: 1
     script: {fileID: 0}
-    dialogue: "Oh! On dirait qu'il va \xE9clore!"
+    dialogue: "Oh! On dirait qu'il va \xE9clore !"
 --- !u!114 &2019062811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23707,7 +23711,7 @@ MonoBehaviour:
   - speakerName: Inaara
     audioPitch: 1
     script: {fileID: 0}
-    dialogue: "Oh! On dirait qu'il va \xE9clore!"
+    dialogue: "Oh! On dirait qu'il va \xE9clore !"
 --- !u!114 &2019062812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24389,7 +24393,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dd112dc65c7cfba49bcc376528491cf9, type: 2}
+  - {fileID: 2100000, guid: d6c2a681207464d4b9398bb5d2c77a9a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24563,7 +24567,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dd112dc65c7cfba49bcc376528491cf9, type: 2}
+  - {fileID: 2100000, guid: d6c2a681207464d4b9398bb5d2c77a9a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -25509,7 +25513,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d6c2a681207464d4b9398bb5d2c77a9a, type: 2}
+  - {fileID: 2100000, guid: dd112dc65c7cfba49bcc376528491cf9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -25745,7 +25749,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6866629356837481333}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1711505207466359790
 GameObject:
@@ -25866,7 +25870,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d6c2a681207464d4b9398bb5d2c77a9a, type: 2}
+  - {fileID: 2100000, guid: dd112dc65c7cfba49bcc376528491cf9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -27626,7 +27630,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d6c2a681207464d4b9398bb5d2c77a9a, type: 2}
+  - {fileID: 2100000, guid: dd112dc65c7cfba49bcc376528491cf9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -28340,9 +28344,9 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2592945656141904875}
-  - {fileID: 6995415924592592548}
   - {fileID: 1636148142328183909}
   - {fileID: 8298637168858953628}
+  - {fileID: 6995415924592592548}
   - {fileID: 3858691762590050806}
   - {fileID: 6416978814618240404}
   - {fileID: 4416367764261294456}
@@ -28394,13 +28398,13 @@ MonoBehaviour:
   - speakerName: Inaara
     audioPitch: 1
     script: {fileID: 0}
-    dialogue: "Je suis en voyage vers la terre et comme le mus\xE9e \xE9tait sur
+    dialogue: "Je suis en voyage vers la Terre et comme le mus\xE9e \xE9tait sur
       la route jme suis dit que ce serait dommage de pas en profiter"
   - speakerName: Apo
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Oh toi aussi tu vas sur la Terre ? Je dois justement aller voir un
-      ami l\xE0-bas aussi ! Ca te dirais qu'on fasse le voyage ensemble ?"
+      ami l\xE0-bas ! Ca te dirais qu'on fasse le voyage ensemble ?"
   - speakerName: Inaara
     audioPitch: 1
     script: {fileID: 0}
@@ -28408,7 +28412,7 @@ MonoBehaviour:
   - speakerName: Apo
     audioPitch: 3
     script: {fileID: 6395553997407760903}
-    dialogue: Super ! On va passer un bout de chemins ensemble !
+    dialogue: Super ! On va faire un bout de chemin ensemble !
 --- !u!114 &6866629356837481336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28565,13 +28569,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5769244452290242806}
-  m_LocalRotation: {x: -0.7071068, y: -5.840557e-10, z: -1.5588139e-10, w: 0.7071067}
-  m_LocalPosition: {x: -0.055123895, y: 1.6247048, z: 0.000000276619}
-  m_LocalScale: {x: 50.695824, y: 50.695824, z: 87.7813}
+  m_LocalRotation: {x: -0.7071069, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -0.055120133, y: 1.6247318, z: 0.0000119618335}
+  m_LocalScale: {x: 50.69582, y: 50.695816, z: 87.78131}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6866629356837481333}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7044460850867193042
 GameObject:
@@ -28855,7 +28859,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d6c2a681207464d4b9398bb5d2c77a9a, type: 2}
+  - {fileID: 2100000, guid: dd112dc65c7cfba49bcc376528491cf9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -29277,7 +29281,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6866629356837481333}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &8352548719107765240
 Transform:
