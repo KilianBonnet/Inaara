@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18269897, g: 0.22840722, b: 0.30710497, a: 1}
+  m_IndirectSpecularColor: {r: 0.1826987, g: 0.2284067, b: 0.30710417, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -28061,8 +28061,8 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   target: {fileID: 2017071804}
-  nav: {fileID: 0}
-  mAnimator: {fileID: 0}
+  nav: {fileID: 694008556}
+  mAnimator: {fileID: 694008554}
   follow: 1
   isRunning: 0
 --- !u!95 &694008554
@@ -29506,8 +29506,8 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   target: {fileID: 2017071804}
-  nav: {fileID: 0}
-  mAnimator: {fileID: 0}
+  nav: {fileID: 730745744}
+  mAnimator: {fileID: 730745742}
   follow: 1
   isRunning: 0
 --- !u!95 &730745742
@@ -80223,8 +80223,8 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   target: {fileID: 2017071804}
-  nav: {fileID: 0}
-  mAnimator: {fileID: 0}
+  nav: {fileID: 2030347479}
+  mAnimator: {fileID: 2030347477}
   follow: 1
   isRunning: 0
 --- !u!95 &2030347477
