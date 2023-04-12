@@ -35,7 +35,7 @@ public class BackgroundMusicManager : MonoBehaviour
         if (!audioSource.isPlaying && countBGM > 0)
         {
             audioSource.clip = backgroundMusics[currentMusic];
-            audioSource.volume = 0.1F;
+            audioSource.volume = 0.05f;
             audioSource.Play();
             currentMusic = (currentMusic + 1) % countBGM;
         }
