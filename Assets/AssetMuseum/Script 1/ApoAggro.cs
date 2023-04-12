@@ -7,6 +7,7 @@ public class ApoAggro : Interactable
     private Animator mAnimator;
     public Transform target;
     private bool triggeredOnce = false;
+    public bool isApo = true;
 
     void Start()
     {
@@ -38,7 +39,7 @@ public class ApoAggro : Interactable
     public void RunAnimation()
     {
         transform.LookAt(target, Vector3.up);
-        if (mAnimator != null)
+        if (mAnimator != null&&isApo)
         {
             mAnimator.SetTrigger("enterZone");
         }

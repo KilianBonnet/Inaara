@@ -12118,7 +12118,7 @@ MonoBehaviour:
   IsTerminated: 0
   zoomInOut: {fileID: 1070644534}
   dialogues:
-  - speakerName: Apo
+  - speakerName: ApoCentre
     audioPitch: 3
     script: {fileID: 1070644533}
     dialogue: Bonjour ! Dites moi... Vous allez pas sur la Terre vous ?
@@ -12126,7 +12126,7 @@ MonoBehaviour:
     audioPitch: 1
     script: {fileID: 0}
     dialogue: "Euh... Peut-\xEAtre..."
-  - speakerName: Apo
+  - speakerName: ApoCentre
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Wa ca tombe super bien ! J'ai grave des choses \xE0 faire aussi sur
@@ -12139,7 +12139,7 @@ MonoBehaviour:
     audioPitch: 1
     script: {fileID: 0}
     dialogue: ...
-  - speakerName: Apo
+  - speakerName: ApoCentre
     audioPitch: 3
     script: {fileID: 1070644528}
     dialogue: Trop bien!
@@ -12214,6 +12214,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 1
   IsTerminated: 0
   target: {fileID: 1884097201}
+  isApo: 1
 --- !u!114 &1070644534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22842,7 +22843,7 @@ MonoBehaviour:
   IsTerminated: 0
   zoomInOut: {fileID: 1903966984}
   dialogues:
-  - speakerName: Apo
+  - speakerName: Apoapsis
     audioPitch: 3
     script: {fileID: 1903966983}
     dialogue: "Bonjour ! D\xE9sol\xE9 de te d\xE9ranger... Tu penses que quelque
@@ -22852,7 +22853,7 @@ MonoBehaviour:
     script: {fileID: 0}
     dialogue: "Bonjour ! Honn\xEAtement je n'en sais rien. Mais vu la taille de l'oeuf
       j'ai peur de ce qui pourrait en sortir. "
-  - speakerName: Apo
+  - speakerName: Apoapsis
     audioPitch: 3
     script: {fileID: 0}
     dialogue: Oh ! bah tu sais nous les Apo on nait dans des oeufs bien plus grand,
@@ -22871,12 +22872,12 @@ MonoBehaviour:
     script: {fileID: 0}
     dialogue: "Comme nous allons tout les deux sur Terre alors nous avons decid\xE9
       de faire la route ensemble !"
-  - speakerName: Apo
+  - speakerName: Apoapsis
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Oh mais vous aussi vous allez sur Terre?? Je dois justement m'y rendre
       pour aporter des biscuits \xE0 ma grand-apo !"
-  - speakerName: Apo
+  - speakerName: Apoapsis
     audioPitch: 3
     script: {fileID: 0}
     dialogue: Est-ce que je peux venir avec vous ?
@@ -22884,7 +22885,7 @@ MonoBehaviour:
     audioPitch: 1
     script: {fileID: 0}
     dialogue: "Euh... Pourquoi pas \xE9coute !"
-  - speakerName: Apo
+  - speakerName: Apoapsis
     audioPitch: 3
     script: {fileID: 1903966978}
     dialogue: Oh super !
@@ -22959,6 +22960,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 1
   IsTerminated: 0
   target: {fileID: 1884097201}
+  isApo: 1
 --- !u!114 &1903966984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29519,7 +29521,7 @@ MonoBehaviour:
   IsTerminated: 0
   zoomInOut: {fileID: 6866629356837481337}
   dialogues:
-  - speakerName: Apo
+  - speakerName: Apostrophe
     audioPitch: 3
     script: {fileID: 6866629356837481336}
     dialogue: Bonjour ! Tu ne trouves pas cet endroit incroyable ?
@@ -29528,7 +29530,7 @@ MonoBehaviour:
     script: {fileID: 0}
     dialogue: "Si vraiment !  Tout ce que j'ai pu admirer pour l'instant m'a laiss\xE9
       sans voix !"
-  - speakerName: Apo
+  - speakerName: Apostrophe
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Tu m'\xE9tonnes ! Et sinon qu'est ce qui t'am\xE8ne dans ce mus\xE9e
@@ -29538,7 +29540,7 @@ MonoBehaviour:
     script: {fileID: 0}
     dialogue: "Je suis en voyage vers la Terre et comme le mus\xE9e \xE9tait sur
       la route jme suis dit que ce serait dommage de pas en profiter"
-  - speakerName: Apo
+  - speakerName: Apostrophe
     audioPitch: 3
     script: {fileID: 0}
     dialogue: "Oh toi aussi tu vas sur la Terre ? Je dois justement aller voir un
@@ -29547,7 +29549,7 @@ MonoBehaviour:
     audioPitch: 1
     script: {fileID: 0}
     dialogue: "Ouais c'est une bonne id\xE9e, je m'ennuierai moins sur le trajet!"
-  - speakerName: Apo
+  - speakerName: Apostrophe
     audioPitch: 3
     script: {fileID: 6395553997407760903}
     dialogue: Super ! On va faire un bout de chemin ensemble !
@@ -29566,6 +29568,7 @@ MonoBehaviour:
   ShouldBeDestroyed: 1
   IsTerminated: 0
   target: {fileID: 1884097201}
+  isApo: 1
 --- !u!114 &6866629356837481337
 MonoBehaviour:
   m_ObjectHideFlags: 0
