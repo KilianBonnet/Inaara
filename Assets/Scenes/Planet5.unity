@@ -1075,13 +1075,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4801445714540472605, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
       propertyPath: m_text
-      value: '
-
-        The Museum of form and Motion'
+      value: "\nLa plan\xE8te Myst\xE9rieuse"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4801445714540472606, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 799.9178
+      objectReference: {fileID: 0}
+    - target: {fileID: 4801445714540472606, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.000015259
+      objectReference: {fileID: 0}
+    - target: {fileID: 4801445714540472606, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -29.974
       objectReference: {fileID: 0}
     - target: {fileID: 4801445714541853165, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
       propertyPath: m_text
-      value: Planet 1
+      value: "Plan\xE8te 5"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4801445714541853166, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 403.9402
+      objectReference: {fileID: 0}
+    - target: {fileID: 4801445714541853166, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.000015259
+      objectReference: {fileID: 0}
+    - target: {fileID: 4801445714541853166, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 47.185
       objectReference: {fileID: 0}
     - target: {fileID: 4801445715033289762, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
       propertyPath: m_Pivot.x
@@ -2699,7 +2721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: dialogues.Array.data[0].dialogue
-      value: Ah, I see you're a traveler who's come to visit the magnificent museum!
+      value: 'Vite '
       objectReference: {fileID: 0}
     - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: dialogues.Array.data[1].dialogue
@@ -2728,7 +2750,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: dialogues.Array.data[0].speakerName
-      value: The old man
+      value: Apostrophe
       objectReference: {fileID: 0}
     - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: dialogues.Array.data[1].speakerName
