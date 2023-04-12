@@ -282,7 +282,7 @@ RectTransform:
   - {fileID: 59009158}
   - {fileID: 2081514668}
   m_Father: {fileID: 1654973824}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -479,6 +479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Fille
     audioPitch: 1.1
@@ -518,6 +519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Autel
     audioPitch: 1
@@ -2269,6 +2271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Lampadaire
     audioPitch: 1
@@ -2302,6 +2305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Lampadaire
     audioPitch: 1
@@ -2498,6 +2502,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Brouillard
     audioPitch: 1
@@ -3732,7 +3737,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5151504594393854249, guid: ec241e937debbae4497c5f5bfee833ed, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5151504594393854249, guid: ec241e937debbae4497c5f5bfee833ed, type: 3}
       propertyPath: m_AnchorMax.x
@@ -9188,6 +9193,103 @@ Transform:
   m_Father: {fileID: 313473133}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &475097144
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1654973824}
+    m_Modifications:
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516746, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_Name
+      value: Game Menu Manager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
 --- !u!1001 &499846922
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12268,7 +12370,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1654973824}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -12821,6 +12923,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: '?'
     audioPitch: 0.6
@@ -12871,6 +12974,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: '?'
     audioPitch: 0.6
@@ -12894,6 +12998,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: '?'
     audioPitch: 0.6
@@ -13253,6 +13358,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: "\xC2me"
     audioPitch: 1.2
@@ -13322,6 +13428,7 @@ MonoBehaviour:
   inversed: 0
   reverse: 0
   maxSlopeAngle: 25
+  footStep: {fileID: 0}
 --- !u!54 &1017852453
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14015,6 +14122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Autel
     audioPitch: 1
@@ -14034,6 +14142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Voix 1
     audioPitch: 0.8
@@ -14182,6 +14291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Lampadaire
     audioPitch: 1
@@ -14215,6 +14325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Lampadaire
     audioPitch: 1
@@ -21474,6 +21585,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
+--- !u!224 &1350144396 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+  m_PrefabInstance: {fileID: 475097144}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1352124950
 GameObject:
   m_ObjectHideFlags: 0
@@ -21646,6 +21762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Inaara
     audioPitch: 1
@@ -21687,6 +21804,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Unity Chan
     audioPitch: 0.9
@@ -23072,6 +23190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Statue
     audioPitch: 1
@@ -23410,6 +23529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Autel
     audioPitch: 1
@@ -23429,6 +23549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Voix 1
     audioPitch: 0.8
@@ -23790,12 +23911,13 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 372334094}
   - {fileID: 25511953}
-  - {fileID: 923912984558622225}
   - {fileID: 1261464778}
-  - {fileID: 949803944}
   - {fileID: 1195488869}
+  - {fileID: 949803944}
+  - {fileID: 372334094}
+  - {fileID: 923912984558622225}
+  - {fileID: 1350144396}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24986,6 +25108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Inaara
     audioPitch: 1
@@ -25379,6 +25502,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Unity Chan
     audioPitch: 0.9
@@ -25406,6 +25530,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Unity Chan
     audioPitch: 0.9
@@ -25508,6 +25633,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Brouillard
     audioPitch: 1
@@ -25606,6 +25732,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Lampadaire
     audioPitch: 1
@@ -25625,6 +25752,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Lampadaire
     audioPitch: 1
@@ -25710,6 +25838,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Autel
     audioPitch: 1
@@ -25729,6 +25858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Voix 1
     audioPitch: 0.5
@@ -27014,6 +27144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Vieux puits
     audioPitch: 1
@@ -27467,6 +27598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Lampadaire
     audioPitch: 1
@@ -27500,6 +27632,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Lampadaire
     audioPitch: 1
@@ -28655,6 +28788,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Vaisseau
     audioPitch: 1
@@ -28741,7 +28875,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3510396503159424286, guid: c9b7780bca97cbb49959b722fd816c91, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3510396503159424286, guid: c9b7780bca97cbb49959b722fd816c91, type: 3}
       propertyPath: m_AnchorMax.x
@@ -28900,6 +29034,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Goe
     audioPitch: 0.6
@@ -28954,7 +29089,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4801445715033289762, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4801445715033289762, guid: c1bd275cab2df9b4dac2ce00c24d13c3, type: 3}
       propertyPath: m_AnchorMax.x
@@ -29135,7 +29270,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6543940395741599887, guid: ccee428882bf3f04096e1c98da4dfecc, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6543940395741599887, guid: ccee428882bf3f04096e1c98da4dfecc, type: 3}
       propertyPath: m_AnchorMax.x

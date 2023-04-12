@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1826987, g: 0.2284067, b: 0.30710417, a: 1}
+  m_IndirectSpecularColor: {r: 0.18269897, g: 0.22840722, b: 0.30710497, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -576,6 +576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apojack
     audioPitch: 3
@@ -638,7 +639,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6777920}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1684,6 +1685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: 'Apothicaire '
     audioPitch: 3
@@ -2741,7 +2743,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 72649951}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3494,7 +3496,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 87249704}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4542,7 +4544,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 113001415}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6334,6 +6336,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: "Apotropa\xEFque"
     audioPitch: 3
@@ -7184,7 +7187,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 178457978}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7280,7 +7283,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 180793161}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7695,7 +7698,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 186184083}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8032,6 +8035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apoplexie
     audioPitch: 3
@@ -9259,6 +9263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apostrophe
     audioPitch: 3
@@ -9453,7 +9458,7 @@ GameObject:
   - component: {fileID: 234847522}
   - component: {fileID: 234847524}
   - component: {fileID: 234847523}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9584,7 +9589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 238049758}
   - component: {fileID: 238049759}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9986,7 +9991,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 246218916}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10145,7 +10150,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 247669033}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11080,7 +11085,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 272783876}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11299,7 +11304,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 278607395}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11946,7 +11951,7 @@ GameObject:
   - component: {fileID: 293933830}
   - component: {fileID: 293933832}
   - component: {fileID: 293933831}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12648,7 +12653,7 @@ GameObject:
   m_Component:
   - component: {fileID: 306304465}
   - component: {fileID: 306304466}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13748,7 +13753,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 339905827}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13907,7 +13912,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 342054503}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14587,7 +14592,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 357488430}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14642,6 +14647,108 @@ Transform:
   m_Father: {fileID: 1954131052}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &359081256
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1939414828}
+    m_Modifications:
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5116389702053516746, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+      propertyPath: m_Name
+      value: Game Menu Manager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+--- !u!224 &359081257 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5116389702053516745, guid: 3c804c15880feb84a83592d3eabe637a, type: 3}
+  m_PrefabInstance: {fileID: 359081256}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &359153346
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14890,7 +14997,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 363903547}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15260,7 +15367,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 378688602}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15401,6 +15508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apogamie
     audioPitch: 3
@@ -15495,7 +15603,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 382718636}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15960,7 +16068,7 @@ GameObject:
   m_Component:
   - component: {fileID: 396564428}
   - component: {fileID: 396564429}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16978,7 +17086,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 423290903}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17134,7 +17242,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 430629202}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18374,7 +18482,7 @@ GameObject:
   m_Component:
   - component: {fileID: 465882285}
   - component: {fileID: 465882286}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Hair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18906,6 +19014,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apogo
     audioPitch: 3
@@ -19173,7 +19282,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 476312363}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Head_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19864,7 +19973,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 489790988}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21734,7 +21843,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 539666049}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHandIndex2_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22508,7 +22617,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 555659804}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22629,7 +22738,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 559054591}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23004,7 +23113,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 574828637}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23036,7 +23145,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 578522304}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHandIndex2_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23104,7 +23213,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 582142459}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23294,7 +23403,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 585567849}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24218,6 +24327,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apostasie
     audioPitch: 3
@@ -25506,7 +25616,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 643280520}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25605,7 +25715,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 645933535}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26366,7 +26476,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 668888169}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26500,7 +26610,7 @@ GameObject:
   m_Component:
   - component: {fileID: 670826903}
   - component: {fileID: 670826904}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightEar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26710,7 +26820,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 672005115}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26821,6 +26931,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apologie
     audioPitch: 3
@@ -27649,6 +27760,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apollinaire
     audioPitch: 3
@@ -27669,6 +27781,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apollinaire
     audioPitch: 3
@@ -27904,7 +28017,7 @@ GameObject:
   - component: {fileID: 694008554}
   - component: {fileID: 694008553}
   - component: {fileID: 694008556}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Follower 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27948,7 +28061,10 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   target: {fileID: 2017071804}
+  nav: {fileID: 0}
+  mAnimator: {fileID: 0}
   follow: 1
+  isRunning: 0
 --- !u!95 &694008554
 Animator:
   serializedVersion: 4
@@ -28189,7 +28305,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 699269383}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftToeBase_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28619,7 +28735,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 710210721}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHandIndex2_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29346,7 +29462,7 @@ GameObject:
   - component: {fileID: 730745742}
   - component: {fileID: 730745741}
   - component: {fileID: 730745744}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Follower 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29390,7 +29506,10 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   target: {fileID: 2017071804}
+  nav: {fileID: 0}
+  mAnimator: {fileID: 0}
   follow: 1
+  isRunning: 0
 --- !u!95 &730745742
 Animator:
   serializedVersion: 4
@@ -29801,6 +29920,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apostat
     audioPitch: 3
@@ -29897,7 +30017,7 @@ GameObject:
   m_Component:
   - component: {fileID: 741162795}
   - component: {fileID: 741162796}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31153,7 +31273,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 765359518}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31363,7 +31483,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 766887570}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31950,7 +32070,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 776106159}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32199,7 +32319,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 780608258}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32416,7 +32536,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 793692488}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32669,6 +32789,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apoasis
     audioPitch: 3
@@ -32688,6 +32809,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apoasis
     audioPitch: 3
@@ -32717,6 +32839,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apoasis
     audioPitch: 3
@@ -33741,6 +33864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apodictique
     audioPitch: 3
@@ -33803,7 +33927,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 827595899}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33871,7 +33995,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 829487359}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34812,7 +34936,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 848521480}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35051,7 +35175,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 859134955}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35208,7 +35332,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 864664415}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35240,7 +35364,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 864844032}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35417,7 +35541,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 873261846}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35915,6 +36039,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: "Ap\xF4tre"
     audioPitch: 3
@@ -36439,7 +36564,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 893110791}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Head_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36710,7 +36835,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 897869104}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36909,7 +37034,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 903523584}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37714,7 +37839,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 933973773}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37904,7 +38029,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 938849310}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38966,7 +39091,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 965793884}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39248,6 +39373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Antoine Buquet
     audioPitch: 2
@@ -39858,7 +39984,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 998064506}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39922,7 +40048,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 999320607}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39990,7 +40116,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 999893516}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40435,7 +40561,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1018837511}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHandIndex2_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40834,7 +40960,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1028835471}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40867,7 +40993,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1032536878}
   - component: {fileID: 1032536879}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Hair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41397,7 +41523,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1040430674}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightToeBase_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41428,7 +41554,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1043000785}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42268,6 +42394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: "Apodid\xE9"
     audioPitch: 3
@@ -42407,7 +42534,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1076031174}
   - component: {fileID: 1076031175}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Hair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43583,7 +43710,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1116075001}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43615,7 +43742,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1118207297}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43963,7 +44090,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1132812014}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44699,7 +44826,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1163397109}
   - component: {fileID: 1163397110}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LeftEar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45368,6 +45495,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apostolat
     audioPitch: 3
@@ -45591,6 +45719,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apont
     audioPitch: 3
@@ -45853,7 +45982,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1181210646}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46352,7 +46481,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1193289161}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48311,6 +48440,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: "Apog\xE9e"
     audioPitch: 3
@@ -48331,6 +48461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: "Apog\xE9e"
     audioPitch: 3
@@ -48956,7 +49087,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1245338786}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49999,7 +50130,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1286582743}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51017,6 +51148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apollon
     audioPitch: 3
@@ -51079,7 +51211,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1319639605}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53044,7 +53176,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1367397753}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53603,7 +53735,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1380069804}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHandIndex2_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53706,7 +53838,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1385380441}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54724,7 +54856,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1402213943}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55174,7 +55306,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1409160490}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56196,6 +56328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apoptose
     audioPitch: 3
@@ -56753,7 +56886,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1453825098}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightToeBase_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57129,7 +57262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1458351237}
   - component: {fileID: 1458351238}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57604,7 +57737,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1473328227}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftToeBase_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57727,6 +57860,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: 
     audioPitch: 0
@@ -57860,6 +57994,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Vaisseau
     audioPitch: 0
@@ -57989,7 +58124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1482545737}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58603,7 +58738,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1503065944}
   - component: {fileID: 1503065945}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LeftEar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59056,7 +59191,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1522064722}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Head_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59389,7 +59524,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1534462328}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60115,6 +60250,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: "Apolog\xE9tique"
     audioPitch: 3
@@ -60285,6 +60421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Aporie
     audioPitch: 3
@@ -60380,7 +60517,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1554202150}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62461,6 +62598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apostille
     audioPitch: 3
@@ -62605,7 +62743,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1601637657}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightToeBase_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63070,7 +63208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1618098948}
   - component: {fileID: 1618098949}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64141,7 +64279,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1641977839}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64258,7 +64396,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1649614087}
   - component: {fileID: 1649614088}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LeftEar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66924,6 +67062,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apocope
     audioPitch: 3
@@ -66943,6 +67082,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apocope
     audioPitch: 3
@@ -66983,6 +67123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apocope
     audioPitch: 3
@@ -67607,7 +67748,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1745493708}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHandIndex2_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68180,7 +68321,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1758834949}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70276,7 +70417,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1803632713}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70375,7 +70516,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1809277858}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70464,7 +70605,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1810361808}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70496,7 +70637,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1810690894}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71062,6 +71203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Inaara
     audioPitch: 1
@@ -71136,7 +71278,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1825313930}
   - component: {fileID: 1825313931}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightEar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71419,7 +71561,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1829410477}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftToeBase_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73897,7 +74039,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1886267622}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76095,6 +76237,7 @@ RectTransform:
   - {fileID: 1202172048}
   - {fileID: 497095484}
   - {fileID: 846903829}
+  - {fileID: 359081257}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -76224,7 +76367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1940836367}
   - component: {fileID: 1940836368}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightEar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78984,6 +79127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: "Apod\xE8me"
     audioPitch: 3
@@ -79260,7 +79404,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2017071804}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: followers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79529,7 +79673,7 @@ GameObject:
   - component: {fileID: 2023491598}
   - component: {fileID: 2023491600}
   - component: {fileID: 2023491599}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79844,6 +79988,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: "Apoth\xE9ose"
     audioPitch: 3
@@ -80034,7 +80179,7 @@ GameObject:
   - component: {fileID: 2030347477}
   - component: {fileID: 2030347476}
   - component: {fileID: 2030347479}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Follower 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80078,7 +80223,10 @@ MonoBehaviour:
   ShouldBeDestroyed: 0
   IsTerminated: 0
   target: {fileID: 2017071804}
+  nav: {fileID: 0}
+  mAnimator: {fileID: 0}
   follow: 1
+  isRunning: 0
 --- !u!95 &2030347477
 Animator:
   serializedVersion: 4
@@ -80415,7 +80563,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2037861401}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81157,7 +81305,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2064901609}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81388,7 +81536,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2067919889}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82730,7 +82878,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2097246147}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83336,7 +83484,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2122288781}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83593,7 +83741,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2127700146}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83659,7 +83807,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2128972420}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83794,7 +83942,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2136455300}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84025,6 +84173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apophis
     audioPitch: 3
@@ -84252,7 +84401,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7078722786922139280}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84299,7 +84448,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6000407480039368712}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84533,7 +84682,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4167280742842875191}
   - component: {fileID: 1630794973346589279}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84550,7 +84699,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2489983519109268595}
   - component: {fileID: 7734743964836948011}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84704,7 +84853,7 @@ GameObject:
   - component: {fileID: 919132147563563614}
   - component: {fileID: 919132147563563613}
   - component: {fileID: 919132147563563617}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -84741,6 +84890,7 @@ MonoBehaviour:
   inversed: 0
   reverse: 0
   maxSlopeAngle: 40
+  footStep: {fileID: 0}
 --- !u!54 &919132147563563615
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -84844,7 +84994,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5465940245966303346}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84955,7 +85105,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7358631408807995702}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:LeftHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85124,7 +85274,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6452705233506863011}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:LeftToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85260,7 +85410,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5742672707332293601}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85766,7 +85916,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8153021304320553387}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:RightHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86137,7 +86287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8694711285440473002}
   - component: {fileID: 8893803908341252819}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Eyebrowns
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86250,7 +86400,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1852576805992384709}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86325,7 +86475,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3164690166874541071}
   - component: {fileID: 1400078334489291330}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86372,7 +86522,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2420202490375944185}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86404,7 +86554,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8700783698125342347}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:HeadTop_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86453,7 +86603,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9221065329498758439}
   - component: {fileID: 820027475257517016}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mouth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86522,7 +86672,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7151331952193606096}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86554,7 +86704,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2559285842222909710}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86571,7 +86721,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7991056168448321986}
   - component: {fileID: 9131690226675783011}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Nose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86602,7 +86752,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3742394134925577990}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:RightHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86847,7 +86997,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7930214443719481040}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:RightHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86907,7 +87057,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2916570861766255013}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87026,7 +87176,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7410462539383048692}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:LeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87084,7 +87234,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 889744325147431827}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:LeftHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87166,7 +87316,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6515712191963786015}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87222,7 +87372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4457361367639063604}
   - component: {fileID: 1567107423809127249}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87463,7 +87613,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5097370188983843919}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:RightHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87494,7 +87644,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6502182840170750670}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87526,7 +87676,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1330755671225433313}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:LeftHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87642,7 +87792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6303818257587367577}
   - component: {fileID: 5797384429055847067}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87739,7 +87889,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5477181765539871191}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88263,7 +88413,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 366175169586816866}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88607,7 +88757,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3977777621835204418}
   - component: {fileID: 2676148975849894859}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Legs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88700,7 +88850,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8169382870263433037}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88807,7 +88957,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2820998131427929824}
   - component: {fileID: 8335907117919482892}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ears
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88932,7 +89082,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5653519915842832374}
   - component: {fileID: 2321523694334063963}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89055,6 +89205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 0
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apocalypse
     audioPitch: 3
@@ -89074,6 +89225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
+  zoomInOut: {fileID: 0}
   dialogues:
   - speakerName: Apocalypse
     audioPitch: 3
@@ -89350,7 +89502,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2348787448273201468}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89590,7 +89742,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5901452233632793189}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89639,7 +89791,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4042427858066981493}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:LeftToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90063,7 +90215,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8044669280357531911}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:RightToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90300,7 +90452,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 608321760919851377}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90445,7 +90597,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7666680085381012293}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:LeftHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90604,7 +90756,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5790970486150358069}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90734,7 +90886,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2563496967993180837}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90751,7 +90903,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7876023681794544229}
   - component: {fileID: 4826729854943310146}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90800,7 +90952,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1202371031004796681}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mixamorig:Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
