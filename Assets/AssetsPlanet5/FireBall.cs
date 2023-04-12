@@ -10,7 +10,7 @@ public class FireBall : MonoBehaviour
 
     void Update()
     {
-        float toTravel = Time.deltaTime * Random.Range(10f, 20f);
+        float toTravel = Time.deltaTime * 70f;
         traveledDistance += toTravel;
         transform.Translate(Vector3.left * toTravel);
         if (traveledDistance > 150) {

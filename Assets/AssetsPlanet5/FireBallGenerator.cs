@@ -4,9 +4,10 @@ using UnityEngine;
 public class FireBallGenerator : MonoBehaviour
 {
     public GameObject fireBall;
-    public int respawnTime = 3;
+    public int respawnTime = 1;
 
     private bool fireBallLaunched = false;
+    public bool isFire = true;
 
     // Start is called before the first frame update
     public void fireBallLaunch()
@@ -24,7 +25,7 @@ public class FireBallGenerator : MonoBehaviour
 
     IEnumerator fireBallWave()
     {
-        while (true)
+        while (isFire)
         {
             spwanFireBall();
             yield return new WaitForSeconds(respawnTime);
