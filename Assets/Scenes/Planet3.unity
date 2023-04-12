@@ -21478,135 +21478,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5138935041850115984, guid: 909df28d147858440b585edbfb15bb76, type: 3}
   m_PrefabInstance: {fileID: 532778644}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &533460728
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1720053218}
-    m_Modifications:
-    - target: {fileID: 1122706359430473874, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: target
-      value: 
-      objectReference: {fileID: 714812988}
-    - target: {fileID: 1122706359430473874, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430473874, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: cameraAngle
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430473874, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: destroyOnExit
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430473874, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: virtualCamera
-      value: 
-      objectReference: {fileID: 303123406}
-    - target: {fileID: 1122706359430473874, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: cameraDistance
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430473874, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: turnAroundTarget
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475629, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_Size.x
-      value: 5.969342
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475629, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_Size.y
-      value: 6.4039345
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475629, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_Size.z
-      value: 1.7553095
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475629, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475629, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_Center.x
-      value: 0.30910385
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475629, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_Center.y
-      value: 1.2304987
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475629, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_Center.z
-      value: 0.7823178
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475630, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_Name
-      value: ZoomGenerator
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475630, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475631, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475631, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475631, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475631, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475631, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475631, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -6.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475631, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 17.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475631, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.060319435
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475631, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.028754726
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475631, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.9977634
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475631, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.0017383567
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475631, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475631, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122706359430475631, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
 --- !u!1 &534796316
 GameObject:
   m_ObjectHideFlags: 0
@@ -27593,6 +27464,7 @@ GameObject:
   - component: {fileID: 688499150}
   - component: {fileID: 688499149}
   - component: {fileID: 688499148}
+  - component: {fileID: 688499156}
   m_Layer: 0
   m_Name: PyramidNPCA
   m_TagString: Untagged
@@ -27781,7 +27653,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
-  zoomInOut: {fileID: 0}
+  zoomInOut: {fileID: 688499156}
   dialogues:
   - speakerName: Apollinaire
     audioPitch: 3
@@ -27868,6 +27740,25 @@ CapsuleCollider:
   m_Height: 6.231503
   m_Direction: 1
   m_Center: {x: 0, y: 2.115751, z: -0.7332236}
+--- !u!114 &688499156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688499146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcf0d0906f869fc49b201cca79992230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  virtualCamera: {fileID: 303123406}
+  cameraDistance: 5
+  cameraAngle: 35
+  destroyOnExit: 0
+  turnAroundTarget: 0
+  target: {fileID: 688499146}
+  angleY: 0
 --- !u!1 &689768509
 GameObject:
   m_ObjectHideFlags: 0
@@ -29566,11 +29457,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!4 &731666966 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1122706359430475631, guid: 78d52f7f9443a5747b2f219526c5e087, type: 3}
-  m_PrefabInstance: {fileID: 533460728}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &732925618
 GameObject:
   m_ObjectHideFlags: 0
@@ -32670,6 +32556,7 @@ GameObject:
   - component: {fileID: 800749663}
   - component: {fileID: 800749662}
   - component: {fileID: 800749661}
+  - component: {fileID: 800749666}
   m_Layer: 0
   m_Name: OasisNPCA
   m_TagString: Untagged
@@ -32809,7 +32696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
-  zoomInOut: {fileID: 0}
+  zoomInOut: {fileID: 800749666}
   dialogues:
   - speakerName: Apoasis
     audioPitch: 3
@@ -32839,7 +32726,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
-  zoomInOut: {fileID: 0}
+  zoomInOut: {fileID: 800749666}
   dialogues:
   - speakerName: Apoasis
     audioPitch: 3
@@ -32860,6 +32747,25 @@ MonoBehaviour:
     audioPitch: 3
     script: {fileID: 800749662}
     dialogue: "C'est un m\xE9tier tr\xE8s difficile je te pr\xE9viens hein."
+--- !u!114 &800749666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800749651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcf0d0906f869fc49b201cca79992230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  virtualCamera: {fileID: 303123406}
+  cameraDistance: 5
+  cameraAngle: 35
+  destroyOnExit: 0
+  turnAroundTarget: 0
+  target: {fileID: 800749651}
+  angleY: 0
 --- !u!1 &802629412
 GameObject:
   m_ObjectHideFlags: 0
@@ -48456,6 +48362,7 @@ GameObject:
   - component: {fileID: 1229816230}
   - component: {fileID: 1229816229}
   - component: {fileID: 1229816228}
+  - component: {fileID: 1229816234}
   m_Layer: 0
   m_Name: ObeliskNPCA
   m_TagString: Untagged
@@ -48534,7 +48441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
-  zoomInOut: {fileID: 0}
+  zoomInOut: {fileID: 1229816234}
   dialogues:
   - speakerName: "Apog\xE9e"
     audioPitch: 3
@@ -48627,6 +48534,25 @@ CapsuleCollider:
   m_Height: 6.231503
   m_Direction: 1
   m_Center: {x: 0, y: 2.115751, z: -0.7332236}
+--- !u!114 &1229816234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229816226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcf0d0906f869fc49b201cca79992230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  virtualCamera: {fileID: 303123406}
+  cameraDistance: 5
+  cameraAngle: 35
+  destroyOnExit: 0
+  turnAroundTarget: 0
+  target: {fileID: 1229816226}
+  angleY: 0
 --- !u!1 &1230185116
 GameObject:
   m_ObjectHideFlags: 0
@@ -67063,6 +66989,7 @@ GameObject:
   - component: {fileID: 1720053221}
   - component: {fileID: 1720053220}
   - component: {fileID: 1720053219}
+  - component: {fileID: 1720053227}
   m_Layer: 0
   m_Name: MerchandNPCA
   m_TagString: Untagged
@@ -67089,7 +67016,6 @@ Transform:
   - {fileID: 1136374070}
   - {fileID: 762830247}
   - {fileID: 1703786337}
-  - {fileID: 731666966}
   m_Father: {fileID: 1767957950}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -186.919, z: -3.302}
@@ -67155,7 +67081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
-  zoomInOut: {fileID: 0}
+  zoomInOut: {fileID: 1720053227}
   dialogues:
   - speakerName: Apocope
     audioPitch: 3
@@ -67196,7 +67122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
-  zoomInOut: {fileID: 0}
+  zoomInOut: {fileID: 1720053227}
   dialogues:
   - speakerName: Apocope
     audioPitch: 3
@@ -67285,6 +67211,25 @@ CapsuleCollider:
   m_Height: 6.231503
   m_Direction: 1
   m_Center: {x: 0, y: 2.115751, z: -0.7332236}
+--- !u!114 &1720053227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720053217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcf0d0906f869fc49b201cca79992230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  virtualCamera: {fileID: 303123406}
+  cameraDistance: 3
+  cameraAngle: 20
+  destroyOnExit: 0
+  turnAroundTarget: 1
+  target: {fileID: 714812988}
+  angleY: 0
 --- !u!1 &1720540824 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5478341929626280090, guid: b4ad24c718721634daf45f66959e4307, type: 3}
@@ -88974,6 +88919,7 @@ GameObject:
   - component: {fileID: 6812430000415636495}
   - component: {fileID: 6812430000415636494}
   - component: {fileID: 6812430000415636493}
+  - component: {fileID: 6812430000415636497}
   m_Layer: 0
   m_Name: WelcomeNPCA
   m_TagString: Untagged
@@ -89298,7 +89244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShouldBeDestroyed: 1
   IsTerminated: 0
-  zoomInOut: {fileID: 0}
+  zoomInOut: {fileID: 6812430000415636497}
   dialogues:
   - speakerName: Apocalypse
     audioPitch: 3
@@ -89338,6 +89284,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionText: Apo
   interactionRange: 10
+--- !u!114 &6812430000415636497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6179304075801962166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcf0d0906f869fc49b201cca79992230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  virtualCamera: {fileID: 303123406}
+  cameraDistance: 5
+  cameraAngle: 35
+  destroyOnExit: 0
+  turnAroundTarget: 0
+  target: {fileID: 6179304075801962166}
+  angleY: 0
 --- !u!33 &6841117073974653287
 MeshFilter:
   m_ObjectHideFlags: 0
