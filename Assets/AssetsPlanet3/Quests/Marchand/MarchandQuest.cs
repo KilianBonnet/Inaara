@@ -60,7 +60,6 @@ public class MarchandQuest : Quest
     public void ActiveMerchandNPC()
     {
         merchandNpc.GetComponent<Interactor>().enabled = true;
-        ActiveZoomCamera("ZoomGenerator");
         ActiveZoomCamera("TopOfDune");
     }
     
