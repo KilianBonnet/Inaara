@@ -143,9 +143,11 @@ public class DialogueManager : Interactable
     }
 
     private void Update()
-    {
+    {   
         // Check if the dialogue is started
         if(!isStarted) return;
+
+        if(playerStateManager.PlayerState != PlayerState.IN_DIALOGUE) return;
         
         // Check if an animation is running (no FastEnd possible)
         if(!IsScriptTerminated()) return;

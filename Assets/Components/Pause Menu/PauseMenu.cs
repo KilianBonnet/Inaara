@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    private PlayerStateManager playerStateManager;
+    private PlayerStateManager playerStateManager = null;
+    private bool hasPlayerStateManager;
     private PlayerState previousState;
     private GameObject menu;
     private List<AudioSource> pausedAudioSources = new List<AudioSource>();
@@ -15,25 +16,29 @@ public class PauseMenu : MonoBehaviour
 
     private void Start() {
         playerStateManager = FindObjectOfType<PlayerStateManager>();
+        hasPlayerStateManager = playerStateManager != null;
     }
 
     private void Update() {
         if(!Input.GetKeyDown(KeyCode.Escape)) return;
 
-        if(playerStateManager.PlayerState == PlayerState.IN_MENU) CloseUi();
+        if(!hasPlayerStateManager || playerStateManager.PlayerState == PlayerState.IN_MENU) CloseUi();
         else OpenUi();
     }
 
     public void CloseUi() {
-        playerStateManager.UpdateState(previousState);
+        if(hasPlayerStateManager)
+            playerStateManager.UpdateState(previousState);
         foreach (Transform child in transform) child.gameObject.SetActive(false);
         ResumePausedAudioSources();
         Time.timeScale = 1;
     }
 
     public void OpenUi() {
-        previousState = playerStateManager.PlayerState;
-        playerStateManager.UpdateState(PlayerState.IN_MENU);
+        if(hasPlayerStateManager) {
+            previousState = playerStateManager.PlayerState;
+            playerStateManager.UpdateState(PlayerState.IN_MENU);
+        }
         PauseActiveAudioSources();
         Time.timeScale = 0;
         foreach (Transform child in transform) child.gameObject.SetActive(true);
