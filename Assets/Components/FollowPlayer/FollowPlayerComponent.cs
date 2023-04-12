@@ -36,9 +36,12 @@ public class FollowPlayerComponent : Interactable
         nav.SetDestination(target.position);
 
     }
-    bool PositionsProches(Vector3 pos1, Vector3 pos2) {
-        float distance = Vector3.Distance(pos1, pos2);
-        return distance <= 2;
+    bool PositionsProches(Vector3 pos1, Vector3 pos2)
+    {
+        Vector3 pos1_2D = new Vector3(pos1.x, 0f, pos1.z); // ignore y-axis
+        Vector3 pos2_2D = new Vector3(pos2.x, 0f, pos2.z); // ignore y-axis
+        float distance = Vector3.Distance(pos1_2D, pos2_2D);
+        return distance <= 2f;
     }
 
     public override void Interact()
