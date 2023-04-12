@@ -602,7 +602,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 177757796}
   m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 289.38, y: 70.70107, z: 277.86893}
+  m_LocalPosition: {x: 152.61, y: 71.12108, z: 166.20894}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -678,6 +678,11 @@ MonoBehaviour:
   IsTerminated: 0
   zoomInOut: {fileID: 278653611}
   dialogues:
+  - speakerName: ????
+    audioPitch: 1
+    script: {fileID: 0}
+    dialogue: "Tu... Tu n'as rien ? J'ai... j'ai r\xE9ussi \xE0 vaincre l'Apo qui
+      lancait des boules de feu juste \xE0 temps..."
   - speakerName: Inaara
     audioPitch: 1
     script: {fileID: 0}
@@ -901,7 +906,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 323553388}
   m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 289.38, y: 70.70107, z: 277.86893}
+  m_LocalPosition: {x: 152.61, y: 71.12108, z: 166.20894}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2292,15 +2297,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5345003916259005166, guid: 238352f375a373a4ead814d9ae230f60, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 289.38
+      value: 152.61
       objectReference: {fileID: 0}
     - target: {fileID: 5345003916259005166, guid: 238352f375a373a4ead814d9ae230f60, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 63.63
+      value: 64.05
       objectReference: {fileID: 0}
     - target: {fileID: 5345003916259005166, guid: 238352f375a373a4ead814d9ae230f60, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 284.94
+      value: 173.28
       objectReference: {fileID: 0}
     - target: {fileID: 5345003916259005166, guid: 238352f375a373a4ead814d9ae230f60, type: 3}
       propertyPath: m_LocalRotation.w
