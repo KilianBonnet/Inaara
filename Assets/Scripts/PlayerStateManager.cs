@@ -4,7 +4,8 @@ public enum PlayerState
 {
     PLAYING,
     IN_DIALOGUE,
-    IN_CINEMATIC
+    IN_CINEMATIC,
+    IN_MENU
 }
 
 public class PlayerStateManager : MonoBehaviour
